@@ -1,0 +1,15 @@
+.widget {
+  margin-bottom: 30px;
+
+  h5 {
+    margin-bottom: 30px;
+  }
+}
+
+#sidebar {
+  .widget {
+    &:last-child {
+      margin-bottom: 0px;
+    }
+  }
+}

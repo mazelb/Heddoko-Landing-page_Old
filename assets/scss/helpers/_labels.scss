@@ -1,0 +1,31 @@
+.label {
+  border: 1px solid $color-gray-medium;
+  @include border-radius(0px);
+  color: $color-gray-medium;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 24px;
+  padding: 2px 15px;
+  @include transition(all .2s linear);
+
+  .widget & {
+    margin: 0px 10px 10px 0px;
+  }
+
+  &:hover {
+    border-color: $color-primary;
+    color: $color-primary !important;
+  }
+
+  #sidebar & {
+    background-color: $gray-lighter;
+    border-color: darken($gray-lighter, 4%);
+
+    &:hover {
+      background-color: $color-primary;
+      border-color: $color-primary;
+      color: $color-black !important;
+    }
+  }
+}

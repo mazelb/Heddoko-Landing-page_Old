@@ -1,0 +1,40 @@
+.form-control {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid $color-black;
+  @include border-radius(0px);
+  color: $color-black;
+  font-size: 20px;
+  height: 46px;
+  padding: 6px 12px;
+
+  &:focus, &:active {
+    border-color: $color-black;
+    @include box-shadow(none);
+  }
+
+  &::-webkit-input-placeholder {
+    color: $color-black;
+  }
+
+  &:-moz-placeholder {
+    color: $color-black;
+  }
+
+  &::-moz-placeholder {
+    color: $color-black;
+  }
+
+  &:-ms-input-placeholder {
+    color: $color-black;
+  }
+
+  .primary & {
+    border-color: $color-primary;
+  }
+
+  &.background-black {
+    background-color: $color-black-light;
+    color: #fff;
+  }
+}

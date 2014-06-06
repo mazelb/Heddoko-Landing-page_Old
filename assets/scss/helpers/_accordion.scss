@@ -1,0 +1,87 @@
+.panel {
+  border-color: darken($color-gray-lighter, 5%) !important;
+  @include border-radius(0px !important);
+  @include box-shadow(none);
+  margin-right: 62px;
+  overflow: visible !important;
+  position: relative;
+
+  .black & {
+    border-color: $color-black-light !important;
+  }
+}
+
+
+.panel-heading {
+  background-color: $gray-lighter !important;
+  @include border-radius(0px !important);
+  font-size: 24px;
+  padding: 0px;
+
+  .black & {
+    background-color: $color-black-light !important;
+    color: #fff;
+  }
+
+  h4 a {
+    display: block;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 62px;
+    margin: 0px;
+    padding: 0px 20px;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  span {
+    background-color: $color-black-light;
+    color: $gray;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    height: 64px;
+    position: absolute;
+    right: -64px;
+    text-align: center;
+    top: -1px;
+    @include transition(background-color .2s linear);
+    width: 64px;
+
+    .black & {
+      background-color: $color-primary;
+    }
+  }
+
+  &.active {
+    span {
+      background-color: $gray-lighter !important;
+      border: 1px solid darken($color-gray-lighter, 5%);
+      border-left: 0px;
+      color: $color-black-light;
+
+      .black & {
+        background-color: $color-black-light !important;
+        border: 0px;
+        color: $color-primary;
+        height: 63px;
+      }
+
+      i:before {
+        content: '\f068';
+      }
+    }
+  }
+}
+
+.panel-body {
+  background-color: lighten($gray-lighter, 3%);
+
+  .black & {
+    background-color: lighten($color-black-light, 5%);
+    border-top: 1px solid lighten($color-black-light, 5%) !important;
+    color: rgba(255, 255, 255, .7);
+  }
+}

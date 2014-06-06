@@ -1,0 +1,53 @@
+@keyframes make-it-cha-cha
+{
+  from {
+    background-position: 0px 1700px;
+  }
+  to {
+    background-position: 0px 0px;
+  }
+}
+
+
+@-webkit-keyframes make-it-cha-cha
+{
+  from {
+    background-position: 0px 1700px;
+  }
+
+  to {
+    background-position: 0px 0px;
+  }
+}
+
+@-moz-keyframes make-it-cha-cha
+{
+  from {
+    background-position: 0px 1700px;
+  }
+
+  to {
+    background-position: 0px 0px;
+  }
+}
+
+%make-it-cha-cha {
+  -webkit-animation: make-it-cha-cha 50s linear infinite;
+  -moz-animation: make-it-cha-cha 50s linear infinite;
+  animation: make-it-cha-cha 50s linear infinite;
+}
+
+.has-animation {
+  @include transition(all .2s linear);
+}
+
+.fade-in-from-bottom {
+  bottom: -20px;
+  @include opacity(0);
+  position: relative; 
+
+  &.animate {
+    bottom: 0px;
+    @include opacity(1);
+  }
+}

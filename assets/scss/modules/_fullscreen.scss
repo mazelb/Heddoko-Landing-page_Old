@@ -130,3 +130,10 @@
   -moz-animation-delay: 0.5s;
   animation-delay: 0.5s;
 }
+
+.background-parallax {
+  background: url(../img/Front2.png) repeat;   
+  height: 100%;
+  vertical-align: middle;
+  width: 100%; 
+}

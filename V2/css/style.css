@@ -116,7 +116,6 @@ a:hover{
 p{
 	font-size: 16px;
 	font-family: 'ProximaNova', sans-serif;
-	font-style: italic;
 }
 h1 {font-size:24px;}
 h2 {font-size:22px;}
@@ -337,6 +336,15 @@ footer{
 	background-position: center center;
 	/*background-attachment:fixed;*/
 }
+
+.bg_image .bg2 {
+	background: url(../img/heddoko_image_man_lines.jpg) no-repeat;
+}
+
+.bg_image#team {
+	background: url(../img/heddoko_image_man_lines.jpg) no-repeat;
+}
+
 .opacy, .opacy_02{
 	bottom: 0px;
 	left: 0;
@@ -949,7 +957,6 @@ textarea.form-control{
 }
 .info_hover p{
 	font-size: 14px;
-	font-style: italic;
 }
 .item_services:hover .info_hover{
 	opacity: 1;
@@ -1155,6 +1162,28 @@ footer h3{
   background-size: cover;   
 }
 
+.works_item div {
+	position: absolute; 
+	text-align: left;
+	margin-left: 5%;
+	margin-top: -300px;
+}
+
+.works_item div.item_right {
+	position: absolute;
+	text-align: right; 	
+	right: 5%;
+	margin-top: -300px;
+}
+
+.works_item div h2{
+	color:white;
+	font-size: 60px;
+	line-height: 70px;
+	text-transform: uppercase;
+}
+
+
 /* ---------------------------------------------------------------------- */
 /*	1024 Version
 /* ---------------------------------------------------------------------- */
@@ -1180,9 +1209,27 @@ footer h3{
 	.about h2, .contact_us h2{
 		font-size: 125px;
 	}
+	.blog_title h2 {
+		font-size: 121px;
+		padding-top: 40px;
+	}
 	.item_services{
 		padding: 0 0px 50px 100px;
 	}
+
+	.works_item div {
+		margin-top: -260px;
+	}
+
+	.works_item div.item_right {
+		margin-top: -260px;
+	}
+
+	.works_item div h2{
+		font-size: 50px;
+		line-height: 60px;
+	}
+
 
 }
 
@@ -1220,6 +1267,10 @@ footer h3{
 	}
 	.works h2, .about h2, .contact_us h2, .blog_title h2, .services h2{
 		padding-top: 50px;
+	}
+	.blog_title h2 {
+		font-size: 121px;
+		padding-top: 0px;
 	}
 	.works h2, .about h2, .contact_us h2, .blog_title h2, .services h2,.work .social h3, .social_icon,
 	.about p, .blog_title p, .number, .address{
@@ -1306,6 +1357,26 @@ footer h3{
 	}
 }
 
+@media handheld, only screen and (max-width: 861px){
+	.blog_title h2 {
+		font-size: 101px;
+		padding-top: 0px;
+	}
+
+	.works_item div {
+		margin-top: -200px;
+	}
+
+	.works_item div.item_right {
+		margin-top: -200px;
+	}
+
+	.works_item div h2{
+		font-size: 40px;
+		line-height: 50px;
+	}
+}
+
 /* ---------------------------------------------------------------------- */
 /*	768px Version
 /* ---------------------------------------------------------------------- */
@@ -1337,6 +1408,7 @@ footer h3{
 	.about_text h2, .about_text p, .about_text .social_icon{
 		margin-left: 0%;
 	}
+	
 	.photos .left{
 		text-align: center;
 		margin-left: 0%;
@@ -1378,6 +1450,24 @@ footer h3{
 	.elements{
 		padding: 220px 0 0 0;
 	}
+
+	.blog_title h2 {
+		font-size: 91px;
+		padding-top: 0px;
+	}
+
+	.works_item div {
+		margin-top: -200px;
+	}
+
+	.works_item div.item_right {
+		margin-top: -200px;
+	}
+
+	.works_item div h2{
+		font-size: 37px;
+		line-height: 47px;
+	}
 }
 
 
@@ -1404,6 +1494,24 @@ footer h3{
 	.logo_big{
 		margin-top: 35px;
 	}
+
+	.blog_title h2 {
+		font-size: 71px;
+		padding-top: 0px;
+	}
+
+	.works_item div {
+		margin-top: -150px;
+	}
+
+	.works_item div.item_right {
+		margin-top: -150px;
+	}
+
+	.works_item div h2{
+		font-size: 30px;
+		line-height: 40px;
+	}
 	
 }
 
@@ -1429,6 +1537,24 @@ footer h3{
 	}
 	.imagebg_02.error {
 		height: 600px;
+	}
+
+	.blog_title h2 {
+		font-size: 61px;
+		padding-top: 0px;
+	}
+
+	.works_item div {
+		margin-top: -130px;
+	}
+
+	.works_item div.item_right {
+		margin-top: -130px;
+	}
+
+	.works_item div h2{
+		font-size: 25px;
+		line-height: 35px;
 	}
 }
 
@@ -1462,6 +1588,23 @@ footer h3{
 	}
 	.services h2,.contact_us h2{
 		font-size: 80px;
+	}
+	.blog_title h2 {
+		font-size: 41px;
+		padding-top: 0px;
+	}
+
+	.works_item div {
+		margin-top: -100px;
+	}
+
+	.works_item div.item_right {
+		margin-top: -100px;
+	}
+
+	.works_item div h2{
+		font-size: 20px;
+		line-height: 30px;
 	}
 }
 
@@ -1510,6 +1653,10 @@ footer h3{
 	.social_icon.footer ul li{
 		border-right: 0 none;
 	}
+	.blog_title h2 {
+		font-size: 41px;
+		padding-top: 0px;
+	}
 }
 
 /* ---------------------------------------------------------------------- */
@@ -1534,5 +1681,9 @@ footer h3{
 	.page_error h1 {
 		font-size: 140px;
 		line-height: 150px;
+	}
+	.blog_title h2 {
+		font-size: 41px;
+		padding-top: 0px;
 	}
 }

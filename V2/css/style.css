@@ -337,12 +337,16 @@ footer{
 	/*background-attachment:fixed;*/
 }
 
-.bg_image .bg2 {
-	background: url(../img/heddoko_image_man_lines.jpg) no-repeat;
+.bg_image#team {
+	background: url(../img/heddoko_image_man_lines.jpg) no-repeat;	
+}
+
+.bg_image#benefits {
+	background: url(../img/heddoko_image_woman_lines.jpg) no-repeat;
 }
 
 .bg_image#team {
-	background: url(../img/heddoko_image_man_lines.jpg) no-repeat;
+	background: url(../img/heddoko_team.jpg) no-repeat;
 }
 
 .opacy, .opacy_02{

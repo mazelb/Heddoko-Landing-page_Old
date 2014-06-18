@@ -1,6 +1,6 @@
 <?php
-	$addres = "jmartinez@imaginacionweb.net"; /*Your Email*/
-	$subject = "Messsage from Studio Html"; /*Issue*/
+	$addres = "info@heddoko.com"; /*Your Email*/
+	$subject = "Hello Heddoko"; /*Issue*/
 	$date = date ("l, F jS, Y"); 
 	$time = date ("h:i A"); 	
 	$Email=$_REQUEST['Email'];

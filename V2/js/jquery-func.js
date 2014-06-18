@@ -1,5 +1,22 @@
 $(document).ready(function(){
 
+    /******************************************************************************
+     * APPEAR
+     ******************************************************************************/
+    $('.has-animation').appear(function() {
+    	console.log("appearing !!!!!!!!!!!!!");
+        if ($(this).attr('data-delay')) {
+        	console.log("appearing delay!!!!!!!!!!!!!");
+            $(this).delay($(this).attr('data-delay')).queue(function() {
+                $(this).addClass('animated ' + $(this).attr('data-animation'));
+                $(this).dequeue();
+            });
+        } else {
+        	console.log("appearing no delay!!!!!!!!!!!!!");
+            $(this).addClass('animated ' + $(this).attr('data-animation'));
+        }                
+    });
+
     //=================================== Totop  ===================================//
 		$().UItoTop({ 		
 			scrollSpeed:500,

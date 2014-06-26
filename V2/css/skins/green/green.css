@@ -57,9 +57,9 @@ a:hover,
 .border_bottom{
 	border-bottom: 1px solid #25d990;	
 }
-.logo_small{
+/*.logo_small{
 	background: url(../../../img/logo_pattern_colors/green/logo_HEDDOKO_small.png) no-repeat;
-}
+}*/
 .logo_big{
 	background: url(../../../img/logo_pattern_colors/green/logo-big.png) no-repeat;
 }

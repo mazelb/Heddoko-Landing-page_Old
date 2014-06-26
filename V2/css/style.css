@@ -215,6 +215,7 @@ img{
 	z-index: 99;
 }
 .logo_small{
+	background: url(../img/Logo_HEDDOKO_small.png) no-repeat;
 	position: absolute;
 	width: 50px;
 	height: 46px;
@@ -405,6 +406,7 @@ footer{
 	position: absolute;
 	left: 47%;
 }
+
 
 /* Works -------------------------------------------------------*/
 .work{

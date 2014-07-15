@@ -1,5 +1,41 @@
-// $(document).ready(function(){
+
+$(document).ready(function(){
+	$('#thankyoudiv').hide();
+})
+
 $(window).load(function() {
+
+	$("#mc-embedded-subscribe-form").on("submit", function(e) {
+		e.preventDefault();
+
+		$('#thankyoudiv').hide();
+
+		console.log("Handling the submit");
+
+		$.ajax({
+	        type: $("#mc-embedded-subscribe-form").attr('method'),
+	        url: $("#mc-embedded-subscribe-form").attr('action'),
+	        data: $("#mc-embedded-subscribe-form").serialize(),
+	        cache       : false,
+	        dataType    : 'json',
+	        contentType: "application/json; charset=utf-8",
+	        error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+	        success     : function(data) {
+	            if (data.result != "success") {
+	                // Something went wrong, do something to notify the user. maybe alert(data.msg);
+	                console.log("fail!!!");
+	            } else {
+	                // It worked, carry on...
+	                $('#thankyoudiv').show();
+	            }
+	        }
+	    });
+	});
+
+	$('#mc-embedded-subscribe').click(function() {
+		ga('send', 'event', 'button', 'click', 'Reserve');
+	});
+
 
     /******************************************************************************
      * APPEAR

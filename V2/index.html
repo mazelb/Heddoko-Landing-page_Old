@@ -14,6 +14,9 @@
     <!-- Skins Theme -->
     <link href="css/skins/green/green.css" rel="stylesheet" media="screen" class="skin">
 
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+
+
     <!-- styles for IE -->
     <!--[if lt IE 8]>
       <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
@@ -30,6 +33,23 @@
     <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script src="js/modernizr.js"></script>
     <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.17.min.js"></script>
+
+    <!-- Facebook Conversion Code for sign up -->
+    <script>(function() {
+      var _fbq = window._fbq || (window._fbq = []);
+      if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+      }
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', '6017161757086', {'value':'0.00','currency':'CAD'}]);
+    </script>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6017161757086&amp;cd[value]=0.00&amp;cd[currency]=CAD&amp;noscript=1" /></noscript>
 
   </head>
   <body> 
@@ -82,7 +102,7 @@
                       </li>   
 
                       <li>
-                        <a href="#signup">Register</a>
+                        <a href="#signup">Reserve</a>
                         <span>|</span>
                       </li>                      
                    </ul>
@@ -118,7 +138,8 @@
                       The first smart garment that sees your movement in 3D</br> and gives you live visual feedback.
                     </h3>
 
-                    <a id="cta_header_btn" href="#signup" class="btn btn-primary animated fadeInDown delay4">Get Latest Heddoko Updates</a>
+                    
+                    <a id="cta_header_btn" href="#signup" class="btn btn-primary animated fadeInDown delay4">Reserve One Today</a>
 
                   </div>
 
@@ -376,26 +397,18 @@
                 <div class="row">
                   <div class="photos has-animation" data-animation="slideInLeft">
                     <div class="col-md-6">
-                      <img src="img/about01.png" alt="[Mazen Elbawab] Heddoko">
+                      <img src="img/maz.jpg" alt="[Mazen Elbawab] Heddoko">
                       <div class="about_text">
                         <h2>Mazen Elbawab</h2>
                         <p>CEO and founder, <br>Computer Engineer.</p>
-                        <div class="social_icon">
-                            <a href="https://twitter.com/maz_eT_happen" class="tooltip_hover" title="Twiiter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://ca.linkedin.com/in/mazenelbawab/" class="tooltip_hover" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        </div>
                       </div>
                     </div>
   
                     <div class="col-md-6">
-                      <img src="img/about02.png" alt="[Tristan Tremblay] Heddoko">
+                      <img src="img/image001.png" alt="[District3] Heddoko">
                       <div class="about_text">
-                        <h2>Tristan Tremblay</h2>
-                        <p>Coaching and Movement,<br>Advisor.</p>
-                        <div class="social_icon">
-                            <a href="#" class="tooltip_hover" title="Twiiter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://ca.linkedin.com/pub/tristan-renaud-tremblay/60/2ab/a37" class="tooltip_hover" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        </div>
+                        <h2>District3</h2>
+                        <p>Innovation Center<br>Concordia University.</p>
                       </div>
                     </div>
                   </div>
@@ -481,24 +494,27 @@
 
        <footer>
         <div id="signup" class="container center">
-          <div class="row">
-            
-            <h2>Sign Up </p>
-            <h3>Be the first to get exciting news and release dates of Heddoko</h3>
-            
+          <div class="row">                      
+            <h2>Reserve Yours Today </p>
+            <h3>Be the first to get the Heddoko Suite</h3>                      
+
+
             <div id="cta_footer" class="row">
               <div class="col-sm-2">&nbsp;</div>
               <div class="col-sm-8"> 
-                <div id="mc_embed_signup" class="animated fadeInDown">
-                  <form action="http://heddoko.us8.list-manage.com/subscribe/post?u=4752cc710a498b9b75d697500&amp;id=698e8ad3ea" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                      <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="EMAIL" class="form-control" required>
-                      <div style="position: absolute; left: -5000px;"><input type="text" name="b_4752cc710a498b9b75d697500_698e8ad3ea" tabindex="-1" value=""></div>
-                      <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe"  class="btn btn-primary">
-                  </form>                  
+                <div id="mc_embed_signup" class="animated fadeInDown mc_embed_signup-class">
+                  <form action="//heddoko.us8.list-manage.com/subscribe/post-json?u=4752cc710a498b9b75d697500&amp;id=b22a426cab&c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+                      <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="EMAIL" class="form-control mce-EMAIL-class" required>
+                      <div style="position: absolute; left: -5000px;"><input type="text" name="b_4752cc710a498b9b75d697500_b22a426cab" tabindex="-1" value=""></div>
+                      <input type="submit" value="Reserve" name="subscribe" id="mc-embedded-subscribe"  class="btn btn-primary mc-embedded-subscribe-class">
+                  </form>
+                  <div id="thankyoudiv" class="thankyoudiv_class"><h3>Thank You !</h3></div>
                 </div>
               </div>
               <div class="col-sm-2">&nbsp;</div>
-            </div>
+            </div>                        
+          </div>
+        </div>
 
             <div class="social_icon footer center">
               <ul>

@@ -98,6 +98,7 @@
     font-style: normal;
 }
 
+
 /* Standar Styles --------------------------------------------------------*/
 
 body{
@@ -236,6 +237,22 @@ img{
 	font-family: 'ProximaNova', sans-serif;
 }
 
+/* video --------------------------------------------------------*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 
 /* MENU --------------------------------------------------------*/
 .logo{
@@ -339,15 +356,21 @@ footer{
 }
 
 .bg_image#team {
-	background: url(../img/heddoko_image_man_lines.jpg) no-repeat;	
+	background: url(../img/heddoko_image_man_lines.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 .bg_image#benefits {
 	background: url(../img/heddoko_image_woman_lines.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 .bg_image#team {
 	background: url(../img/heddoko_team.jpg) no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 .opacy, .opacy_02{
@@ -454,6 +477,12 @@ footer{
 	font-size: 28px;
 	font-weight: bold;
 }
+.social_icon_sm a i {
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+	margin-left: 5px;
+}
 .social_icon a{
 	background: #fff;
 	border-radius: 100%;
@@ -464,6 +493,12 @@ footer{
 	margin: 0 3px;
 	width: 50px;
 	height: 50px;
+}
+.social_icon_sm a {
+	display: inline-block;
+	margin: 0 3px;
+	width: 40px;
+	height: 40px;
 }
 
 
@@ -1172,14 +1207,14 @@ footer h3{
 	position: absolute; 
 	text-align: left;
 	margin-left: 5%;
-	margin-top: -300px;
+	margin-top: -200px;
 }
 
 .works_item div.item_right {
 	position: absolute;
 	text-align: right; 	
 	right: 5%;
-	margin-top: -300px;
+	margin-top: -200px;
 }
 
 .works_item div h2{
@@ -1224,11 +1259,11 @@ footer h3{
 	}
 
 	.works_item div {
-		margin-top: -260px;
+		margin-top: -160px;
 	}
 
 	.works_item div.item_right {
-		margin-top: -260px;
+		margin-top: -160px;
 	}
 
 	.works_item div h2{
@@ -1276,6 +1311,7 @@ footer h3{
 	}
 	.blog_title h2 {
 		font-size: 121px;
+		line-height: 100px;
 		padding-top: 0px;
 	}
 	.works h2, .about h2, .contact_us h2, .blog_title h2, .services h2,.work .social h3, .social_icon,
@@ -1365,16 +1401,16 @@ footer h3{
 
 @media handheld, only screen and (max-width: 861px){
 	.blog_title h2 {
-		font-size: 101px;
+		font-size: 121px;
 		padding-top: 0px;
 	}
 
 	.works_item div {
-		margin-top: -200px;
+		margin-top: -160px;
 	}
 
 	.works_item div.item_right {
-		margin-top: -200px;
+		margin-top: -160px;
 	}
 
 	.works_item div h2{
@@ -1390,6 +1426,11 @@ footer h3{
 	.works h2, .about h2, .contact_us h2, .services h2{
 		font-size: 100px;
 	}
+
+	.about h2 {
+		line-height: 100px;
+	}
+
 	.social .social_icon{
 		text-align: center;
 		width: auto;
@@ -1458,16 +1499,17 @@ footer h3{
 	}
 
 	.blog_title h2 {
-		font-size: 91px;
+		font-size: 121px;
+		line-height: 100px;
 		padding-top: 0px;
 	}
 
 	.works_item div {
-		margin-top: -200px;
+		margin-top: -160px;
 	}
 
 	.works_item div.item_right {
-		margin-top: -200px;
+		margin-top: -160px;
 	}
 
 	.works_item div h2{
@@ -1502,16 +1544,16 @@ footer h3{
 	}
 
 	.blog_title h2 {
-		font-size: 71px;
+		font-size: 100px;
 		padding-top: 0px;
 	}
 
 	.works_item div {
-		margin-top: -150px;
+		margin-top: -130px;
 	}
 
 	.works_item div.item_right {
-		margin-top: -150px;
+		margin-top: -130px;
 	}
 
 	.works_item div h2{
@@ -1546,16 +1588,16 @@ footer h3{
 	}
 
 	.blog_title h2 {
-		font-size: 61px;
+		font-size: 100px;
 		padding-top: 0px;
 	}
 
 	.works_item div {
-		margin-top: -130px;
+		margin-top: -100px;
 	}
 
 	.works_item div.item_right {
-		margin-top: -130px;
+		margin-top: -100px;
 	}
 
 	.works_item div h2{
@@ -1575,6 +1617,7 @@ footer h3{
 	}
 	.works h2, .about h2, .contact_us h2, .blog h2{
 		font-size: 85px;
+		line-height: 85px;
 	}
 	.home h1{
 		font-size: 80px;
@@ -1596,16 +1639,16 @@ footer h3{
 		font-size: 80px;
 	}
 	.blog_title h2 {
-		font-size: 41px;
+		font-size: 100px;
 		padding-top: 0px;
 	}
 
 	.works_item div {
-		margin-top: -100px;
+		margin-top: -70px;
 	}
 
 	.works_item div.item_right {
-		margin-top: -100px;
+		margin-top: -70px;
 	}
 
 	.works_item div h2{
@@ -1660,7 +1703,7 @@ footer h3{
 		border-right: 0 none;
 	}
 	.blog_title h2 {
-		font-size: 41px;
+		font-size: 85px;
 		padding-top: 0px;
 	}
 }
@@ -1689,7 +1732,7 @@ footer h3{
 		line-height: 150px;
 	}
 	.blog_title h2 {
-		font-size: 41px;
+		font-size: 85px;
 		padding-top: 0px;
 	}
 }

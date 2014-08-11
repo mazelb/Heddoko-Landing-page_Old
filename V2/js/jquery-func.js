@@ -33,7 +33,37 @@ $(window).load(function() {
 	});
 
 	$('#mc-embedded-subscribe').click(function() {
+		ga('send', 'event', 'button', 'click', 'Subscribe');
+	});
+	$('#aboutmenu').click(function() {
+		ga('send', 'event', 'button', 'click', 'About');
+	});
+	$('#benefitsmenu').click(function() {
+		ga('send', 'event', 'button', 'click', 'Benefits');
+	});
+	$('#howmenu').click(function() {
+		ga('send', 'event', 'button', 'click', 'How');
+	});
+	$('#teammenu').click(function() {
+		ga('send', 'event', 'button', 'click', 'Team');
+	});
+	$('#contactmenu').click(function() {
+		ga('send', 'event', 'button', 'click', 'Contact');
+	});
+	$('#registermenu').click(function() {
+		ga('send', 'event', 'button', 'click', 'Register');
+	});
+	$('#blogmenu').click(function() {
+		ga('send', 'event', 'button', 'click', 'Blog');
+	});
+	$('#pressmenu').click(function() {
+		ga('send', 'event', 'button', 'click', 'Press');
+	});
+	$('#cta_header_btn').click(function() {
 		ga('send', 'event', 'button', 'click', 'Reserve');
+	});
+	$('#cta_header_reserve_btn').click(function() {
+		ga('send', 'event', 'button', 'click', 'EventBriteReserve');
 	});
 
 

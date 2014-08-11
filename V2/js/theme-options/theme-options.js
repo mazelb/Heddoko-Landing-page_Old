@@ -21,7 +21,7 @@
     // Skin value
     var skin = "green";          // cyan, green, magenta, orange, orange-light, purple, red, yellow
 
-    $(".skin").attr("href", "css/skins/"+ skin + "/" + skin + ".css");
+    $(".skin").attr("href", "/css/skins/"+ skin + "/" + skin + ".css");
 
     return false;
   }

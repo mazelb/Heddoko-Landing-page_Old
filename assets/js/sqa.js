@@ -1,6 +1,45 @@
 $(window).load(function() {
     'use strict';
 
+    console.log("Sending data to weather api");
+    var lat = 45; //geoplugin_latitude();
+    var lon = 75; //geoplugin_longitude();
+    var weather = "";
+    var weatherAPI = "http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon;
+ 
+    $.ajax({
+      type : "POST",
+      dataType : "json",
+      url : weatherAPI + "&units=metric&callback=?",
+      async : true,
+      success : function(data) {
+        console.log(data);
+        var curTemp = (data.weather[0].main.temp - 273.15);
+          if(curTemp < -20) {
+          dataLayer.push({"-20": curTemp});     
+          } else if (curTemp > -20 && curTemp < -10) {
+          dataLayer.push({"-20--10": curTemp});     
+          } else if (curTemp > -10 && curTemp < -0) {
+          dataLayer.push({"-10-0": curTemp});       
+          } else if (curTemp > 0 && curTemp < 10) {
+          dataLayer.push({"0-10": curTemp});        
+          } else if (curTemp > 10 && curTemp < 20) {
+          dataLayer.push({"10-20": curTemp});       
+          } else if (curTemp > 20 && curTemp < 30) {
+          dataLayer.push({"20-30": curTemp});       
+          } else if (curTemp > 30) {
+          dataLayer.push({"30+": curTemp});     
+        }  
+      },
+      error : function(errorData) {
+        console.log("Error while getting weather data :: "+errorData.status);
+        dataLayer.push({"temperature": "Undefined"});       
+      },
+      complete : function() {
+        dataLayer.push({"event": "weatherDone"});
+      }
+    });
+
     /***********************************************************
      * FLEXSLIDER
      ***********************************************************/

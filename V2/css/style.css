@@ -272,10 +272,10 @@ nav {
 	display: none;
 }
 .sf-menu{
-	margin: 0;
+	margin-top: 20px;
 }
 .sf-menu span{
-	padding: 0 27px;
+	padding: 0 15px;
 }
 .sf-menu ul{
 	position:absolute;	
@@ -298,12 +298,13 @@ nav {
 .sf-menu li:hover ul,.sf-menu li.sfHover ul{
 	top: 47px; 	
 	left:0px;
-	 z-index:999;
+	z-index:999;
 }
 .sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul{top:-999em}
 .sf-menu li.current,.sf-menu li:hover,.sf-menu li.sfHover{
 	text-decoration:none;
 }
+
 .sf-menu li li a{
 	display:block;
 	margin:0;
@@ -335,6 +336,10 @@ nav {
 	font-size: 16px;
 }
 
+/*a:hover, a:focus {
+	color: #25d990;
+	text-decoration: none;
+}*/
 
 
 /* General Structure ---------------------------------------------------------------- */
@@ -1224,6 +1229,22 @@ footer h3{
 	text-transform: uppercase;
 }
 
+/* ---------------------------------------------------------------------- */
+/*	1200 Version
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 1200px) {
+
+	.container{
+		width: auto;
+	}
+	.sf-menu{
+		margin-top: 20px;
+		font-size: 17px;		
+	}
+	.sf-menu span {
+		padding: 0 11px;
+	}
+}
 
 /* ---------------------------------------------------------------------- */
 /*	1024 Version
@@ -1233,8 +1254,12 @@ footer h3{
 	.container{
 		width: auto;
 	}
+	.sf-menu{
+		margin-top: 20px;
+		font-size: 16px;		
+	}
 	.sf-menu span {
-		padding: 0 22px;
+		padding: 0 10px;
 	}
 	.social,.specialize{
 		padding: 0 20px;

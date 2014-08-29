@@ -21,6 +21,7 @@
     // Skin value
     var skin = "green";          // cyan, green, magenta, orange, orange-light, purple, red, yellow
 
+    //console.log("This is where it fucks up !!!");
     $(".skin").attr("href", "/css/skins/"+ skin + "/" + skin + ".css");
 
     return false;

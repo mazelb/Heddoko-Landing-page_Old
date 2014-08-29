@@ -24,47 +24,104 @@ $(window).load(function() {
 	            if (data.result != "success") {
 	                // Something went wrong, do something to notify the user. maybe alert(data.msg);
 	                console.log("fail!!!");
+					ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'sign_up_failed');
+					mixpanel.track("sign_up_failed");
+
 	            } else {
 	                // It worked, carry on...
 	                $('#thankyoudiv').show();
+					ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
+					mixpanel.track("user_signed_up");
 	            }
 	        }
 	    });
 	});
 
+	//signed up button
 	$('#mc-embedded-subscribe').click(function() {
-		ga('send', 'event', 'button', 'click', 'Subscribe');
+		ga('send', 'event', 'button', 'click', 'sign_up_button_clicked');
+		mixpanel.track("sign_up_button_clicked");
 	});
-	$('#aboutmenu').click(function() {
-		ga('send', 'event', 'button', 'click', 'About');
+
+	//menu buttons
+	$('#about_menu').click(function() {
+		ga('send', 'event', 'button', 'click', 'about_menu_clicked');
+		mixpanel.track("about_menu_clicked");
 	});
-	$('#benefitsmenu').click(function() {
-		ga('send', 'event', 'button', 'click', 'Benefits');
+	$('#benefits_menu').click(function() {
+		ga('send', 'event', 'button', 'click', 'benefits_menu_clicked');
+		mixpanel.track("about_menu_clicked");
 	});
-	$('#howmenu').click(function() {
-		ga('send', 'event', 'button', 'click', 'How');
+	$('#how_menu').click(function() {
+		ga('send', 'event', 'button', 'click', 'how_menu_clicked');
+		mixpanel.track("about_menu_clicked");
 	});
-	$('#teammenu').click(function() {
-		ga('send', 'event', 'button', 'click', 'Team');
+	$('#team_menu').click(function() {
+		ga('send', 'event', 'button', 'click', 'team_menu_clicked');
+		mixpanel.track("about_menu_clicked");
 	});
-	$('#contactmenu').click(function() {
-		ga('send', 'event', 'button', 'click', 'Contact');
+	$('#contact_menu').click(function() {
+		ga('send', 'event', 'button', 'click', 'contact_menu_clicked');
+		mixpanel.track("contact_menu_clicked");
 	});
-	$('#registermenu').click(function() {
-		ga('send', 'event', 'button', 'click', 'Register');
+	$('#register_menu').click(function() {
+		ga('send', 'event', 'button', 'click', 'register_menu_clicked');
+		mixpanel.track("register_menu_clicked");
 	});
-	$('#blogmenu').click(function() {
-		ga('send', 'event', 'button', 'click', 'Blog');
+	$('#blog_menu').click(function() {
+		ga('send', 'event', 'button', 'click', 'blog_menu_clicked');
+		mixpanel.track("blog_menu_clicked");
 	});
-	$('#pressmenu').click(function() {
-		ga('send', 'event', 'button', 'click', 'Press');
+	$('#press_menu').click(function() {
+		ga('send', 'event', 'button', 'click', 'press_menu_clicked');
+		mixpanel.track("press_menu_clicked");
 	});
-	$('#cta_header_btn').click(function() {
-		ga('send', 'event', 'button', 'click', 'Reserve');
+	$('#signup_menu').click(function() {
+		ga('send', 'event', 'button', 'click', 'signup_menu_clicked');
+		mixpanel.track("signup_menu_clicked");
 	});
-	$('#cta_header_reserve_btn').click(function() {
-		ga('send', 'event', 'button', 'click', 'EventBriteReserve');
+
+	//social media buttons 
+	$('#about_social_twitter').click(function() {
+		ga('send', 'social', 'twitter', 'follow', 'about_social_twitter');
+		mixpanel.track("about_social_twitter");
 	});
+	$('#about_social_facebook').click(function() {
+		ga('send', 'social', 'facebook', 'like', 'about_social_facebook');
+		mixpanel.track("about_social_facebook");
+	});
+	$('#about_social_linkedin').click(function() {
+		ga('send', 'social', 'button', 'follow', 'about_social_linkedin');
+		mixpanel.track("about_social_linkedin");
+	});
+	$('#about_social_gplus').click(function() {
+		ga('send', 'social', 'button', 'like', 'about_social_gplus');
+		mixpanel.track("about_social_gplus");
+	});
+
+	$('#footer_social_twitter').click(function() {
+		ga('send', 'social', 'twitter', 'follow', 'footer_social_twitter');
+		mixpanel.track("footer_social_twitter");
+	});
+	$('#footer_social_facebook').click(function() {
+		ga('send', 'social', 'facebook', 'like', 'footer_social_facebook');
+		mixpanel.track("footer_social_facebook");
+	});
+	$('#footer_social_linkedin').click(function() {
+		ga('send', 'social', 'button', 'follow', 'footer_social_linkedin');
+		mixpanel.track("footer_social_linkedin");
+	});
+	$('#footer_social_gplus').click(function() {
+		ga('send', 'social', 'button', 'like', 'footer_social_gplus');
+		mixpanel.track("footer_social_gplus");
+	});
+
+	// $('#cta_header_btn').click(function() {
+	// 	ga('send', 'event', 'button', 'click', 'Reserve');
+	// });
+	// $('#cta_header_reserve_btn').click(function() {
+	// 	ga('send', 'event', 'button', 'click', 'EventBriteReserve');
+	// });
 
 
     /******************************************************************************

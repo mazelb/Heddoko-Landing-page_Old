@@ -24,13 +24,24 @@ $(window).load(function() {
 	            if (data.result != "success") {
 	                // Something went wrong, do something to notify the user. maybe alert(data.msg);
 	                console.log("fail!!!");
+	                console.log(data);
+	                $('#thankyoudiv').html(data.msg);
+	                $('#thankyoudiv').show();
 					ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'sign_up_failed');
+
+					mixpanel.people.set({
+					    $email: $('#mce-EMAIL').val()
+					});
 					mixpanel.track("sign_up_failed");
 
 	            } else {
 	                // It worked, carry on...
+	                $('#thankyoudiv').html("<h3>Thank You !</h3>");
 	                $('#thankyoudiv').show();
 					ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
+					mixpanel.people.set({
+					    $email: $('#mce-EMAIL').val()
+					});
 					mixpanel.track("user_signed_up");
 	            }
 	        }
@@ -40,7 +51,11 @@ $(window).load(function() {
 	//signed up button
 	$('#mc-embedded-subscribe').click(function() {
 		ga('send', 'event', 'button', 'click', 'sign_up_button_clicked');
+		mixpanel.people.set({
+		    $email: $('#mce-EMAIL').val()
+		});
 		mixpanel.track("sign_up_button_clicked");
+		console.log($('#mce-EMAIL').val());
 	});
 
 	//menu buttons
@@ -128,15 +143,12 @@ $(window).load(function() {
      * APPEAR
      ******************************************************************************/
     $('.has-animation').appear(function() {
-    	console.log("appearing !!!!!!!!!!!!!");
         if ($(this).attr('data-delay')) {
-        	console.log("appearing delay!!!!!!!!!!!!!");
             $(this).delay($(this).attr('data-delay')).queue(function() {
                 $(this).addClass('animated ' + $(this).attr('data-animation'));
                 $(this).dequeue();
             });
         } else {
-        	console.log("appearing no delay!!!!!!!!!!!!!");
             $(this).addClass('animated ' + $(this).attr('data-animation'));
         }                
     });

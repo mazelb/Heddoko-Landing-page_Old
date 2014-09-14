@@ -1,0 +1,112 @@
+.post-small {
+  margin-bottom: 15px;
+
+  .image {
+    @extend %image;
+
+    height: 65px;
+    float: left;
+    margin: 0px 20px 0px 0px;
+    width: 65px;
+  }
+
+  .content {
+    h3, h3 a {
+      color: #fff;
+      font-size: 18px;
+      margin: 0px 0px 3px 0px;
+      padding: 0px;
+      text-decoration: none;
+
+      #sidebar & {
+        color: $color-black;
+      }
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+
+    .date {
+      color: $color-gray-medium;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
+
+.post {
+  background-color: $color-black-medium;
+  margin-bottom: 30px;
+  @include transition(background-color .2s linear);
+
+  h4, h4 a {
+    color: $color-primary;
+    font-size: 33px;
+    margin-bottom: 10px;
+    @include transition(color .2s linear);
+  }
+
+  p {
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 20px;
+    @include transition(color .2s linear);
+  }
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+
+    h4, h4 a {
+      color: $color-black-medium;
+    }
+
+    p {
+      color: rgba(0, 0, 0, .7);
+    }
+
+    .post-meta, .post-meta a {
+      color: rgba(0, 0, 0, .5);
+    }
+
+    .btn {
+      background-color: $color-black-medium;
+      color: $color-primary;
+    }
+  }
+}
+
+.post-content {
+  padding: 30px;
+}
+
+.post-image {
+  @extend %image;
+
+  img {
+    width: 100%;
+  }
+}
+
+.post-meta {
+  color: rgba(255, 255, 255, .5);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+
+  a {
+    color: rgba(255, 255, 255, .5);
+    text-decoration: underline;
+  }
+}
+
+.posts-boxed {
+  margin-bottom: -30px;
+}
+
+.post-boxed {
+  margin-bottom: 30px;
+}

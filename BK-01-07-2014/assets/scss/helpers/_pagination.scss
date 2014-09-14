@@ -1,0 +1,24 @@
+.pagination {
+  > li > a {
+    background-color: $color-black-light;
+    border: 0px;
+    @include border-radius(0px !important);
+    color: rgba(255, 255, 255, .7);
+    font-weight: 400;
+    padding: 10px 16px;
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-black;
+    }
+  }
+
+  > li:nth-child(even) > a {
+    background-color: $color-black-medium;
+
+    &:hover {
+      background-color: $color-primary;
+      color: $color-black;
+    }
+  }
+}

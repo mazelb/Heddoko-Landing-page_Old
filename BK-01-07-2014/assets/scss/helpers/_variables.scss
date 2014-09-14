@@ -1,0 +1,23 @@
+$image-path: '../img/';
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../fonts/ProximaNova-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-family-default: 'ProximaNova', sans-serif;
+
+$color-primary: #25d990;
+//$color-primary: #53c763;
+//$color-primary: #9bc1ea;
+
+$color-black: #373737;
+$color-black-light: #3b3b3b;
+$color-black-medium: #272727;
+
+$color-gray: #fefdf9;
+$color-gray-light: #a2a1a1;
+$color-gray-lighter: #e1e1e1;
+$color-gray-medium: #6e6e6e;

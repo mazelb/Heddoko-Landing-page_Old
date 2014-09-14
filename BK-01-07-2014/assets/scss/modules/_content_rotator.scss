@@ -1,0 +1,10 @@
+.content-rotator {
+  .item {
+    display: none;
+    @include opacity(0);
+  }
+
+  .active {
+    display: block;
+  }
+}

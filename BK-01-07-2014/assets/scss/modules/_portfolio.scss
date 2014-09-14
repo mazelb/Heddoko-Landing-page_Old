@@ -1,0 +1,63 @@
+.portfolio-item {
+	@extend %image;
+	margin-bottom: 30px;
+
+	img {
+		height: auto;
+		max-height: 100%;
+        width: 100%;
+	}
+
+  .no-spacing & {
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+.portfolio-isotope-filter {
+  margin-bottom: 40px;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: 0px 10px;
+
+    a {
+      border: 1px solid $color-black;
+      display: block;
+      padding: 3px 20px;
+      position: relative;
+      @include transition(all .2s linear);
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    &:hover {
+      a {
+        background-color: $color-primary;
+        border-color: $color-primary;
+      }
+    }
+
+    &.selected {
+      a {
+        background-color: $color-black;
+        border-color: $color-black;
+        color: #fff;
+
+        &:after {
+          bottom: -11px;
+          border: 5px solid transparent;
+          border-top-color: $color-black;
+          content: '';
+          display: block;
+          left: 50%;
+          margin-left: -5px;
+          position: absolute;
+        }
+      }
+    }
+  }
+}

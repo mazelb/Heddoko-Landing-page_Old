@@ -1,0 +1,552 @@
+/*
+
+COLORS ----------------
+GREEN 			#3bd6b2 / rgba(59, 214, 178, 1)
+DARKGREY 		#49434d / rgba(73, 67, 77, 1)
+LIGHTGREY 		#858585 / rgba(133, 133, 133, 1)
+
+*/
+
+/* =====================================================================
+HEADER
+===================================================================== */
+header {
+	z-index: 100000000;
+}
+
+/* =====================================================================
+PLAY VIDEO
+===================================================================== */
+.playvideo {
+	background: #262626;
+	/*padding: 120px 0;*/
+	text-align: center;
+}
+
+.playvideo a {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	height: 132px;
+	width: 132px;
+}
+
+.playvideo a img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    -webkit-transition: all 250ms ease-out 0s;
+    -moz-transition: all 250ms ease-out 0s;
+    -o-transition: all 250ms ease-out 0s;
+    transition: all 250ms ease-out 0s;
+}
+
+.playvideo a:hover img {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari */
+    transform: scale(1.1);
+}
+
+.playvideo h1 {
+	color: #ffffff;
+	display: block;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* =====================================================================
+FEATURED WORKS
+===================================================================== */
+#fworks {
+	background-repeat: repeat;
+	border: none;
+	margin: 0;
+	padding: 80px 0;
+}
+
+#fworks .container {}
+
+#fworks .container .row {}
+
+#fworks .container .row > div {}
+
+#fworks .container .row > div .icon {
+    -webkit-transition: all 250ms ease-out 0s;
+    -moz-transition: all 250ms ease-out 0s;
+    -o-transition: all 250ms ease-out 0s;
+    transition: all 250ms ease-out 0s;
+	background: #ffffff;
+	display: inline-block;
+	height: 56px;
+	width: 56px;
+	border-radius: 56px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	float: left;
+}
+
+#fworks .container .row > div .icon img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#fworks .container .row > div .icon img.green {
+	display: none;
+}
+
+#fworks .container .row > div:hover .icon {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#fworks .container .row > div:hover .icon img {
+	display: none;
+}
+
+#fworks .container .row > div:hover .icon img.green {
+	display: block;
+}
+
+#fworks .container .row > div .icon.bulb img {
+	height: 35px;
+	width: auto;
+}
+
+
+#fworks .container .row > div .icon.brush img {
+	height: 35px;
+	width: auto;
+}
+
+#fworks .container .row > div .icon.heart img {
+	width: 35px;
+	height: auto;
+}
+
+#fworks .container .row > div h4 {
+	letter-spacing: 0px;
+	/*line-height: 56px;*/
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+
+#fworks .container .row > div p {
+	clear: both;
+}
+
+/* =====================================================================
+MISSION
+===================================================================== */
+.mission {
+	/*padding: 60px 0 120px 0;*/
+	padding: 80px 0;
+}
+
+.mission .container {}
+
+.mission .container .row {}
+
+.mission .container .row > div .icon {
+    -webkit-transition: all 250ms ease-out 0s;
+    -moz-transition: all 250ms ease-out 0s;
+    -o-transition: all 250ms ease-out 0s;
+    transition: all 250ms ease-out 0s;
+}
+
+.mission .container .row > div:hover .icon {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.mission .container .row > div img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+}
+
+.mission .container .row > div img.green {
+	display: none;
+}
+
+.mission .container .row > div h4 {
+	display: block;
+	margin-bottom: 40px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.mission .container .row > div > p {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	line-height: 28px;
+	margin-bottom: 60px;
+}
+
+.mission .container .row > div > div > h4 {
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.mission .container .row > div > div > h4 small {
+	color: #000000;
+}
+
+.mission .container .row > div > div > p {
+	margin-bottom: 20px;
+}
+
+.mission .container .row > div:hover img {
+	display: none;
+}
+
+.mission .container .row > div:hover img.green {
+	display: block;
+}
+
+.mission .container .row > div:hover h4 small {
+	color: #3bd6b2;
+}
+
+/* =====================================================================
+FAMILY
+===================================================================== */
+.family {
+	padding: 0;
+}
+
+.family .row {
+	margin: 0;
+}
+
+.family img {
+	width: 100%;
+	height: auto;
+}
+
+/* =====================================================================
+TEAM
+===================================================================== */
+#team {}
+
+#team h2 {
+	color: #3bd6b2;
+	font-size: 26px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+#team h2 span {
+	background: #3bd6b2;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30px;
+	height: 5px;
+	margin-top: 30px;
+}
+
+#team .container {}
+
+#team .container .row {}
+
+#team .container .row .owl-team {}
+
+#team .container .row .owl-team .item {}
+
+#team .container .row .owl-team .item .team-staff {
+	overflow: hidden;
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 84%;
+}
+
+#team .container .row .owl-team .item .team-staff img {
+	width: 100%;
+	height: auto;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay {
+	background: #3bd6b2;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay .social {
+	background: none;
+	padding-bottom: 30px;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay .social li a {
+	background: rgba(255,255,255,0.9);
+	color: #11211d !important;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay .social li a:hover {
+	background: rgba(255,255,255,1);	
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.mazen {
+	background: #3bd6b2 url(../images/about/team/team_mazen_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.alex {
+	background: #3bd6b2 url(../images/about/team/team_alex_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.jonathan {
+	background: #3bd6b2 url(../images/about/team/team_jonathan_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.diana {
+	background: #3bd6b2 url(../images/about/team/team_diana_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.lisa {
+	background: #3bd6b2 url(../images/about/team/team_lisa_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.adel {
+	background: #3bd6b2 url(../images/about/team/team_adel_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.sara {
+	background: #3bd6b2 url(../images/about/team/team_sara_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#team .container .row .owl-team .item .team-staff .team-overlay.shahab {
+	background: #3bd6b2 url(../images/about/team/team_shahab_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.frank {
+	background: #3bd6b2 url(../images/about/team/team_frank_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.alessandra {
+	background: #3bd6b2 url(../images/about/team/team_alessandra_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.zack {
+	background: #3bd6b2 url(../images/about/team/team_zack_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.anuj {
+	background: #3bd6b2 url(../images/about/team/team_anuj_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.leila {
+	background: #3bd6b2 url(../images/about/team/team_leila_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#team .container .row .owl-team .item .team-staff .team-overlay.karla {
+	background: #3bd6b2 url(../images/about/team/team_karla_green.jpg) no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+#team .container .row .owl-team .item .team-info {
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+	width: 84%;
+}
+
+#team .container .row .owl-team .item .team-info h4 {
+	display: block;
+	text-align: center;
+}
+
+#team .container .row .owl-team .item .team-info h4 span {
+	font-style: normal;
+}
+
+#team .container .row .owl-team .item:hover .team-info {
+	background: none;
+}
+
+#team .container .row .owl-team .item:hover .team-info h4 {
+	color: #000000;
+}
+
+#team .container .row .owl-team .item:hover .team-info h4 span {
+	color: #3bd6b2;
+}
+
+/* =====================================================================
+STATS
+===================================================================== */
+.inner-wrap2 {
+	background: #3bd6b2;
+}
+
+.inner-wrap2 h4 {
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+	background: url(../../images/colors/white/sep.png) no-repeat center bottom;
+}
+
+.inner-wrap2 p {
+	margin-top: 0;
+}
+
+.inner-wrap2 .overlay {
+	background: none;
+}
+
+.inner-wrap2 .jCProgress {
+	display: table !important;
+	margin: 0 auto !important;
+}
+
+.inner-wrap2 .jCProgress > div.percent {
+	background: #3bd6b2;
+	border-color: #32b798;
+	padding: 0;
+	text-align: center;
+}
+
+.inner-wrap2 #skill3 .jCProgress > div.percent-second {
+	content: '2πR';
+}
+
+.inner-wrap2 .jCProgress > div.percent:before {
+	content: '';
+}
+
+.inner-wrap2 .jCProgress > div canvas {
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.inner-wrap2 h5 {
+	display: block;
+	text-align: center;
+}
+
+/* =====================================================================
+STATS
+===================================================================== */
+/*nothing*/
+.jCProgress {
+	min-width: 150px;
+	min-height: 169px;
+}
+
+/* =====================================================================
+CONTACT
+===================================================================== */
+#contact {}
+
+#contact .container {}
+
+#contact h2 {
+	color: #3bd6b2;
+	font-size: 26px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+#contact h2 span {
+	background: #3bd6b2;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30px;
+	height: 5px;
+	margin-top: 30px;
+}
+
+#contact .container > h4 {
+	font-weight: 400;
+}
+
+/* =====================================================================
+GOOGLE MAPS
+===================================================================== */
+.map-wrap {
+	padding-bottom: 0px;
+}
+
+.map-wrap .contact-info {
+	background: rgba(73, 67, 77, 0.7);
+}
+
+.map-wrap .contact-info p {
+	color: #ffffff;
+	font-weight: 300;
+}

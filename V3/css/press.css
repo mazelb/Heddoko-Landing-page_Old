@@ -1,0 +1,177 @@
+/*
+
+COLORS ----------------
+GREEN 			#3bd6b2 / rgba(59, 214, 178, 1)
+DARKGREY 		#49434d / rgba(73, 67, 77, 1)
+LIGHTGREY 		#858585 / rgba(133, 133, 133, 1)
+
+*/
+
+/* =====================================================================
+PRESS
+===================================================================== */
+#portfolio {
+	border: 0;
+	margin: 0;
+	padding-top: 0;
+}
+
+#portfolio #folio {}
+
+#portfolio #folio #og-grid {}
+
+#portfolio #folio #og-grid li.mix {
+	max-height: inherit;
+}
+
+#portfolio #folio #og-grid .og-expander {
+	margin-top: 0;
+	margin-bottom: 0;
+	background: #49434d;
+}
+
+#portfolio #folio #og-grid li.og-expanded > a::after {
+	border-bottom-color: #49434d;
+}
+
+#portfolio #folio #og-grid li .pthumb {
+	background: rgba(59, 214, 178, 1);
+}
+
+#portfolio #folio #og-grid li .pthumb:before {
+	background: none;
+}
+
+#portfolio #folio #og-grid li .pthumb .p-overlay {
+	top: 0;
+	bottom: 0;
+	background: rgba(59, 214, 178, 0.65);
+}
+
+#portfolio #folio #og-grid li .pthumb .p-overlay h5 {
+	display: none;
+}
+
+#portfolio #folio #og-grid h3 {
+	color: #bbb9b6;
+}
+
+#portfolio #folio #og-grid p, #portfolio #folio #og-grid p span {
+	color: #ffffff;
+}
+
+#portfolio #folio #og-grid p em b {
+	color: #bbb9b6;
+}
+
+#portfolio #folio #og-grid  .og-details a:before, .og-details a,
+#portfolio #folio #og-grid  .og-details a:before, .og-details a:hover {
+	color: #fff;
+}
+
+#portfolio #folio #og-grid  .og-details a:before, .og-details a:after {
+	background: #3bd6b2;
+}
+
+#portfolio #folio #og-grid  .og-details h3 {
+	width: 85%;
+}
+
+/* =====================================================================
+PACKAGES
+===================================================================== */
+#packages {}
+
+#packages .container {}
+
+#packages .container .row {}
+
+#packages h2 {
+	color: #3bd6b2;
+	font-size: 26px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+#packages h2 span {
+	background: #3bd6b2;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30px;
+	height: 5px;
+	margin-top: 30px;
+}
+
+#packages .container .row .package a {
+	background: #49434d;
+	border-radius: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	position: relative;
+	height: 300px;
+	width: 300px;
+}
+
+#packages .container .row .package a:hover {
+	background: #3bd6b2;
+}
+
+#packages .container .row .package a span {
+	color: white;
+	display: block;
+	font-size: 18px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 70%;
+	height: 20%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media (min-width: 1px) {
+	#packages .container .row .package a {
+		border-radius: 220px;
+		height: 220px;
+		width: 220px;
+	}
+
+	#packages .container .row .package a span {
+		height: auto;
+		top: 50%;
+		font-size: 16px;
+		margin-top: -12%;
+	}
+}
+
+@media (min-width: 320px) {}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+	#packages .container .row .package a {
+		border-radius: 300px;
+		height: 300px;
+		width: 300px;
+	}
+
+	#packages .container .row .package a span {
+		height: 20%;
+		top: 0;
+		font-size: 18px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 1200px) {}

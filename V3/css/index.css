@@ -29,6 +29,10 @@ SLIDER
 	position: relative;
 }
 
+.slider-home .container > div {
+	text-align: center;
+}
+
 .slider-home .container > .videobg {
 	background: #000;
 	display: none;
@@ -90,7 +94,64 @@ SLIDER
 	margin-bottom: 30px;
 }
 
-.slider-home .container > div .form {
+
+/* ===== MEDIA QUERIES ===== */
+@media (min-width: 1px) and (max-width: 767px) {
+	.slider-home .container > div .play {
+		margin: 0 auto 50px auto;
+	}
+
+	.slider-home .container > div h1 span {
+		display: block;
+	}
+}
+
+/* =====================================================================
+#modal
+===================================================================== */
+#modal {
+	background: rgba(0, 0, 0, 0.9);
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 10000;
+}
+
+#modal .btn.close {
+	border: none;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: none;
+	padding: 0;
+	color: #fff;
+	font-size: 100px;
+	line-height: 100px;
+	opacity: 1;
+	z-index: 10001;
+}
+
+#modal .btn.close:hover {
+	border: none;
+	background: none;
+	opacity: 0.8;
+}
+
+#modal .container .row > div {
+	padding-top: 100px;
+}
+
+#modal .container .row > div form .btn {
+	padding-top: 12px;
+	padding-bottom: 11px;
+}
+
+
+
+/*.slider-home .container > div .form {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -150,31 +211,7 @@ SLIDER
 	display: none;
 	margin: 0 auto;
 	text-align: center;
-}
-
-/* ===== MEDIA QUERIES ===== */
-@media (min-width: 1px) and (max-width: 767px) {
-	.slider-home .container > div .play {
-		margin: 0 auto 50px auto;
-	}
-
-	.slider-home .container > div h1 span {
-		display: block;
-	}
-
-	.slider-home .container > div .form .input-group {
-		display: block;
-	}
-
-	.slider-home .container > div .form .input-group .form-control {
-		margin-bottom: 10px;
-	}
-
-	.slider-home .container > div .form .input-group .btn {
-		display: block;
-		width: 100%;
-	}
-}
+}*/
 
 /* =====================================================================
 GARMENT

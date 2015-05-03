@@ -101,19 +101,6 @@ FEATURED WORKS
 	display: none;
 }
 
-#fworks .container .row > div:hover .icon {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-#fworks .container .row > div:hover .icon img {
-	display: none;
-}
-
-#fworks .container .row > div:hover .icon img.green {
-	display: block;
-}
-
 #fworks .container .row > div .icon.bulb img {
 	height: 35px;
 	width: auto;
@@ -160,11 +147,6 @@ MISSION
     transition: all 250ms ease-out 0s;
 }
 
-.mission .container .row > div:hover .icon {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
 .mission .container .row > div img {
 	width: 100%;
 	height: auto;
@@ -204,17 +186,6 @@ MISSION
 	margin-bottom: 20px;
 }
 
-.mission .container .row > div:hover img {
-	display: none;
-}
-
-.mission .container .row > div:hover img.green {
-	display: block;
-}
-
-.mission .container .row > div:hover h4 small {
-	color: #3bd6b2;
-}
 
 /* =====================================================================
 FAMILY

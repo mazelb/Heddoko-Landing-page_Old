@@ -335,6 +335,12 @@ GARMENT
 	}
 }
 
+@media (min-width: 1200px) {
+	#garment .content {
+		padding-top: 100px;
+	}
+}
+
 /* =====================================================================
 MOBILE
 ===================================================================== */
@@ -366,8 +372,8 @@ MOBILE
 
 #mobile .image-container {
 	display: block;
-	width: 232px;
-	height: 465px;
+	width: 300px;
+	height: auto;
 	margin-bottom: 50px;
 	margin-left: auto;
 	margin-right: auto;
@@ -431,7 +437,7 @@ MOBILE
 
 @media (min-width: 768px) {
 	#mobile .container .row > .content {
-		padding-top: 50px;
+		padding-top: 130px;
 	}
 }
 
@@ -522,6 +528,12 @@ WEB
 	}
 }
 
+@media (min-width: 1200px) {
+	#web .content {
+		padding-top: 50px;
+	}
+}
+
 /* =====================================================================
 BENEFITS
 ===================================================================== */
@@ -545,21 +557,38 @@ BENEFITS
 	margin-bottom: 60px;
 }
 
+#benefits .col-xs-12 .col-xs-12 a {
+	display: block;
+    -webkit-transition: all 250ms ease-out 0s;
+    -moz-transition: all 250ms ease-out 0s;
+    -o-transition: all 250ms ease-out 0s;
+    transition: all 250ms ease-out 0s;
+}
+
 #benefits .col-xs-12 .col-xs-12 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-    -webkit-transition: all 250ms ease-out 0s;
-    -moz-transition: all 250ms ease-out 0s;
-    -o-transition: all 250ms ease-out 0s;
-    transition: all 250ms ease-out 0s;
+
     width: 80%;
 }
 
-#benefits .col-xs-12 .col-xs-12 a:hover img {
+#benefits .col-xs-12 .col-xs-12 img.green {
+	display: none;
+}
+
+#benefits .col-xs-12 .col-xs-12 a:hover {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+
+#benefits .col-xs-12 .col-xs-12 a:hover img {
+	display: none;
+}
+
+#benefits .col-xs-12 .col-xs-12 a:hover img.green {
+	display: block;
 }
 
 #benefits .col-xs-12 .col-xs-12 p {
@@ -785,7 +814,7 @@ BENEFITSCOACHES
 	text-align: left;
 	text-transform: uppercase;
 }
-
+ 
 #benefitscoaches .column {
 	margin-bottom: 100px;
 }

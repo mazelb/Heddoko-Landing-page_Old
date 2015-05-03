@@ -109,6 +109,31 @@ $(document).ready(function($) {
 });
 
 /* =====================================================================
+TESTIMONIAL SLIDER
+===================================================================== */
+$(document).ready(function() {
+ 
+  var owl = $("#testimonial-slider");
+ 
+  $("#testimonial-slider").owlCarousel({
+    stopOnHover : true,
+    navigation:false,
+    pagination: false,
+    paginationSpeed : 1000,
+    goToFirstSpeed : 2000,
+    singleItem : true,
+    autoHeight : true
+  });
+
+  $("#testimonials .next").click(function(){
+    owl.trigger('owl.next');
+  })
+  $("#testimonials .prev").click(function(){
+    owl.trigger('owl.prev');
+  })
+});
+
+/* =====================================================================
 GOOGLE MAP
 ===================================================================== */
 $(document).ready(function(){

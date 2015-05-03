@@ -149,6 +149,15 @@ SLIDER
 	padding-bottom: 11px;
 }
 
+#modal .container .row form .btn[disabled] {
+	background-color: transparent;
+}
+
+#modal .container .row > div .ajax,
+#modal .container .row > div #thankyoudiv {
+	display: none;
+}
+
 
 
 /*.slider-home .container > div .form {

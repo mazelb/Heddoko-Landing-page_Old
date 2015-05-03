@@ -4,7 +4,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
 				<h2 data-animated="0">Benefits for athletes <span></span></h2>
 
-				<p data-animated="0">As athletes, it’s difficult to access quality coaching wherever, whenever. By continuously tracking your movement, Heddoko is your personal coach, guiding you to optimal performance and precision in sports anytime, anywhere. Through personalized movement screening, Heddoko can help reduce your risk of injury by identifying underlying movement dysfunction, increase your awareness of your own body, and provide specific feedback to improve performance and keep track of progress. Heddoko is not another glorified pedometer – it’s a training partner and coaching companion.</p>
+				<p data-animated="0">As athletes, it’s difficult to access quality coaching wherever, whenever. By continuously tracking your movement, Heddoko is your personal coach, guiding you towards optimal performance and precision in sports anytime, anywhere. Through personalized movement screening, Heddoko can help reduce your risk of injury by identifying underlying movement dysfunction, increase your awareness of your own body, and provide specific feedback to improve performance and keep track of progress.</p>
 			</div>
 		</div>
 
@@ -16,7 +16,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Suit up and set up</h4>
 
-					<p>Input your user profile, including previous injuries, and calibrate the system. Heddoko™ is catered specifically to your body and your preferences.
+					<p>Input your user profile, including previous injuries, and calibrate the system. Heddoko is catered specifically to your body and your preferences.
 	Instantly capture your biomechanical data.</p>
 				</div>
 			</div>

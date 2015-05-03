@@ -64,6 +64,10 @@ QUESTIONS
 	color: #bbb9b6;
 }
 
+#portfolio #folio #og-grid .og-expander .og-expander-inner .og-details {
+	width: 100%;
+}
+
 #portfolio #folio #og-grid  .og-details a:before, .og-details a,
 #portfolio #folio #og-grid  .og-details a:before, .og-details a:hover {
 	color: #fff;

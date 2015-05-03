@@ -768,6 +768,8 @@ LEARN PRODUCT
 #learnproduct .container .row > .image .image-animation video {
 	display: block;
 	margin: 66px 0 0 17px;
+	width: 190px;
+	height: auto;
 }
 
 /* ===== MEDIA QUERIES ===== */
@@ -851,6 +853,7 @@ AWARDS
 #awards .container .row > div p span {
 	display: inline;
 	color: #858585;
+	font-style: normal;
 	margin: 0;
 }
 

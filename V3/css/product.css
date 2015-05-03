@@ -271,6 +271,12 @@ BETTER
 /* =====================================================================
 GARMENT
 ===================================================================== */
+#garment {
+	padding-top: 80px;
+	border-top: 80px solid #fff;
+	margin-top: -80px;
+}
+
 #garment h2 {
 	color: #3bd6b2;
 	font-size: 26px;
@@ -348,6 +354,8 @@ MOBILE
 	background: #333d4d;
 	padding-top: 80px;
 	padding-bottom: 80px;
+	border-top: 80px solid #fff;
+	margin-top: -80px;
 }
 
 #mobile h2 {
@@ -448,6 +456,8 @@ WEB
 	background: #39373a;
 	padding-top: 80px;
 	padding-bottom: 80px;
+	border-top: 80px solid #fff;
+	margin-top: -80px;
 }
 
 #web h2 {
@@ -545,6 +555,8 @@ BENEFITS
 	background-size: cover;
 	overflow: hidden;
 	padding-bottom: 80px;
+	border-top: 80px solid #fff;
+	margin-top: -80px;
 }
 
 #benefits h1 {

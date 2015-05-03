@@ -67,8 +67,6 @@
         // ga('send', 'pageview');
 </script>-->
 
-<!-- <script src="js/owl-carousel/owl.carousel.min.js"></script> -->
-
 <!-- <script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
 <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> -->
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>

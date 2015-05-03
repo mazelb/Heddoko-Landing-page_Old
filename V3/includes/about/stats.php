@@ -1,5 +1,5 @@
 <!-- Inner wrap -->
-<section class="inner-wrap2">
+<section id="jointeam" class="inner-wrap2">
 	<div class="overlay"></div>
 	<div class="container skills-wrap">
 		<div class="col-md-12">

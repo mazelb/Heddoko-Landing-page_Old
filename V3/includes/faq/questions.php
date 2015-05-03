@@ -71,42 +71,24 @@
 				</li>
 				<li class="mix">
 					<a href="#" 
-						data-title="The Cycle" 
+						data-title="Athletes" 
 						data-description="
-						Fusce lobortis sollicitudin dolor. Sed mollis ligula fringilla aliqu suscipit faucibus. Donec orna rle luctus tellus. Sed malesuada dui at eldit hendrerit ullamcorper conse quat diam arc In erat enim interdum ased liquam sed commodo bibendum.
-						">
-						<div class="pthumb">
-							<img src="/images/faq/faq_brain.svg" class="img-responsive" alt="" />
-							<div class="p-overlay">
-								<h5>Gizmag</h5>
-							</div>
-						</div>
-					</a>
-				</li>
-				<li class="mix">
-					<a href="#" 
-						data-title="Car in the city" 
-						data-description="
-						Fusce lobortis sollicitudin dolor. Sed mollis ligula fringilla aliqu suscipit faucibus. Donec orna rle luctus tellus. Sed malesuada dui at eldit hendrerit ullamcorper conse quat diam arc In erat enim interdum ased liquam sed commodo bibendum.
-						">
-						<div class="pthumb">
-							<img src="/images/faq/faq_bulb.svg" class="img-responsive" alt="" />
-							<div class="p-overlay">
-								<h5>Daily Mail</h5>
-							</div>
-						</div>
-					</a>
-				</li>
-				<li class="mix">
-					<a href="#" 
-						data-title="Lots of Pencils" 
-						data-description="
-						Fusce lobortis sollicitudin dolor. Sed mollis ligula fringilla aliqu suscipit faucibus. Donec orna rle luctus tellus. Sed malesuada dui at eldit hendrerit ullamcorper conse quat diam arc In erat enim interdum ased liquam sed commodo bibendum.
+						<strong>How does the system recognize me?</strong><br/>
+						Once you put on the garment and select your user profile, you will be guided through a set of predefined poses in order to calibrate the system.<br/><br/>
+
+						<strong>Does it take my prior or current injuries into account?</strong><br/>
+						Yes. In addition to identifying underlying biomechanical issues that are likely to result in injury, athletes who are injured can use Heddoko™ during the rehabilitation process to track movement in order to optimize recovery (i.e. limiting specific movements to avoid aggravating the existing injury).<br/><br/>
+
+						<strong>What type of coaching feedback does the system provide?</strong><br/>
+						Heddoko provides both real-time audio and visual feedback to improve movement precision and performance. Additionally, the garment is equipped with haptic sensors that provide vibrational feedback to indicate correct/incorrect movements.<br/><br/>
+
+						<strong>How will the system help me to improve my performance?</strong><br/>
+						Heddoko guides you towards moving more efficiently in real time by providing annotations on the 3D model that articulate specifically what needs to be adjusted. Additionally, our “ghost feature” allows you to track and record your performance and compare yourself in real time either to a past performance or a “gold standard” (i.e. an expert executing the same movement).
 						">
 						<div class="pthumb">
 							<img src="/images/faq/faq_heartrate.svg" class="img-responsive" alt="" />
 							<div class="p-overlay">
-								<h5>Profit Guide</h5>
+								<h5>Athletes</h5>
 							</div>
 						</div>
 					</a>

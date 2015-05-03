@@ -50,16 +50,26 @@ switch($fileName) {
 					<li class="<?php echo $links[1]; ?>"><a href="/product">Product <span></span></a>
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="/product#howitworks">How it works</a></li>
+							<li><a href="/product#garment">Garment</a></li>
+							<li><a href="/product#mobile">Mobile App</a></li>
+							<li><a href="/product#web">Web App</a></li>
 							<li><a href="/product#benefits">Benefits</a></li>
 						</ul>
 					</li>
 					<li class="<?php echo $links[2]; ?>"><a href="/about" role="button">About Us <span></span></a>
 						<ul class="dropdown-menu" role="menu">
+							<li><a href="/about#mission">Our Mission</a></li>
 							<li><a href="/about#team">Team</a></li>
-							<li><a href="/about#contact">Contact</a></li>
+							<li><a href="/about#jointeam">Apply</a></li>
+							<li><a href="/about#contact">Contact Us</a></li>
 						</ul>
 					</li>
-					<li class="<?php echo $links[3]; ?>"><a href="/press">Press <span></span></a></li>
+					<li class="<?php echo $links[3]; ?>"><a href="/press" role="button">Press <span></span></a>
+						<ul class="dropdown-menu" role="menu">
+								<li><a href="/press#portfolio">In The News</a></li>
+								<li><a href="/press#packages">Media Kit</a></li>
+							</ul>
+					</li>
 					<li class="<?php echo $links[4]; ?>"><a href="/faq">FAQ <span></span></a></li>
 					<li class="<?php echo $links[5]; ?>"><a href="http://blog.heddoko.com">Blog <span></span></a></li>
 					<li class="<?php echo $links[6]; ?>"><a href="/signup">Sign Up <span></span></a></li>

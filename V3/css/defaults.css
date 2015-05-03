@@ -209,14 +209,15 @@ header .navbar-top .container > .navbar-collapse .navbar-nav li .dropdown-menu {
 
 header .navbar-top .container > .navbar-collapse .navbar-nav li .dropdown-menu li {
 	margin: 0;
+	text-align: left;
 }
 
 header .navbar-top .container > .navbar-collapse .navbar-nav li .dropdown-menu li a {
 	background: rgba(59, 214, 178, 0.6) !important;
 	border: none;
 	display: block;
-	padding: 15px 7px;
-	text-align: center;
+	padding: 15px;
+	text-align: left;
 	text-transform: uppercase;
 }
 

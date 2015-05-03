@@ -20,12 +20,24 @@ MOBILE APP ANIMATION
 $(document).ready(function() {
 	//do not load video on smaller screens	
 	if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
-		var videoFiles = ['/videos/product_mobileapp.mp4', '/videos/product_mobileapp2.mp4'];
+		var videoFiles = ['/videos/heddoko_app_pair.mp4'];
 
 		var videoContainerWidth = $('#mobileapp .image-animation').width();
 		$('#mobileapp .image-animation .image-videos').css('width', videoContainerWidth*videoFiles.length+'px');
+		
+		//for one video
+		var mobilePairVideo = $('<video loop muted></video>')
+		.attr('src', videoFiles[0])
+		.on('canplaythrough', function(){
+			$('#mobileapp .image-animation .image-videos').fadeIn();
+			playVideo('#mobileapp .image-animation .image-videos video');
+		})
+		.load();
 
-		loadVideos(videoFiles);
+		$('#mobileapp .image-animation .image-videos').append(mobilePairVideo);
+
+		//for multiple videos
+		// loadVideos(videoFiles);
 	}
 
 	function playVideos() {
@@ -74,19 +86,19 @@ $(document).ready(function() {
 HOW IT WORKS CLICK
 ===================================================================== */
 $(document).ready(function() {
-	if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
-		var appPairVideo = $('<video muted></video>')
-		.attr('src', '/videos/product_mobileapp.mp4')
-		.load();
+	// if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
+	// 	var appPairVideo = $('<video muted></video>')
+	// 	.attr('src', '/videos/product_mobileapp.mp4')
+	// 	.load();
 
-		$('#howitworks .preview .item.apppair .image-animation').append(appPairVideo);
+	// 	$('#howitworks .preview .item.apppair .image-animation').append(appPairVideo);
 
-		var appCaptureVideo = $('<video muted></video>')
-		.attr('src', '/videos/product_mobileapp2.mp4')
-		.load();
+	// 	var appCaptureVideo = $('<video muted></video>')
+	// 	.attr('src', '/videos/product_mobileapp2.mp4')
+	// 	.load();
 
-		$('#howitworks .preview .item.appcapture .image-animation').append(appCaptureVideo);
-	}
+	// 	$('#howitworks .preview .item.appcapture .image-animation').append(appCaptureVideo);
+	// }
 
 	$('#howitworks .select').click(function(){
 		$('#howitworks .select').removeClass('active');
@@ -111,16 +123,16 @@ $(document).ready(function() {
 /* =====================================================================
 MOBILE VIDEO
 ===================================================================== */
-$(document).ready(function(){
-	//do not load video on smaller screens	
-	if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
-		var videoFile = $('<video loop muted></video>')
-		.on('canplaythrough', function(){
-			$('#mobile .image-container .image-animation').fadeIn('slow', playVideo('#mobile .image-container .image-animation video'));
-		})
-		.attr('src', '/videos/product_mobileapp2.mp4')
-		.load();
+// $(document).ready(function(){
+// 	//do not load video on smaller screens	
+// 	if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
+// 		var videoFile = $('<video loop muted></video>')
+// 		.on('canplaythrough', function(){
+// 			$('#mobile .image-container .image-animation').fadeIn('slow', playVideo('#mobile .image-container .image-animation video'));
+// 		})
+// 		.attr('src', '/videos/product_mobileapp2.mp4')
+// 		.load();
 
-		$('#mobile .image-container .image-animation').append(videoFile);
-	}
-})
+// 		$('#mobile .image-container .image-animation').append(videoFile);
+// 	}
+// })

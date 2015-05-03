@@ -20,17 +20,9 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="../images/icons/icon-white-jointangles.svg" /> <p>Joint angles</p></div>
 						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="../images/icons/icon-white-precision.svg" /> <p>Movement precision</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="../images/icons/icon-white-program.svg" /> <p>Program completion rate</p></div>
+						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="../images/icons/icon-white-forceapplied.svg" /> <p>Force applied to joints</p></div>
 					</div>
 				</div>
-
-				<div class="col-xs-12">
-					<div class="row">
-						<div class="col-xs-12 col-sm-4 col-sm-offset-2" data-animated="0"><img src="../images/icons/icon-white-forceapplied.svg" /> <p>Force applied to joints</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="../images/icons/icon-white-riskinjury.svg" /> <p>Risk of injury</p></div>
-					</div>
-				</div>
-
 			</div>
 
 			<div class="col-xs-12 col-md-5 image">

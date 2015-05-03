@@ -59,29 +59,66 @@ $(document).ready(function() {
 /* =====================================================================
 VALIDATE EMAIL
 ===================================================================== */
-function validateEmail(email) {
+function validateEmailFunc(email) {
     var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
     return re.test(email);
 }
 
 /* =====================================================================
-SLIDER FORM SUBMIT
+FORM LIGHTBOX
 ===================================================================== */
 $(document).ready(function(){
-	$('#mc-embedded-subscribe-form').on('submit', function(e) {
-		//disable form fields
-		$('#mc-embedded-subscribe-form input').attr('disabled', 'disabled');
+	$('.slider-home .btn').click(function(){
+		$('#modal').fadeIn();
+		return false;
+	});
+
+	$('#modal .btn.close').click(function(){
+		$('#modal').fadeOut();
+		return false;
+	});
+
+	$('#modal #mc-embedded-subscribe-form').submit(function(e){
+		e.preventDefault();
+		$('#mc-embedded-subscribe-form input').addClass('disabled').attr('disabled', 'disabled');
+		$('#mc-embedded-subscribe-form select').addClass('disabled').attr('disabled', 'disabled');
+		$('#thankyoudiv').html('').hide();
+		$('.ajax').hide();
+
+		var validateFirstName = false;
+		var validateLastName = false;
+		var validateEmail = false;
 
 		//validate email
-		if(validateEmail( $('#mce-EMAIL').val() )){
-			$('#mc-embedded-subscribe-form .input-group').hide();
-			$('#mc-embedded-subscribe-form .ajax').css('display', 'block').show();
+		if($('#mce-EMAIL').val() == '' || $('#mce-EMAIL').val() == null || $('#mce-EMAIL').val() == undefined || !validateEmailFunc( $('#mce-EMAIL').val() )) {
+			validateEmail = true;
+		}
+
+		if($('#mce-FNAME').val() == '' || $('#mce-FNAME').val() == null || $('#mce-FNAME').val() == undefined) {
+			validateFirstName = true;
+		}
+
+		if($('#mce-LNAME').val() == '' || $('#mce-LNAME').val() == null || $('#mce-LNAME').val() == undefined) {
+			validateLastName = true;
+		}
+
+		if(!validateFirstName &&
+			!validateLastName &&
+			!validateEmail) { //ALL GOOD
+
+			console.log($('#mce-EMAIL').val());
+			console.log($('#mce-FNAME').val());
+			console.log($('#mce-LNAME').val());
+			console.log($('#mce-MMERGE3').val());
+			$('.ajax').show();
 
 			$.ajax({
 		        type: $('#mc-embedded-subscribe-form').attr('method'),
 		        url: $('#mc-embedded-subscribe-form').attr('action'),
-		        // data: $('#mc-embedded-subscribe-form').serialize(),
-		        data: { EMAIL: $('#mce-EMAIL').val() },
+		        data: { EMAIL: $('#mce-EMAIL').val(), 
+		        FNAME: $('#mce-FNAME').val(), 
+		        LNAME: $('#mce-LNAME').val(),
+		        MMERGE3: $('#mce-MMERGE3').val() },
 		        cache       : false,
 		        dataType    : 'json',
 		        contentType: "application/json; charset=utf-8",
@@ -89,46 +126,130 @@ $(document).ready(function(){
 		        success     : function(data) {
 		            if (data.result != 'success') {
 						// Something went wrong, do something to notify the user. maybe alert(data.msg);
-						alert(data.msg);
-						$('#mc-embedded-subscribe-form input').removeAttr('disabled');
-						$('#mc-embedded-subscribe-form .input-group').show();
-						$('#mc-embedded-subscribe-form .ajax').hide();
+						
+						$('#mc-embedded-subscribe-form input').removeClass('disabled').removeAttr('disabled');
+						$('#mc-embedded-subscribe-form select').removeClass('disabled').removeAttr('disabled');
+						$('.ajax').hide();
+						$('#thankyoudiv').html(data.msg).show();
 
-						// ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'sign_up_failed');
-						// mixpanel.track('sign_up_failed');
+						ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'sign_up_failed');
+						mixpanel.track('sign_up_failed');
 
 		            } else {
 		                // It worked, carry on...
-		                $('#mc-embedded-subscribe-form .ajax').hide();
-		                $('#thankyoudiv').html('<h3>Thank You!</h3>');
-		                $('#thankyoudiv').show();
+		                $('#mc-embedded-subscribe-form input').val('');
+		                $('#mc-embedded-subscribe-form select').val('');
+						$('#mc-embedded-subscribe-form input').removeClass('disabled').removeAttr('disabled');
+						$('#mc-embedded-subscribe-form select').removeClass('disabled').removeAttr('disabled');
+						$('.ajax').hide();
+						$('#thankyoudiv').html('Thank You').show();
 
-						// ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
-						// mixpanel.track('user_signed_up');
+						ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
+						mixpanel.track('user_signed_up');
 		            }
 		        }
 		    });
-		} else {
-			//display message if non-valid email address
-			alert('Please enter a valid email address');
-			$('#mc-embedded-subscribe-form input').removeAttr('disabled');
-			$('#mc-embedded-subscribe-form .input-group').show();
-			$('#mc-embedded-subscribe-form .ajax').hide();
+
+
+		} else { //VALIDATE ERRORS
+			$('#mc-embedded-subscribe-form input').removeClass('disabled').removeAttr('disabled');
+			$('#mc-embedded-subscribe-form select').removeClass('disabled').removeAttr('disabled');
+			$('.ajax').hide();
+
+			if(validateLastName) {
+				$('#thankyoudiv').html('Please enter a last name');
+			}
+
+			if(validateFirstName) {
+				$('#thankyoudiv').html('Please enter a first name');
+			}
+
+			if(validateEmail) {
+				$('#thankyoudiv').html('Please enter a valid email address');
+			}
+
+			$('#thankyoudiv').show();
 		}
 
-		e.preventDefault();
+		return false;
 	});
 
 	//signed up button
 	$('#mc-embedded-subscribe').click(function() {
-		// ga('send', 'event', 'button', 'click', 'sign_up_button_clicked');
-		// mixpanel.identify($('#mce-EMAIL').val());
-		// mixpanel.people.set({
-		//     "$email": $('#mce-EMAIL').val()
-		// });
-		// mixpanel.track('sign_up_button_clicked');
+		ga('send', 'event', 'button', 'click', 'sign_up_button_clicked');
+		mixpanel.identify($('#mce-EMAIL').val());
+		mixpanel.people.set({
+		    "$email": $('#mce-EMAIL').val()
+		});
+		mixpanel.track('sign_up_button_clicked');
 	});	
 });
+
+/* =====================================================================
+SLIDER FORM SUBMIT
+===================================================================== */
+// $(document).ready(function(){
+// 	$('#mc-embedded-subscribe-form').on('submit', function(e) {
+// 		//disable form fields
+// 		$('#mc-embedded-subscribe-form input').attr('disabled', 'disabled');
+
+// 		//validate email
+// 		if(validateEmail( $('#mce-EMAIL').val() )){
+// 			$('#mc-embedded-subscribe-form .input-group').hide();
+// 			$('#mc-embedded-subscribe-form .ajax').css('display', 'block').show();
+
+// 			$.ajax({
+// 		        type: $('#mc-embedded-subscribe-form').attr('method'),
+// 		        url: $('#mc-embedded-subscribe-form').attr('action'),
+// 		        // data: $('#mc-embedded-subscribe-form').serialize(),
+// 		        data: { EMAIL: $('#mce-EMAIL').val() },
+// 		        cache       : false,
+// 		        dataType    : 'json',
+// 		        contentType: "application/json; charset=utf-8",
+// 		        error       : function(err) { alert('Could not connect to the registration server. Please try again later.'); },
+// 		        success     : function(data) {
+// 		            if (data.result != 'success') {
+// 						// Something went wrong, do something to notify the user. maybe alert(data.msg);
+// 						alert(data.msg);
+// 						$('#mc-embedded-subscribe-form input').removeAttr('disabled');
+// 						$('#mc-embedded-subscribe-form .input-group').show();
+// 						$('#mc-embedded-subscribe-form .ajax').hide();
+
+// 						// ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'sign_up_failed');
+// 						// mixpanel.track('sign_up_failed');
+
+// 		            } else {
+// 		                // It worked, carry on...
+// 		                $('#mc-embedded-subscribe-form .ajax').hide();
+// 		                $('#thankyoudiv').html('<h3>Thank You!</h3>');
+// 		                $('#thankyoudiv').show();
+
+// 						// ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
+// 						// mixpanel.track('user_signed_up');
+// 		            }
+// 		        }
+// 		    });
+// 		} else {
+// 			//display message if non-valid email address
+// 			alert('Please enter a valid email address');
+// 			$('#mc-embedded-subscribe-form input').removeAttr('disabled');
+// 			$('#mc-embedded-subscribe-form .input-group').show();
+// 			$('#mc-embedded-subscribe-form .ajax').hide();
+// 		}
+
+// 		e.preventDefault();
+// 	});
+
+// 	//signed up button
+// 	$('#mc-embedded-subscribe').click(function() {
+// 		// ga('send', 'event', 'button', 'click', 'sign_up_button_clicked');
+// 		// mixpanel.identify($('#mce-EMAIL').val());
+// 		// mixpanel.people.set({
+// 		//     "$email": $('#mce-EMAIL').val()
+// 		// });
+// 		// mixpanel.track('sign_up_button_clicked');
+// 	});	
+// });
 
 /* =====================================================================
 SLIDER HEIGHT RESIZE

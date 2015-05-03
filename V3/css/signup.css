@@ -31,12 +31,13 @@ SLIDER
 .slider-home .container > div {
 	/*position: absolute;*/
 	float: none;
-	margin-top: 300px;
+	margin-top: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	/*bottom: 100px;*/
 	/*left: 0;*/
 	/*right: 0;*/
+	text-align: center;
 }
 
 .slider-home .container > div h1 {
@@ -64,34 +65,12 @@ SLIDER
 }
 
 .slider-home .container > div .form input {
-	background: rgba(59, 214, 178, 0.6);
-	color: #ffffff;
-}
-
-.slider-home .container > div .form input::-webkit-input-placeholder {
-	color: #ffffff;
-	font-style: italic;
-}
-
-.slider-home .container > div .form input:-moz-placeholder {
-	color: #ffffff;
-	font-style: italic;
-}
-
-.slider-home .container > div .form input::-moz-placeholder {
-	color: #ffffff;
-	font-style: italic;
-}
-
-.slider-home .container > div .form input:-ms-input-placeholder {
-	color: #ffffff;
-	font-style: italic;
+	/*background: #fff;*/
 }
 
 .slider-home .container > div .form .input-group {}
 
-.slider-home .container > div .form .input-group .btn {
-	background: rgba(59, 214, 178, 0.6);
+.slider-home .container > div .form .btn {
 	margin: 0;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -139,4 +118,29 @@ SLIDER
 		display: block;
 		width: 100%;
 	}
+}
+
+/* =====================================================================
+.slider-home
+===================================================================== */
+.slider-home .container .row > div form .btn {
+	padding-top: 12px;
+	padding-bottom: 11px;
+}
+
+.slider-home .container .row form .btn[disabled] {
+	background-color: transparent;
+}
+
+.slider-home .container .row .ajax,
+.slider-home .container .row #thankyoudiv {
+	display: none;
+}
+
+.slider-home .container .row > div #thankyoudiv {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }

@@ -142,6 +142,7 @@ SLIDER
 
 #modal .container .row > div {
 	padding-top: 100px;
+	text-align: center;
 }
 
 #modal .container .row > div form .btn {
@@ -153,74 +154,18 @@ SLIDER
 	background-color: transparent;
 }
 
-#modal .container .row > div .ajax,
+#modal .container .row .ajax,
+#modal .container .row #thankyoudiv {
+	display: none;
+}
+
 #modal .container .row > div #thankyoudiv {
-	display: none;
-}
-
-
-
-/*.slider-home .container > div .form {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
-}
-
-.slider-home .container > div .form input {
-	background: rgba(59, 214, 178, 0.6);
-	color: #ffffff;
-}
-
-.slider-home .container > div .form input::-webkit-input-placeholder {
-	color: #ffffff;
-	font-style: italic;
-	font-weight: 200;
-}
-
-.slider-home .container > div .form input:-moz-placeholder {
-	color: #ffffff;
-	font-style: italic;
-}
-
-.slider-home .container > div .form input::-moz-placeholder {
-	color: #ffffff;
-	font-style: italic;
-}
-
-.slider-home .container > div .form input:-ms-input-placeholder {
-	color: #ffffff;
-	font-style: italic;
-}
-
-.slider-home .container > div .form .input-group {}
-
-.slider-home .container > div .form .input-group .btn {
-	background: rgba(59, 214, 178, 0.6);
-	margin: 0;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 12px;
-	padding-bottom: 11px;
-}
-
-.slider-home .tp-banner-container .tp-banner .form .input-group .btn:hover {
-	background: rgba(59, 214, 178, 1);
-	color: #ffffff;
-}
-
-.slider-home .container > div .ajax {
-	display: none;
-	margin: 0 auto;
-
-}
-
-.slider-home .container > div #thankyoudiv {
 	color: #fff;
-	display: none;
-	margin: 0 auto;
+	font-size: 18px;
 	text-align: center;
-}*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
 /* =====================================================================
 GARMENT

@@ -166,7 +166,7 @@ $(document).ready(function() {
 		.on('canplaythrough', function(){
 			$('#productspecs .image-container .image-animation').delay(1000).fadeIn('fast');
 		})
-		.attr('src', '/videos/appanimation.mp4')
+		.attr('src', '/videos/heddoko_app_punch.mp4')
 		.load();
 
 		$('#productspecs .image-container .image-animation').append(videoFile);
@@ -216,7 +216,7 @@ $(document).ready(function() {
 		.on('canplaythrough', function(){
 			$('#seeitlive .image-container .image-animation').delay(1000).fadeIn('fast');
 		})
-		.attr('src', '/videos/imacanimation.mp4')
+		.attr('src', '/videos/youtube.mp4')
 		.load();
 
 		$('#seeitlive .image-container .image-animation').append(videoFile);
@@ -259,12 +259,12 @@ $(document).ready(function() {
 
 			var marginLeft = ((videoWidth-($(window).width()))/2)*-1;
 			
-			$('#learnproduct .videobg video').css('marginLeft', marginLeft);
+			// $('#learnproduct .videobg video').css('marginLeft', marginLeft);
 			
 			videos[0] = true;
 			bothVideosLoade();
 		})
-		.attr('src', '/videos/learn_product.mp4')
+		.attr('src', '/videos/heddoko_athlete_ropes.mp4')
 		.load();
 
 		$('#learnproduct .videobg').append(videoFile);
@@ -275,7 +275,7 @@ $(document).ready(function() {
 			videos[1] = true;
 			bothVideosLoade();
 		})
-		.attr('src', '/videos/learn_product_appanimation.mp4')
+		.attr('src', '/videos/heddoko_app_ropes.mp4')
 		.load();
 
 		$('#learnproduct .image-animation').append(videoAppFile);

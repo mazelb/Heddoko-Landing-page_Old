@@ -313,10 +313,10 @@ PRODUCT SPECS
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
-	bottom: 0;
-	left: 0;
+	top: 107px;
+	left: 4px;
 	right: 0;
-	width: 82%;
+	width: 68%;
 }
 
 #productspecs .container .row > .image .image-animation .preventcontrols {
@@ -411,7 +411,6 @@ PRODUCT SPECS
 	#productspecs .container .row > .content img {
 		width: 60%;
 	}
-	#productspecs .container .row > .image .image-animation video,
 	#productspecs .container .row > .image img {
 		width: 60%;
 	}
@@ -421,6 +420,10 @@ PRODUCT SPECS
 @media (min-width: 768px) and (max-width: 991px) {
 	#productspecs .container .row > .content {
 		padding-top: 0px;
+	}
+
+	#productspecs .container .row > .image .image-animation video {
+		top: 80px;
 	}
 }
 
@@ -493,11 +496,11 @@ SEE IT LIVE
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
-	top: 0;
+	top: 25px;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
+	width: 92.5%;
 }
 
 #seeitlive .container .row > .image .image-animation .preventcontrols {
@@ -560,7 +563,18 @@ SEE IT LIVE
 	#seeitlive .container .row > .content {
 		padding-top: 50px;
 	}
+
+	#seeitlive .container .row > .image .image-animation video {
+		top: 16px;
+	}
 }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#seeitlive .container .row > .image .image-animation video {
+		top: 21px;
+	}
+}
+
 
 /* =====================================================================
 PRODUCT BENEFITS
@@ -722,7 +736,7 @@ LEARN PRODUCT
 	position: absolute;
 	top: 0;
 	right: 0;
-	left: 0%;
+	left: auto;
 	width: auto;
 	height: 100%;
 }

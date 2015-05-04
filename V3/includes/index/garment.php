@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-6 content">
-				<h2 data-animated="0">Garment <span></span></h2>
+				<h2 data-animated="0">The Garments <span></span></h2>
 
 				<p data-animated="0">Heddoko is a smart compression garment that uses textile embedded sensors to track your body movement and give you live 3D coaching. </p>
 

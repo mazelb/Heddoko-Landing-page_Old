@@ -2,8 +2,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right content">
-				<h2 data-animated="0">App &amp; Web Specs <span></span></h2>
-				<p data-animated="0">Heddoko empowers perfection in human movement, and is the only fitness wearable technology to provide real-time 3D corrective feedback</p>
+				<h2 data-animated="0">Mobile Coaching <span></span></h2>
+				<p data-animated="0">Heddoko empowers perfection in human movement, and is the only fitness wearable technology to provide real-time 3D corrective feedback.</p>
 				
 				<div class="col-xs-12">
 					<div class="row">

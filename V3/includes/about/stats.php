@@ -3,8 +3,7 @@
 	<div class="overlay"></div>
 	<div class="container skills-wrap">
 		<div class="col-md-12">
-			<h4>Would you like to join our team?</h4>
-
+			<a href="https://docs.google.com/forms/d/1mJyvDgYZ0CGxf-ot-dta-xOo7FCy26B_IawwkLufBTU/viewform" target="_blank"><h4>Would you like to join our team? Apply here !</h4></a>
 			<p><small>We are...</small></p>
 			<div class="row">
 				<ul>

@@ -6,7 +6,7 @@
 	<div class="col-xs-12 col-md-12 col-mg-8 col-lg-8 content">
 		<a href="https://youtu.be/sx5TcrVN9dY" class="hidden-lg play fancybox-media"><img src="images/icons/icon-play.svg" ></a>
 
-		<h1>Stay up to date <span>with Heddoko news</span></h1>
+		<h1>First Smart Compression Suit <span> That Tracks 3D Body Movement</span></h1>
 	
 		<a href="#" class="btn btn-default">Sign Me Up for Beta Access</a>
 	</div>

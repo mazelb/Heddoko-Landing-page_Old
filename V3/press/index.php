@@ -21,6 +21,8 @@
 
 <?php include('../includes/press/packages.php'); ?>
 
+<?php include('../includes/press/facts.php'); ?>
+
 <?php include('../includes/footer.php'); ?>
 
 <!-- page specific -->

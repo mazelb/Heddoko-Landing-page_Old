@@ -29,6 +29,8 @@
 
 <?php include('../includes/about/stats.php'); ?>
 
+<?php include('../includes/about/testimonials.php'); ?>
+
 <?php include('../includes/about/contact.php'); ?>
 
 <?php include('../includes/about/map.php'); ?>

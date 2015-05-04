@@ -10,7 +10,17 @@ LIGHTGREY 		#858585 / rgba(133, 133, 133, 1)
 /* =====================================================================
 PRESS
 ===================================================================== */
+#inpress {
+	padding-top: 80px;
+	border-top: 80px solid #fff;
+	margin-top: -80px;
+}
+
 #portfolio {
+	padding-top: 80px;
+	border-top: 80px solid #fff;
+	margin-top: -80px;
+
 	border: 0;
 	margin: 0;
 	padding-top: 0;
@@ -78,9 +88,36 @@ PRESS
 }
 
 /* =====================================================================
+FACTS
+===================================================================== */
+#facts {
+	background: url(../images/index/bg_social.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position: relative;
+	padding-top: 150px;
+}
+
+#facts .container-fluid .row > div img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 80px;
+	max-width: 80px;
+}
+
+/* =====================================================================
 PACKAGES
 ===================================================================== */
-#packages {}
+#packages {
+	padding-top: 80px;
+	border-top: 80px solid #fff;
+	margin-top: -80px;
+
+	background-color: #737076;
+}
 
 #packages .container {}
 
@@ -107,7 +144,7 @@ PACKAGES
 }
 
 #packages .container .row .package a {
-	background: #49434d;
+	background: #3bd6b2;
 	border-radius: 300px;
 	display: block;
 	margin-left: auto;
@@ -119,7 +156,7 @@ PACKAGES
 }
 
 #packages .container .row .package a:hover {
-	background: #3bd6b2;
+	background: #31AB8E;
 }
 
 #packages .container .row .package a span {

@@ -18,6 +18,7 @@
 						">
 						<div class="pthumb">
 							<img src="/images/faq/faq_mobile.svg" class="img-responsive" alt="" />
+							<h4>App</h4>
 							<div class="p-overlay">
 								<h5>App</h5>
 							</div>
@@ -39,6 +40,7 @@
 						">
 						<div class="pthumb">
 							<img src="/images/faq/faq_clothes.svg" class="img-responsive" alt="" />
+							<h4>Garment</h4>
 							<div class="p-overlay">
 								<h5>Garment</h5>
 							</div>
@@ -63,6 +65,7 @@
 						">
 						<div class="pthumb">
 							<img src="/images/faq/faq_progress.svg" class="img-responsive" alt="" />
+							<h4>Team Management</h4>
 							<div class="p-overlay">
 								<h5>Team Management</h5>
 							</div>
@@ -87,6 +90,7 @@
 						">
 						<div class="pthumb">
 							<img src="/images/faq/faq_heartrate.svg" class="img-responsive" alt="" />
+							<h4>Athletes</h4>
 							<div class="p-overlay">
 								<h5>Athletes</h5>
 							</div>

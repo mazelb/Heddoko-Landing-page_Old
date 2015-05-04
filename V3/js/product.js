@@ -108,7 +108,7 @@ $(document).ready(function() {
 		$('#howitworks .preview .item').hide();
 		$('#howitworks .preview .item').eq(index).css('display', 'block');
 		if($(document).width() > 768) {
-			$('#howitworks .preview .item').eq(index).children('.image-animation').children('video')[0].play();
+			// $('#howitworks .preview .item').eq(index).children('.image-animation').children('video')[0].play();
 		} else {
 			var target =$('#howitworks .preview .item').eq(index);
 

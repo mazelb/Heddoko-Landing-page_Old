@@ -12,3 +12,22 @@ $(function() {
 
     $('#folio').mixitup();
 });
+
+
+/* =====================================================================
+SOCIAL ANIMATED NUMBERS
+===================================================================== */
+$(document).ready(function($) {
+	$.ajax({
+		method: 'GET',
+		url: '/php/social.php',
+		dataType: 'json'
+	}).done(function(data) {
+		$('#facts ul').appear(function() {
+			$('#fact1').animateNumber({ number: data.data.articles, numberStep: $.animateNumber.numberStepFactories.separator(',') }, 1500 );
+			$('#fact2').animateNumber({ number: data.data.likes, numberStep: $.animateNumber.numberStepFactories.separator(',') }, 1500 );
+			$('#fact3').animateNumber({ number: data.data.followers, numberStep: $.animateNumber.numberStepFactories.separator(',') }, 1500 );
+			$('#fact4').animateNumber({ number: data.data.tweets, numberStep: $.animateNumber.numberStepFactories.separator(',') }, 1500 );
+		},{accX: 0, accY: -200});
+	});
+});

@@ -427,6 +427,7 @@ JOIN TEAM
 	padding: 0px;
 	border-top: 100px solid #fff;
 	margin-top: -100px;
+	width: 100%;
 }
 
 #jointeam a {

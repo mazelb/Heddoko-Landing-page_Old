@@ -48,6 +48,10 @@ PRESS
 	background: rgba(59, 214, 178, 1);
 }
 
+#portfolio #folio #og-grid li .pthumb img {
+	width: 100%;
+}
+
 #portfolio #folio #og-grid li .pthumb:before {
 	background: none;
 }

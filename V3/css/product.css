@@ -137,7 +137,7 @@ HOW IT WORKS
 	cursor: pointer;
 	position: relative;
 	width: 80%;
-	height: auto;
+	height: inherit;
 	margin-left: auto;
 	margin-right: auto;
     -webkit-transition: all 250ms ease-out 0s;
@@ -224,6 +224,27 @@ HOW IT WORKS
 
 	#howitworks .select span {
 		height: 30px;
+	}
+}
+
+@media (min-width: 768px) {
+	#howitworks .select .image,
+	#howitworks .select .image img {
+		height: 51px;
+	}
+}
+
+@media (min-width: 992px) {
+	#howitworks .select .image,
+	#howitworks .select .image img {
+		height: 73px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#howitworks .select .image,
+	#howitworks .select .image img {
+		height: 93px;
 	}
 }
 

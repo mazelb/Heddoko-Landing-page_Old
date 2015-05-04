@@ -272,9 +272,13 @@ BETTER
 GARMENT
 ===================================================================== */
 #garment {
-	padding-top: 80px;
-	border-top: 80px solid #fff;
-	margin-top: -80px;
+	padding-top: 0px;
+	margin-top: -100px;
+}
+
+#garment .container {
+  border-top: 100px solid transparent;
+  padding-top: 80px;
 }
 
 #garment h2 {
@@ -454,10 +458,14 @@ WEB
 ===================================================================== */
 #web {
 	background: #39373a;
-	padding-top: 80px;
 	padding-bottom: 80px;
-	border-top: 80px solid #fff;
-	margin-top: -80px;
+	margin-top: -100px;
+}
+
+#web {
+	padding-top: 80px;
+	border-top: 100px solid #333d4d;
+	margin-top: -100px;
 }
 
 #web h2 {
@@ -555,8 +563,8 @@ BENEFITS
 	background-size: cover;
 	overflow: hidden;
 	padding-bottom: 80px;
-	border-top: 80px solid #fff;
-	margin-top: -80px;
+	border-top: 100px solid #39373a;
+	margin-top: -100px;
 }
 
 #benefits h1 {

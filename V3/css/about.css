@@ -214,8 +214,6 @@ TEAM
 ===================================================================== */
 #team {
 	padding-top: 80px;
-	border-top: 80px solid #fff;
-	margin-top: -80px;
 }
 
 #team h2 {
@@ -426,9 +424,9 @@ TEAM
 JOIN TEAM
 ===================================================================== */
 #jointeam {
-	padding: 80px;
-	border-top: 80px solid #fff;
-	margin-top: -80px;
+	padding: 0px;
+	border-top: 100px solid #fff;
+	margin-top: -100px;
 }
 
 #jointeam a {
@@ -750,8 +748,8 @@ CONTACT
 ===================================================================== */
 #contact {
 	padding-top: 80px;
-	border-top: 80px solid #fff;
-	margin-top: -80px;
+	border-top: 100px solid #efefef;
+	margin-top: -100px;
 }
 
 #contact .container {}

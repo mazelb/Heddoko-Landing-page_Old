@@ -60,7 +60,7 @@ switch($fileName) {
 						<ul class="dropdown-menu" role="menu">
 							<li><a href="/about#mission">Our Mission</a></li>
 							<li><a href="/about#team">Our Team</a></li>
-							<li><a href="/about#jointeam">Apply for Job</a></li>
+							<li><a href="/about#jointeam">Apply for a Job</a></li>
 							<li><a href="/about#contact">Contact Us</a></li>
 						</ul>
 					</li>

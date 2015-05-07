@@ -14,7 +14,7 @@
 							<img src="../images/about/ben.jpg">
 						</div>
 						<div class="col-xs-12 col-md-8 content">
-							<p>Imagine a world where your shirt coaches your yoga, your stance, or your press-ups. Heddoko is making this a reality with a fantastic blend of both technical and marketing capabilities that they apply to everything they do. We love working with them and are proud to be part of their journey.agine a world where your shirt coaches your yoga, your stance, or your press-ups. Heddoko is making this a reality with a fantastic blend of both technical and marketing capabilities that they apply to everything they do. We love working with them and are proud to be part of their journey.<br/><em>- Ben O’Brien, CEO, Stretchsense</em></p>
+							<p>Imagine a world where your shirt coaches your yoga, your stance, or your push-ups. Heddoko is making this a reality with a fantastic blend of both technical and marketing capabilities that they apply to everything they do. We love working with them and are proud to be part of their journey.agine a world where your shirt coaches your yoga, your stance, or your press-ups. Heddoko is making this a reality with a fantastic blend of both technical and marketing capabilities that they apply to everything they do. We love working with them and are proud to be part of their journey.<br/><em>- Ben O’Brien, CEO, Stretchsense</em></p>
 						</div>
 					</div>
 					<div>
@@ -22,7 +22,7 @@
 							<img src="../images/about/xavier.jpg">
 						</div>					
 						<div class="col-xs-12 col-md-8 content">
-							<p>Heddoko certainly has all the right ingredients to make it to the top: a great team, a great vision, the drive and energy to make it happen! Having them at the District 3 propels a contagious positive energy.”.<br/><em>- Xavier-Henri Herve, Director and Founder, District 3 Innovation Center</em></p>
+							<p>Heddoko certainly has all the right ingredients to make it to the top: a great team, a great vision, and the drive and energy to make it happen! Having them at the District 3 propels a contagious positive energy.”.<br/><em>- Xavier-Henri Herv&#233;, Director and Founder, District 3 Innovation Center</em></p>
 						</div>
 					</div>
 					<div>
@@ -46,7 +46,7 @@
 							<img src="../images/about/charlotte.jpg">
 						</div>
 						<div class="col-xs-12 col-md-8 content">
-							<p>I can see a lot of potential to use the Heddoko suit as a coaching tool while I’m coaching my athletes. Combined with live coaching cues from the coach, feedback from the Heddoko, could potentially aid the athlete to actually see clearly where changes in their movement patterns need to be made.<br/><em>- Charlotte Greenwood, CrossFit athlete and coach</em></p>
+							<p>I can see a lot of potential to use the Heddoko suit as a coaching tool while I’m coaching my athletes. Combined with live coaching cues from the coach, feedback from Heddoko could potentially aid the athlete to actually see clearly where changes in their movement patterns need to be made.<br/><em>- Charlotte Greenwood, CrossFit athlete and coach</em></p>
 						</div>
 					</div>
 					<div>
@@ -54,7 +54,7 @@
 							<img src="../images/about/emmalyn.jpg">
 						</div>					
 						<div class="col-xs-12 col-md-8 content">
-							<p>Posture and alignment are the base of a solid yoga practice. Heddoko will revolutionize the way we move on the mat, making the practice safer and allowing all yoga practitioners to excel towards their goals and intentions.<br/><em>- Emmalynn Chalmers, Yoga Instructor and Personal Trainer</em></p>
+							<p>Posture and alignment are the base of a solid yoga practice. Heddoko will revolutionize the way we move on the mat, making the practice safer and allowing all yoga practitioners to excel towards their goals and intentions.<br/><em>- Emmalynn Chalmers, Yoga instructor and personal trainer</em></p>
 						</div>
 					</div>
 				</div>

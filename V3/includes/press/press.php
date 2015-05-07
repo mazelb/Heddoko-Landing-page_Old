@@ -143,12 +143,12 @@
 				<li class="mix">
 					<a href="http://www.lesaffaires.com/strategie-d-entreprise/entreprendre/les-textiles-intelligents/573882" 
 						data-largesrc="/images/press/big/lesaffaires.jpg" 
-						data-title="Les textiles intelligents: quand les tissus parlen" 
+						data-title="Les textiles intelligents: quand les tissus parlent" 
 						data-description="
 						<br>
 						<span>
 						<em><b>Website:</b> Les Affaires</em>
-						<em><b>Author:</b> Photoshop, Wordpress</em>
+						<em><b>Author:</b> Matthew Charest</em>
 						<em><b>Date:</b> 15/12/14</em>
 						</span>
 						">

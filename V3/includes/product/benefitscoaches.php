@@ -65,7 +65,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Optimize rehabilitation</h4>
 
-					<p>Bridge the gap between clinical practice and game conditions. Effectively quantify return-to-play protocols after injury. Monitor the rehabilitation progress and compare to baseline measures.</p>
+					<p>Bridge the gap between clinical practice and game conditions. Effectively quantify return-to-play protocols after injury. Monitor rehabilitation progress and compare to baseline measures.</p>
 				</div>
 			</div>
 

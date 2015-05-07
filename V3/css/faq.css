@@ -66,6 +66,7 @@ QUESTIONS
 
 #portfolio #folio #og-grid .og-expander .og-expander-inner .og-details {
 	width: 100%;
+	overflow-y: scroll;
 }
 
 #portfolio #folio #og-grid  .og-details a:before, .og-details a,

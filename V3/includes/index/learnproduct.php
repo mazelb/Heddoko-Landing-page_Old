@@ -13,7 +13,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 content">
-				<h1>Learn more <span>on the product</span> <span><a href="/product">here</a></span></h1>
+				<h1>Learn more <span>about the product</span> <span><a href="/product">here</a></span></h1>
 			</div>
 		</div>
 	</div>

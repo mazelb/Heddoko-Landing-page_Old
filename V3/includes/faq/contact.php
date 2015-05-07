@@ -2,7 +2,7 @@
 <section id="contact">
 	<div class="container no-padding" data-animated="0">
 		<h4>Have any questions?</h4>
-		<p class="title-sub">If you have questions regarding our product and how it works, please don't hesitate to ask.</p>
+		<p class="title-sub">If you have questions regarding our product and how it works, don't hesitate to ask!</p>
 		<form class="contact-form" data-animated="0" id="contactForm" action="/php/contact.php" method="post">
 			<div class="col-md-12 no-padding">
 				<div class="col-md-4">

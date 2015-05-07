@@ -14,7 +14,7 @@
 				</div>
 				<div class="col-md-3 cq-info">
 					<img src="images/index/award_startupfestival.jpg" alt="International Startup Festival">
-					<p>Recognized as one of montreal’s top 3 <span>most innovative local startups</span></p>
+					<p>Recognized as one of Montreal’s top 3 <span>most innovative local startups</span></p>
 				</div>
 				<div class="col-md-3 cq-info">
 					<img src="images/index/award_techvibes.jpg" alt="TechVibes">
@@ -22,7 +22,7 @@
 				</div>
 				<div class="col-md-3 cq-info">
 					<img src="images/index/award_c2mtl.jpg" alt="2015 C2Mtl Bronfman Foundation Emmerging Entrepreneurs">
-					<p>Selected Emmerging Entrepreneur of the year by the <span>The Claudine and Stephen Bronfman Family Foundation</span></p>
+					<p>Selected as Emmerging Entrepreneur of the year by the <span>The Claudine and Stephen Bronfman Family Foundation</span></p>
 				</div>
 			</div>
 		</div>

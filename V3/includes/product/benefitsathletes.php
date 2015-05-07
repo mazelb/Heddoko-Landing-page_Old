@@ -42,7 +42,7 @@ Pinpoint mobility and stability issues that might predispose you to injury.</p>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Get instant, specific feedback</h4>
 
-					<p>Continuously collects information that quantifies exactly how you are moving. Receive metrics including joint angles, velocity, acceleration, and torque. Data is instantly analyzed and integrated to provide specific, meaningful feedback.
+					<p>Heddoko continuously collects information that quantifies exactly how you are moving. Receive metrics including joint angles, velocity, and acceleration. Data is instantly analyzed and integrated to provide specific, meaningful feedback.
 </p>
 				</div>
 			</div>

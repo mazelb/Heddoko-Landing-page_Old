@@ -4,7 +4,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1" data-animated="0">
 				<h4>Our mission</h4>
 
-				<p><em>Heddoko's mission is to empower athletes of all levels to acheive their optimal performance. We want to help people move better, train better and live better. We believe in...</em></p>
+				<p><em>Heddoko's mission is to empower athletes of all levels to acheive their optimal performance. We want to help people move better, train better and live better.</em></p>
 			</div>
 		</div>
 		<div class="row">

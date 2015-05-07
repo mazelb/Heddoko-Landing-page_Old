@@ -4,7 +4,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1" data-animated="0">
 				<h2>Our Team <span></span></h2>
 
-				<p class="title-sub">In the last year, the Heddoko has grown from a team of 2 to a team of 14.</p>
+				<p class="title-sub">In the last year, the Heddoko has grown from a team of 2 to a team of 13.</p>
 			</div>	
 		</div>
 
@@ -211,18 +211,17 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_zack.jpg" class="img-responsive" alt=""/>
-							<div class="team-overlay zack">
+							<img src="../images/about/team/team_karla.jpg" class="img-responsive" alt=""/>
+							<div class="team-overlay karla">
 								<div class="social">
 									<ul data-animated="0">
-										<li><a target="_blank" href="https://twitter.com/ZackEBell"><i class="fa fa-twitter"></i></a></li>
-										<li><a target="_blank" href="https://www.linkedin.com/in/ZackElias"><i class="fa fa-linkedin"></i></a></li>
+										<li><a target="_blank" href="http://ca.linkedin.com/in/karlaurbano/es"><i class="fa fa-linkedin"></i></a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="team-info">
-							<h4>Zack <span>Reliability Engineer</span></h4>
+							<h4>Karla <span>Marketing Analyst</span></h4>
 						</div>
 					</div>
 				</div>
@@ -233,7 +232,7 @@
 		<div class="row">
 		<div class="col-md-12">
 			<div class="owl-team">
-				<div class="item col-md-4" data-animated="0">
+				<div class="item col-md-4 col-md-offset-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
 							<img src="../images/about/team/team_anuj.jpg" class="img-responsive" alt=""/>
@@ -247,41 +246,6 @@
 						</div>
 						<div class="team-info">
 							<h4>Anuj<span>Design Engineer</span></h4>
-						</div>
-					</div>
-				</div>
-				<div class="item col-md-4" data-animated="0">
-					<div class="col-md-12">
-						<div class="team-staff">
-							<img src="../images/about/team/team_leila.jpg" class="img-responsive" alt=""/>
-							<div class="team-overlay leila">
-								<div class="social">
-									<ul data-animated="0">
-										<li><a target="_blank" href="https://twitter.com/Lgatera"><i class="fa fa-twitter"></i></a></li>
-										<li><a target="_blank" href="http://ca.linkedin.com/in/leilagatera"><i class="fa fa-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="team-info">
-							<h4>Leila <span>Designer</span></h4>
-						</div>
-					</div>
-				</div>
-				<div class="item col-md-4" data-animated="0">
-					<div class="col-md-12">
-						<div class="team-staff">
-							<img src="../images/about/team/team_karla.jpg" class="img-responsive" alt=""/>
-							<div class="team-overlay karla">
-								<div class="social">
-									<ul data-animated="0">
-										<li><a target="_blank" href="http://ca.linkedin.com/in/karlaurbano/es"><i class="fa fa-linkedin"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="team-info">
-							<h4>Karla <span>Marketing Analyst</span></h4>
 						</div>
 					</div>
 				</div>

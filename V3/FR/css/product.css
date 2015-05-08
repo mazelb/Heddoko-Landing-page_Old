@@ -904,3 +904,106 @@ BENEFITSCOACHES
 		text-align: left;
 	}
 }
+
+/* =====================================================================
+brochure
+===================================================================== */
+#brochure {
+	background: #3bd6b2;
+	padding: 40px 0;
+	font-size: 18px;
+}
+
+#brochure h2 a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 36px;
+	margin: 0;
+	text-align: center;
+}
+
+#brochure h2 a:hover{
+	color: #000;
+}
+
+#brochure h2 {
+	color: #efefef;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 36px;
+	margin: 0;
+	text-align: center;
+}
+
+#brochure input {
+	background: #b1efe0;
+}
+
+#brochure input::-webkit-input-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#brochure input:-moz-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#brochure input::-moz-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#brochure input:-ms-input-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#brochure .input-group-btn input {
+	margin: 0;
+}
+
+#brochure .container > div .ajax {
+	display: none;
+	margin: 0 auto;
+
+}
+
+#brochure .container > div #thankyoudiv-2 {
+	color: #fff;
+	display: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#brochure .container > div .btn {
+	padding-top: 12px;
+	padding-bottom: 11px;
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media (min-width: 1px) and (max-width: 991px) {
+
+	
+	#brochure .form-control {
+		margin-bottom: 10px;
+	}
+
+	#brochure .input-group {
+		display: block;
+	}
+
+	#brochure .input-group input {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	#brochure h2 span {
+		display: block;
+	}
+}
+

@@ -10,28 +10,37 @@
 			<li>
 				<a href="/product">Produit</a>
 				<ul>
-					<li><a href="/product#howitworks">Comment ça marche</a></li>
-					<li><a href="/product#benefits">Benefits</a></li>
+					<li><a href="/FR/product#howitworks">Fonctionnement</a></li>
+					<li><a href="/FR/product#garment">L'habit</a></li>
+					<li><a href="/FR/product#mobile">Application mobile</a></li>
+					<li><a href="/FR/product#web">Application Web</a></li>
+					<li><a href="/FR/product#benefits">Les avantages</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="/about">About us</a>
+				<a href="/about">À propos</a>
 				<ul>
-					<li><a href="/about#team">Team</a></li>
-					<li><a href="/about#contact">Contact</a></li>
+					<li><a href="/FR/about#mission">Notre Mission</a></li>
+					<li><a href="/FR/about#team">Notre équipe</a></li>
+					<li><a href="/FR/about#jointeam">Postuler</a></li>
+					<li><a href="/FR/about#contact">Contactez-nous</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="/faq">FAQ</a>
+				<a href="/press">Médias</a>
+				<ul>
+					<li><a href="/FR/press#inpress">Dans les Médias</a></li>
+					<li><a href="/FR/press#packages">Trousse média</a></li>
+				</ul>
 			</li>
 			<li>
-				<a href="/press">Press</a>
+				<a href="/FR/faq">FAQ</a>
 			</li>
 			<li>
-				<a href="/blog">Blog</a>
+				<a href="/FR/blog">Blog</a>
 			</li>
 			<li>
-				<a href="/signup">Sign up</a>
+				<a href="/FR/signup">S'inscrire</a>
 			</li>
 		</ul>	
 		</div>
@@ -43,7 +52,6 @@
 			<a href="https://twitter.com/heddoko" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
 			<a href="https://www.linkedin.com/company/heddoko" target="_blank"><i class="fa fa-3x fa-linkedin"></i></a>
 			<a href="https://instagram.com/heddoko/" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
-			<a href="https://dribbble.com/heddoko" target="_blank"><i class="fa fa-3x fa-dribbble"></i></a>
 			<a href="https://www.pinterest.com/heddoko/" target="_blank"><i class="fa fa-3x fa-pinterest"></i></a>
 			<a href="https://vimeo.com/user29815178" target="_blank"><i class="fa fa-3x fa-vimeo"></i></a></p>
 		</div>

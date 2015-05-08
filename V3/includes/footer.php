@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row">
 		<div class="hidden-xs hidden-sm col-md-10 col-lg-10 col-md-offset-1">
-		<ul class="footer-nav">
+		<ul class="footer-nav">					
 			<li>
 				<a href="/">Home</a>
 			</li>
@@ -11,21 +11,30 @@
 				<a href="/product">Product</a>
 				<ul>
 					<li><a href="/product#howitworks">How it works</a></li>
+					<li><a href="/product#garment">Garment</a></li>
+					<li><a href="/product#mobile">Mobile App</a></li>
+					<li><a href="/product#web">Web App</a></li>
 					<li><a href="/product#benefits">Benefits</a></li>
 				</ul>
 			</li>
 			<li>
 				<a href="/about">About us</a>
 				<ul>
-					<li><a href="/about#team">Team</a></li>
-					<li><a href="/about#contact">Contact</a></li>
+					<li><a href="/about#mission">Our Mission</a></li>
+					<li><a href="/about#team">Our Team</a></li>
+					<li><a href="/about#jointeam">Apply for a Job</a></li>
+					<li><a href="/about#contact">Contact Us</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="/press">Press</a>
+				<ul>
+					<li><a href="/press#inpress">In The News</a></li>
+					<li><a href="/press#packages">Media Kit</a></li>
 				</ul>
 			</li>
 			<li>
 				<a href="/faq">FAQ</a>
-			</li>
-			<li>
-				<a href="/press">Press</a>
 			</li>
 			<li>
 				<a href="/blog">Blog</a>
@@ -43,7 +52,6 @@
 			<a href="https://twitter.com/heddoko" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
 			<a href="https://www.linkedin.com/company/heddoko" target="_blank"><i class="fa fa-3x fa-linkedin"></i></a>
 			<a href="https://instagram.com/heddoko/" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
-			<a href="https://dribbble.com/heddoko" target="_blank"><i class="fa fa-3x fa-dribbble"></i></a>
 			<a href="https://www.pinterest.com/heddoko/" target="_blank"><i class="fa fa-3x fa-pinterest"></i></a>
 			<a href="https://vimeo.com/user29815178" target="_blank"><i class="fa fa-3x fa-vimeo"></i></a></p>
 		</div>

@@ -8,7 +8,7 @@
 
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-4 col-lg-offset-4 package" data-animated="0">
-				<a href="/downloads/heddoko_presskit.zip"><span>Pour les médias, clickez ici pour téléchargement</span></a>
+				<a href="/FR/downloads/heddoko_presskit.zip"><span>Pour les médias, clickez ici pour téléchargement</span></a>
 			</div>
 		</div>
 	</div>

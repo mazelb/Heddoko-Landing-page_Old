@@ -3,7 +3,7 @@
 		<div class="row">
 
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-1 col-lg-offset-1 pull-right">
-				<h4 data-animated="0">This is how it works:</h4>
+				<h4 data-animated="0">Voilà son fonctionnement:</h4>
 				
 				<div class="row select active" data-animated="0">
 					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
@@ -15,7 +15,7 @@
 						<span class="vertical"></span>
 					</div>
 					<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-						<h5>Suit up with Heddoko</h5>
+						<h5>Portez Heddoko</h5>
 					</div>
 				</div>
 
@@ -29,7 +29,7 @@
 						<span class="vertical"></span>
 					</div>
 					<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-						<h5>Pair with Heddoko App</h5>
+						<h5>Connecté vous à l'application </h5>
 					</div>
 				</div>
 				 
@@ -43,7 +43,7 @@
 						<span class="vertical"></span>
 					</div>
 					<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-						<h5>Capture movement in 3D &amp; receive live coaching feedback</h5>
+						<h5>Heddoko capte le mouvement en 3D et vous recevrez de la rétroaction en temps réel.</h5>
 					</div>
 				</div>
 				
@@ -57,7 +57,7 @@
 						<span class="vertical"></span>
 					</div>
 					<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
-						<h5>Make immediate adjustments to improve movement on the spot and review progress over time</h5>
+						<h5>Faites des ajustements en temps réel afin d'améliorer les mouvements pratiqués et remarquez votre progrès au fil du temps.</h5>
 					</div>
 				</div>
 			</div>

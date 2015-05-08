@@ -2,18 +2,18 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right content">
-				<h2 data-animated="0">Mobile Coaching <span></span></h2>
-				<p data-animated="0">Heddoko empowers perfection in human movement, and is the only fitness wearable technology to provide real-time 3D corrective feedback.</p>
+				<h2 data-animated="0">L'entraînement Mobile <span></span></h2>
+				<p data-animated="0">Heddoko, à la recherche de la perfection des mouvements du corps, est le seul habit sportif de technologie avancée à donner une rétroaction immédiate en 3D.</p>
 				
 				<div class="col-xs-12">
 					<div class="row">
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-feedback.svg" /> <p>Live feedback</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-dark-movement.svg" /> <p>Movement Recording</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-injury.svg" /> <p>Complete injury profile</p></div>
+						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-feedback.svg" /> <p>Rétroaction temps réel</p></div>
+						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-dark-movement.svg" /> <p>Enregistrement des mouvements</p></div>
+						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-injury.svg" /> <p>Profil complet d'une blessure</p></div>
 					</div>
 				</div>
 
-				<p data-animated="0"><a href="/product#mobile" class="btn btn-default">Learn more</a></p>
+				<p data-animated="0"><a href="/FR/product#mobile" class="btn btn-default">Pour en savoir plus</a></p>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 image">
 				<div class="image-container" data-animated="0">

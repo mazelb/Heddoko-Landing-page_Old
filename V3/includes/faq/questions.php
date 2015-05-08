@@ -8,7 +8,7 @@
 						data-title="App" 
 						data-description="
 						<strong>Can I access my data anywhere?</strong><br/>
-						Yes. You can access your data through a cloud drive.<br/><br/>
+						Yes. You can access your data through the cloud.<br/><br/>
  
 						<strong>Does the app have learning capabilities?</strong><br/>
 						Yes. Artificial intelligence allows the system to learn about your body and how you move and provide insight on your performance.<br/><br/>
@@ -55,7 +55,7 @@
 						Yes. Using the Web Dashboard, you can keep track of each athlete on the team. The dashboard allows you to monitor performance (both individual and aggregated), and provides indicators so you can specifically cater to their individual movement needs.<br/><br/>
 
 						<strong>Can I access information collected on my athletes away from the gym, field, rink, or race track?</strong><br/>
-						Yes – you can access the Web Dashboard from anywhere through a cloud drive. <br/><br/>
+						Yes – you can access the Web Dashboard from anywhere through the cloud. <br/><br/>
 
 						<strong>What does the garment track on my athletes?</strong><br/>
 						The garment tracks a number of variables, including movement accuracy, joint and limb position over time, speed of movement, force applied to the joints, routine completion rate, and injury risk factor.<br/><br/>

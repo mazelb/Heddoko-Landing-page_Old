@@ -67,7 +67,7 @@
 							</div>
 						</div>
 						<div class="team-info">
-							<h4>Jonathan<span>CEO / Chief Engineer</span></h4>
+							<h4>Jonathan<span>Chief Engineer</span></h4>
 						</div>
 					</div>
 				</div>

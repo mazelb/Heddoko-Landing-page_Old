@@ -49,25 +49,25 @@ switch($fileName) {
 					<li class="<?php echo $links[0]; ?>"><a href="/FR/">Accueil <span></span></a></li>
 					<li class="<?php echo $links[1]; ?>"><a href="/FR/product">Produit <span></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="/FR/product#howitworks">Fonctionnement</a></li>
-							<li><a href="/FR/product#garment">L'habit</a></li>
-							<li><a href="/FR/product#mobile">Application mobile</a></li>
-							<li><a href="/FR/product#web">Application Web</a></li>
-							<li><a href="/FR/product#benefits">Les avantages</a></li>
+							<li><a href="/FR/product/#howitworks">Fonctionnement</a></li>
+							<li><a href="/FR/product/#garment">L'habit</a></li>
+							<li><a href="/FR/product/#mobile">Application mobile</a></li>
+							<li><a href="/FR/product/#web">Application Web</a></li>
+							<li><a href="/FR/product/#benefits">Les avantages</a></li>
 						</ul>
 					</li>
 					<li class="<?php echo $links[2]; ?>"><a href="/FR/about" role="button">À propos <span></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="/FR/about#mission">Notre Mission</a></li>
-							<li><a href="/FR/about#team">Notre équipe</a></li>
-							<li><a href="/FR/about#jointeam">Postuler</a></li>
-							<li><a href="/FR/about#contact">Contactez-nous</a></li>
+							<li><a href="/FR/about/#mission">Notre Mission</a></li>
+							<li><a href="/FR/about/#team">Notre équipe</a></li>
+							<li><a href="/FR/about/#jointeam">Postuler</a></li>
+							<li><a href="/FR/about/#contact">Contactez-nous</a></li>
 						</ul>
 					</li>
 					<li class="<?php echo $links[3]; ?>"><a href="/FR/press" role="button">Médias <span></span></a>
 						<ul class="dropdown-menu" role="menu">
-								<li><a href="/FR/press#inpress">Dans les Médias</a></li>
-								<li><a href="/FR/press#packages">Trousse média</a></li>
+								<li><a href="/FR/press/#inpress">Dans les Médias</a></li>
+								<li><a href="/FR/press/#packages">Trousse média</a></li>
 							</ul>
 					</li>
 					<li class="<?php echo $links[4]; ?>"><a href="/FR/faq">FAQ <span></span></a></li>

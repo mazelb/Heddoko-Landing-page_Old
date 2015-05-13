@@ -10,27 +10,27 @@
 			<li>
 				<a href="/product">Product</a>
 				<ul>
-					<li><a href="/product#howitworks">How it works</a></li>
-					<li><a href="/product#garment">Garment</a></li>
-					<li><a href="/product#mobile">Mobile App</a></li>
-					<li><a href="/product#web">Web App</a></li>
-					<li><a href="/product#benefits">Benefits</a></li>
+					<li><a href="/product/#howitworks">How it works</a></li>
+					<li><a href="/product/#garment">Garment</a></li>
+					<li><a href="/product/#mobile">Mobile App</a></li>
+					<li><a href="/product/#web">Web App</a></li>
+					<li><a href="/product/#benefits">Benefits</a></li>
 				</ul>
 			</li>
 			<li>
 				<a href="/about">About us</a>
 				<ul>
-					<li><a href="/about#mission">Our Mission</a></li>
-					<li><a href="/about#team">Our Team</a></li>
-					<li><a href="/about#jointeam">Apply for a Job</a></li>
-					<li><a href="/about#contact">Contact Us</a></li>
+					<li><a href="/about/#mission">Our Mission</a></li>
+					<li><a href="/about/#team">Our Team</a></li>
+					<li><a href="/about/#jointeam">Jobs</a></li>
+					<li><a href="/about/#contact">Contact Us</a></li>
 				</ul>
 			</li>
 			<li>
 				<a href="/press">Press</a>
 				<ul>
-					<li><a href="/press#inpress">In The News</a></li>
-					<li><a href="/press#packages">Media Kit</a></li>
+					<li><a href="/press/#inpress">In The News</a></li>
+					<li><a href="/press/#packages">Media Kit</a></li>
 				</ul>
 			</li>
 			<li>

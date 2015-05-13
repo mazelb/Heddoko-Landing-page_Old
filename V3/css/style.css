@@ -870,13 +870,14 @@ p {
 	padding: 0px;
 	width: 88%;
 	display: table;
-	margin: 80px auto 0;
+	margin: 40px auto 0;
 }
 
 .skills-wrap ul li {
 	width: 20%;
 	list-style: none;
 	float: left;
+	margin-bottom: 40px;
 }
 
 .skills-wrap ul li h5 {

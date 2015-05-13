@@ -10,27 +10,27 @@
 			<li>
 				<a href="/product">Produit</a>
 				<ul>
-					<li><a href="/FR/product#howitworks">Fonctionnement</a></li>
-					<li><a href="/FR/product#garment">L'habit</a></li>
-					<li><a href="/FR/product#mobile">Application mobile</a></li>
-					<li><a href="/FR/product#web">Application Web</a></li>
-					<li><a href="/FR/product#benefits">Les avantages</a></li>
+					<li><a href="/FR/product/#howitworks">Fonctionnement</a></li>
+					<li><a href="/FR/product/#garment">L'habit</a></li>
+					<li><a href="/FR/product/#mobile">Application mobile</a></li>
+					<li><a href="/FR/product/#web">Application Web</a></li>
+					<li><a href="/FR/product/#benefits">Les avantages</a></li>
 				</ul>
 			</li>
 			<li>
 				<a href="/about">À propos</a>
 				<ul>
-					<li><a href="/FR/about#mission">Notre Mission</a></li>
-					<li><a href="/FR/about#team">Notre équipe</a></li>
-					<li><a href="/FR/about#jointeam">Postuler</a></li>
-					<li><a href="/FR/about#contact">Contactez-nous</a></li>
+					<li><a href="/FR/about/#mission">Notre Mission</a></li>
+					<li><a href="/FR/about/#team">Notre équipe</a></li>
+					<li><a href="/FR/about/#jointeam">Postuler</a></li>
+					<li><a href="/FR/about/#contact">Contactez-nous</a></li>
 				</ul>
 			</li>
 			<li>
 				<a href="/press">Médias</a>
 				<ul>
-					<li><a href="/FR/press#inpress">Dans les Médias</a></li>
-					<li><a href="/FR/press#packages">Trousse média</a></li>
+					<li><a href="/FR/press/#inpress">Dans les Médias</a></li>
+					<li><a href="/FR/press/#packages">Trousse média</a></li>
 				</ul>
 			</li>
 			<li>

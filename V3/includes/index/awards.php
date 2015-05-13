@@ -18,11 +18,11 @@
 				</div>
 				<div class="col-md-3 cq-info">
 					<img src="images/index/award_techvibes.jpg" alt="TechVibes">
-					<p>Nominated as one of Techvibes' <span>GoToMeeting Five: A List of Canadian</span> <span>Startups Making Waves Right Now</span></p>
+					<p>Nominated as one of Techvibes' <span>GoToMeeting Five: A list of Canadian</span> <span>startups making waves right now</span></p>
 				</div>
 				<div class="col-md-3 cq-info">
 					<img src="images/index/award_c2mtl.jpg" alt="2015 C2Mtl Bronfman Foundation Emmerging Entrepreneurs">
-					<p>Selected By <span>The Claudine and Stephen Bronfman Family Foundation as </span><span> Emmerging Entrepreneur of the year</p>
+					<p>Selected <span>Emmerging Entrepreneur of the year</span> <span> by the Claudine and Stephen Bronfman Family Foundation </span></p>
 				</div>
 			</div>
 		</div>

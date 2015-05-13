@@ -14,7 +14,7 @@
 					</div>
 				</div>
 
-				<p data-animated="0"><a href="/product#garment" class="btn btn-default">Learn more about the product here</a></p>
+				<p data-animated="0"><a href="/product/#garment" class="btn btn-default">Learn more</a></p>
 			</div>
 			<div class="col-xs-12 col-md-6 image">
 				<img src="images/index/garment.png" data-animated="4" >

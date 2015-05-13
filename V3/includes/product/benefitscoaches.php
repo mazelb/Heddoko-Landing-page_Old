@@ -50,7 +50,7 @@
 					<img src="../images/icons/icon-coachanytime.svg" class="">
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-					<h4>Coach anytime anywhere</h4>
+					<h4>Coach anytime, anywhere</h4>
 
 					<p>Access athlete information from anywhere through the cloud. Track multiple variables including performance metrics, scores, objectives, and rankings. Gain athlete performance insight across training, practice, and game situations.</p>
 				</div>

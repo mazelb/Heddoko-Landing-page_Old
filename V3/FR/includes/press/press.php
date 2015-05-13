@@ -5,6 +5,7 @@
 			<ul id="og-grid" class="og-grid">
 				<li class="mix">
 					<a href="http://www.gizmag.com/heddoko-sportswear-motion-capture/35826/" 
+						target="_blank"
 						data-largesrc="/images/press/big/gizmag.jpg" 
 						data-title="Heddoko sportswear uses motion capture sensors to fine-tune your movements" 
 						data-description="Advances in 3D motion capture technology have added an extra layer of realism to sports video games like FIFA and Madden. But software engineer-turned entrepreneur Mazen Elbawab reckons you shouldn't need to enter a virtual world to move like your favorite athletes.						<br>
@@ -24,6 +25,7 @@
 				</li>
 				<li class="mix">
 					<a href="http://www.dailymail.co.uk/sciencetech/article-2933840/Is-downward-dog-bit-rough-Motion-capture-gym-kit-means-hit-perfect-yoga-pose-time.html"
+						target="_blank"
 						data-largesrc="/images/press/big/dailymail.jpg" 
 						data-title="Is your downward dog a bit rough?<br/> Motion capture gym kit means you can hit the perfect yoga pose every time" 
 						data-description="If your downward dog is slightly rough and you're struggling to perfect the plank, a new range of motion capture clothing could help. 						<br>
@@ -43,9 +45,10 @@
 				</li>
 				<li class="mix">
 					<a href="http://www.profitguide.com/industry-focus/technology/adding-a-new-dimension-to-personal-fitness-76701" 
+						target="_blank"
 						data-largesrc="/images/press/big/profitguide.jpg" 
 						data-title="Adding a New Dimension to Personal Fitness" 
-						data-description="There are countless companies peddling wearable fitness gear these days, but Montreal’sHeddoko claims to offer something different.						<br>
+						data-description="There are countless companies peddling wearable fitness gear these days, but Montreal’s Heddoko claims to offer something different.						<br>
 						<span>
 						<em><b>Website:</b> PROFIT Magazine</em>
 						<em><b>Author:</b> Joe Castaldo</em>
@@ -62,6 +65,7 @@
 				</li>
 				<li class="mix">
 					<a href="http://www.techvibes.com/blog/gotomeeting-five-2015-03-02?utm_content=buffera48ff&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" 
+						target="_blank"
 						data-largesrc="/images/press/big/techvibes.jpg" 
 						data-title="GoToMeeting Five: A List of Five Canadian Startups Making Waves Right Now" 
 						data-description="
@@ -82,6 +86,7 @@
 				</li>
 				<li class="mix">
 					<a href="http://www.rcrwireless.com/20150210/wireless/emea-heddoko-smart-sports-wearble-technology-tag11" 
+						target="_blank"
 						data-largesrc="/images/press/big/rcrwireless.jpg" 
 						data-title="EMEA: Heddoko smart sports wearable technology" 
 						data-description="
@@ -102,6 +107,7 @@
 				</li>
 				<li class="mix">
 					<a href="http://www.objetconnecte.net/heddoko-les-vetements-de-sports-qui-vous-coachent/" 
+						target="_blank"
 						data-largesrc="/images/press/big/objetconnecte.jpg" 
 						data-title="Heddoko, les v&ecirc;tements de sports qui vous coachent" 
 						data-description="
@@ -122,6 +128,7 @@
 				</li>
 				<li class="mix">
 					<a href="http://www.betakit.com/montreal-smart-garment-startup-heddoko-innovation-world-cup-finalist/?utm_content=bufferd35ef&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" 
+						target="_blank"
 						data-largesrc="/images/press/big/betakit.jpg" 
 						data-title="Montreal smart garment startup Heddoko selected Innovation World Cup Finalist " 
 						data-description="
@@ -142,6 +149,7 @@
 				</li>
 				<li class="mix">
 					<a href="http://www.lesaffaires.com/strategie-d-entreprise/entreprendre/les-textiles-intelligents/573882" 
+						target="_blank"
 						data-largesrc="/images/press/big/lesaffaires.jpg" 
 						data-title="Les textiles intelligents: quand les tissus parlent" 
 						data-description="
@@ -162,6 +170,7 @@
 				</li>
 				<li class="mix">
 					<a href="http://infinityhousemagazine.com/2015/02/03/heddoko-first-motion-capture-gym-kit/" 
+						target="_blank"
 						data-largesrc="/images/press/big/infinityhouse.jpg" 
 						data-title="Heddoko: The First Motion Capture Gym Kit" 
 						data-description="
@@ -181,6 +190,7 @@
 				</li>
 				<li class="mix">
 					<a href="http://www.sporttechie.com/2015/02/27/heddoko-is-a-smart-garment-that-gives-athletes-3d-visuals-about-their-movements/" 
+						target="_blank"
 						data-largesrc="/images/press/big/sporttechie.jpg" 
 						data-title="Heddoko Is a Smart Garment That Gives Athletes 3D Visuals About Their Movements" 
 						data-description="

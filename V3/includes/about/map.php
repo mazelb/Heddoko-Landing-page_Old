@@ -9,7 +9,7 @@
 		<div class="container">
 			<div class="ci-inner col-md-6">
 				<i class="fa fa-map-marker"></i>
-				<p>EV 7.105, 1515 Rue Ste-Catherine O, Montr&eacute;al, QC</p>
+				<p>District 3 Innovation Center 1250 Guy Street, 6th floor, Montr&eacute;al, QC H3H 2L3</p>
 			</div>
 			<div class="ci-inner col-md-6">
 				<i class="fa fa-envelope"></i>

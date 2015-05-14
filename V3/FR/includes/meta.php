@@ -70,7 +70,7 @@ if(count($dir) > 1) {
 <!-- facebook -->
 <meta property="og:title" content="Heddoko <?echo $title; ?>" />
 <meta property="og:site_name" content="Heddoko"/>
-<meta property="og:description" content="Heddoko est un habit de compression intelligent avec capteurs de mouvement intégrés qui détectent les mouvements du corps au complet en 3D. Il est concu pour les athletes et les enthusiastes de sport leur offrant un coaching virtuel." />
+<meta property="og:description" content="Heddoko est un habit de compression intelligent avec capteurs de mouvement int&eacute;gr&eacute;s qui d&eacute;tectent les mouvements du corps au complet en 3D. Il est concu pour les athletes et les enthusiastes de sport leur offrant un coaching virtuel." />
 <!-- end facebook -->
 
 <!-- Custom Google Web Font -->

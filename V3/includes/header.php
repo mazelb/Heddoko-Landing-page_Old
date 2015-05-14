@@ -71,7 +71,7 @@ switch($fileName) {
 							</ul>
 					</li>
 					<li class="<?php echo $links[4]; ?>"><a href="/faq">FAQ <span></span></a></li>
-					<li class="<?php echo $links[5]; ?>"><a href="http://blog.heddoko.com">Blog <span></span></a></li>
+					<li class="<?php echo $links[5]; ?>"><a target="_blank" href="http://blog.heddoko.com">Blog <span></span></a></li>
 					<li class="<?php echo $links[6]; ?>"><a href="/signup">Sign Up <span></span></a></li>
 					<li class="<?php echo $links[6]; ?>"><a href="/FR/">fr <span></span></a></li>
 				</ul>

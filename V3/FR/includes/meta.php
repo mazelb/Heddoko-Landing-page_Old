@@ -67,6 +67,12 @@ if(count($dir) > 1) {
 <meta name="msapplication-TileImage" content="<?php echo $dir; ?>images/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
+<!-- facebook -->
+<meta property="og:title" content="Heddoko <?echo $title; ?>" />
+<meta property="og:site_name" content="Heddoko"/>
+<meta property="og:description" content="HEDDOKO is a wearable technology that serves as a personal training partner and coaching companion. HEDDOKO is a smart compression garment that uses textile embedded sensors to continuously track your body movement and give you live 3D coaching. " />
+<!-- end facebook -->
+
 <!-- Custom Google Web Font -->
 <link href="<?php echo $dir; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet">
 

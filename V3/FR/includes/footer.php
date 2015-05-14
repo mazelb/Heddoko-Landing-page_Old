@@ -37,7 +37,7 @@
 				<a href="/FR/faq">FAQ</a>
 			</li>
 			<li>
-				<a href="/FR/blog">Blog</a>
+				<a href="http://blog.heddoko.com" target="_blank">Blogue</a>
 			</li>
 			<li>
 				<a href="/FR/signup">S'inscrire</a>

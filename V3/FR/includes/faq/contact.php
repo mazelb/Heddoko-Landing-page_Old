@@ -16,7 +16,7 @@
 			</div>
 			<div class="col-md-12">
 				<div class="space10"></div>
-				<button type="submit">Envoyez-nous un message</button>
+				<button type="submit" id="faq_pg_sendmessage_btn" >Envoyez-nous un message</button>
 			</div>
 		</form>
 		<div id="successMessage" class="successmessage">

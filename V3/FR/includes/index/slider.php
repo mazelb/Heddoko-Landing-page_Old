@@ -8,7 +8,7 @@
 
 		<h1>Le premier habit intelligent <br/><span> à detecter tous les mouvements du corps en 3D</span></h1>
 	 
-		<a href="#" class="btn btn-default">M'inscrire pour l'accès Bêta</a>
+		<a href="#" class="btn btn-default" id="index_pg_signup_btn">M'inscrire pour l'accès Bêta</a>
 	</div>
 </div>
 </section>

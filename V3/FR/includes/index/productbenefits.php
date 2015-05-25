@@ -15,8 +15,8 @@
 
 				<div class="col-xs-12 buttons" data-animated="0">
 					<div class="row">
-						<div class="col-xs-12 col-lg-5 col-lg-offset-1"><a href="/FR/product/#benefitsathletes" class="btn btn-default">Avantages athlètes</a></div>
-						<div class="col-xs-12 col-lg-5 text-right"><a href="/FR/product/#benefitscoaches" class="btn btn-default">Avantages coachs</a></div>
+						<div class="col-xs-12 col-lg-5 col-lg-offset-1"><a href="/FR/product/#benefitsathletes" class="btn btn-default" id="index_pg_benefits_ahtletes_btn">Avantages athlètes</a></div>
+						<div class="col-xs-12 col-lg-5 text-right"><a href="/FR/product/#benefitscoaches" class="btn btn-default" id="index_pg_benefits_coaches_btn">Avantages coachs</a></div>
 					</div>
 				</div>
 			</div>

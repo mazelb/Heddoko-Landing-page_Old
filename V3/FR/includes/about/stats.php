@@ -3,7 +3,7 @@
 	<div class="overlay"></div>
 	<div class="container skills-wrap">
 		<div class="col-md-12">
-			<a href="https://docs.google.com/forms/d/1mJyvDgYZ0CGxf-ot-dta-xOo7FCy26B_IawwkLufBTU/viewform" target="_blank"><h4>Vous souhaitez rejoindre l'équipe? Appliquez ici!</h4></a>
+			<a id="about_pg_join_btn" href="https://docs.google.com/forms/d/1mJyvDgYZ0CGxf-ot-dta-xOo7FCy26B_IawwkLufBTU/viewform" target="_blank"><h4>Vous souhaitez rejoindre l'équipe? Appliquez ici!</h4></a>
 			<p><small>Nous sommes...</small></p>
 			<div class="row">
 				<ul>

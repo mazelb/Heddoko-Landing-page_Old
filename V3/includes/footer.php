@@ -5,42 +5,42 @@
 		<div class="hidden-xs hidden-sm col-md-10 col-lg-10 col-md-offset-1">
 		<ul class="footer-nav">					
 			<li>
-				<a href="/">Home</a>
+				<a id="footer_menu_home" href="/">Home</a>
 			</li>
 			<li>
-				<a href="/product">Product</a>
+				<a id="footer_menu_product" href="/product">Product</a>
 				<ul>
-					<li><a href="/product/#howitworks">How it works</a></li>
-					<li><a href="/product/#garment">Garment</a></li>
-					<li><a href="/product/#mobile">Mobile App</a></li>
-					<li><a href="/product/#web">Web App</a></li>
-					<li><a href="/product/#benefits">Benefits</a></li>
+					<li><a id="footer_menu_prod_howitworks" href="/product/#howitworks">How it works</a></li>
+					<li><a id="footer_menu_prod_garment" href="/product/#garment">Garment</a></li>
+					<li><a id="footer_menu_prod_mobile" href="/product/#mobile">Mobile App</a></li>
+					<li><a id="footer_menu_prod_web" href="/product/#web">Web App</a></li>
+					<li><a id="footer_menu_prod_benefits" href="/product/#benefits">Benefits</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="/about">About us</a>
+				<a id="footer_menu_about" href="/about">About us</a>
 				<ul>
-					<li><a href="/about/#mission">Our Mission</a></li>
-					<li><a href="/about/#team">Our Team</a></li>
-					<li><a href="/about/#jointeam">Jobs</a></li>
-					<li><a href="/about/#contact">Contact Us</a></li>
+					<li><a id="footer_menu_about_mission" href="/about/#mission">Our Mission</a></li>
+					<li><a id="footer_menu_about_team" href="/about/#team">Our Team</a></li>
+					<li><a id="footer_menu_about_join" href="/about/#jointeam">Jobs</a></li>
+					<li><a id="footer_menu_about_contact" href="/about/#contact">Contact Us</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="/press">Press</a>
+				<a id="footer_menu_press" href="/press">Press</a>
 				<ul>
-					<li><a href="/press/#inpress">In The News</a></li>
-					<li><a href="/press/#packages">Media Kit</a></li>
+					<li><a id="footer_menu_press_news" href="/press/#inpress">In The News</a></li>
+					<li><a id="footer_menu_press_mediakit" href="/press/#packages">Media Kit</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="/faq">FAQ</a>
+				<a id="footer_menu_faq" href="/faq">FAQ</a>
 			</li>
 			<li>
-				<a href="http://blog.heddoko.com" target="_blank">Blog</a>
+				<a id="footer_menu_blog" href="http://blog.heddoko.com" target="_blank">Blog</a>
 			</li>
 			<li>
-				<a href="/signup">Sign up</a>
+				<a id="footer_menu_signup" href="/signup">Sign up</a>
 			</li>
 		</ul>	
 		</div>
@@ -48,12 +48,12 @@
 		
 		<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer-social">
-			<p><a href="https://www.facebook.com/heddoko" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>
-			<a href="https://twitter.com/heddoko" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
-			<a href="https://www.linkedin.com/company/heddoko" target="_blank"><i class="fa fa-3x fa-linkedin"></i></a>
-			<a href="https://instagram.com/heddoko/" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
-			<a href="https://www.pinterest.com/heddoko/" target="_blank"><i class="fa fa-3x fa-pinterest"></i></a>
-			<a href="https://vimeo.com/user29815178" target="_blank"><i class="fa fa-3x fa-vimeo"></i></a></p>
+			<p><a id="footer_social_facebook" href="https://www.facebook.com/heddoko" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>
+			<a id="footer_social_twitter" href="https://twitter.com/heddoko" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
+			<a id="footer_social_linkedin" href="https://www.linkedin.com/company/heddoko" target="_blank"><i class="fa fa-3x fa-linkedin"></i></a>
+			<a id="footer_social_instagram" href="https://instagram.com/heddoko/" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
+			<a id="footer_social_pinterest" href="https://www.pinterest.com/heddoko/" target="_blank"><i class="fa fa-3x fa-pinterest"></i></a>
+			<a id="footer_social_vimeo" href="https://vimeo.com/user29815178" target="_blank"><i class="fa fa-3x fa-vimeo"></i></a></p>
 		</div>
 
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

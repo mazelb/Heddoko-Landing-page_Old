@@ -13,7 +13,7 @@
 					</div>
 				</div>
 
-				<p data-animated="0"><a href="/product/#mobile" class="btn btn-default">Learn more</a></p>
+				<p data-animated="0"><a href="/product/#mobile" class="btn btn-default" id="index_pg_mobile_learnmore_btn">Learn more</a></p>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 image">
 				<div class="image-container" data-animated="0">

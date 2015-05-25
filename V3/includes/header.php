@@ -46,34 +46,34 @@ switch($fileName) {
 			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 				<ul class="nav navbar-nav">
 					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-					<li class="<?php echo $links[0]; ?>"><a href="/">Home <span></span></a></li>
-					<li class="<?php echo $links[1]; ?>"><a href="/product">Product <span></span></a>
+					<li class="<?php echo $links[0]; ?>"><a id="nav_menu_home" href="/">Home <span></span></a></li>
+					<li class="<?php echo $links[1]; ?>"><a id="nav_menu_product" href="/product">Product <span></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="/product/#howitworks">How it works</a></li>
-							<li><a href="/product/#garment">Garment</a></li>
-							<li><a href="/product/#mobile">Mobile App</a></li>
-							<li><a href="/product/#web">Web App</a></li>
-							<li><a href="/product/#benefits">Benefits</a></li>
+							<li><a id="nav_menu_prod_howitworks" href="/product/#howitworks">How it works</a></li>
+							<li><a id="nav_menu_prod_garment" href="/product/#garment">Garment</a></li>
+							<li><a id="nav_menu_prod_mobile" href="/product/#mobile">Mobile App</a></li>
+							<li><a id="nav_menu_prod_web" href="/product/#web">Web App</a></li>
+							<li><a id="nav_menu_prod_benefits" href="/product/#benefits">Benefits</a></li>
 						</ul>
 					</li>
-					<li class="<?php echo $links[2]; ?>"><a href="/about" role="button">About Us <span></span></a>
+					<li class="<?php echo $links[2]; ?>"><a id="nav_menu_about" href="/about" role="button">About Us <span></span></a>
 						<ul class="dropdown-menu" role="menu">
-							<li><a href="/about/#mission">Our Mission</a></li>
-							<li><a href="/about/#team">Our Team</a></li>
-							<li><a href="/about/#jointeam">Jobs</a></li>
-							<li><a href="/about/#contact">Contact Us</a></li>
+							<li><a id="nav_menu_about_mission" href="/about/#mission">Our Mission</a></li>
+							<li><a id="nav_menu_about_team" href="/about/#team">Our Team</a></li>
+							<li><a id="nav_menu_about_join" href="/about/#jointeam">Jobs</a></li>
+							<li><a id="nav_menu_about_contact" href="/about/#contact">Contact Us</a></li>
 						</ul>
 					</li>
-					<li class="<?php echo $links[3]; ?>"><a href="/press" role="button">Press <span></span></a>
+					<li class="<?php echo $links[3]; ?>"><a id="nav_menu_press" href="/press" role="button">Press <span></span></a>
 						<ul class="dropdown-menu" role="menu">
-								<li><a href="/press/#inpress">In The News</a></li>
-								<li><a href="/press/#packages">Media Kit</a></li>
+								<li><a id="nav_menu_press_news" href="/press/#inpress">In The News</a></li>
+								<li><a id="nav_menu_press_mediakit" href="/press/#packages">Media Kit</a></li>
 							</ul>
 					</li>
-					<li class="<?php echo $links[4]; ?>"><a href="/faq">FAQ <span></span></a></li>
-					<li class="<?php echo $links[5]; ?>"><a target="_blank" href="http://blog.heddoko.com">Blog <span></span></a></li>
-					<li class="<?php echo $links[6]; ?>"><a href="/signup">Sign Up <span></span></a></li>
-					<li class="<?php echo $links[6]; ?>"><a href="/FR/">fr <span></span></a></li>
+					<li class="<?php echo $links[4]; ?>"><a id="nav_menu_faq" href="/faq">FAQ <span></span></a></li>
+					<li class="<?php echo $links[5]; ?>"><a id="nav_menu_blog" target="_blank" href="http://blog.heddoko.com">Blog <span></span></a></li>
+					<li class="<?php echo $links[6]; ?>"><a id="nav_menu_signup" href="/signup">Sign Up <span></span></a></li>
+					<li class="<?php echo $links[6]; ?>"><a id="nav_menu_FR" href="/FR/">fr <span></span></a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->

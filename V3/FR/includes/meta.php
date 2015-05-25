@@ -4,43 +4,43 @@ Defines directory for images, css, scripts, titles, and descriptions
 ======================================= */
 $dir = array_filter(explode("/", $_SERVER['PHP_SELF']));
 
-if(count($dir) > 1) {
-	switch($dir[1]) {
+if(count($dir) > 2) {
+	switch($dir[2]) {
 		case 'product':
 			$title = '| Product';
-			$description = '';
+			$descriptionFR = 'Heddoko est un habit de compression intelligent avec capteurs de mouvement intégrés qui détectent les mouvements du corps au complet en 3D.';
 		break;
 
 		case 'about':
 			$title = '| About Us';
-			$description = '';
+			$descriptionFR = 'Qui nous sommes.';
 		break;
 
 		case 'press':
 			$title = '| Press';
-			$description = '';
+			$descriptionFR = 'Heddoko a fait vibré les médias, voici pourquoi!';
 		break;
 
 		case 'faq':
 			$title = '| FAQ';
-			$description = '';
+			$descriptionFR = 'Si vous avez des questions au sujet de notre produit et de son fonctionnement, hésitez pas à nous envoyez un message !';
 		break;
 
 		case 'signup':
 			$title = '| Sign Up';
-			$description = '';
+			$descriptionFR = 'Inscrivez-vous à notre liste de courriels pour recevoir les dernières nouvelles de Heddoko.';
 		break;
 	}
 	$dir = '../';
 } else {
 	$title = '| Home';
-	$description = 'Heddoko Empowers perfection in your training by tracking your movement and getting live coaching feedback, it\'s your own personal performance centre';
+	$descriptionFR = 'Heddoko est un habit de compression intelligent avec capteurs intégrés qui détectent les mouvements du corps au complet en 3D offrant un coaching virtuel.';
 	$dir = '';
 } ?>
 <!-- Meta -->
 <meta charset="utf-8">
 <meta name="keywords" content="" />
-<meta name="description" content="<?php echo $description; ?>">
+<meta name="description" content="<?php echo $descriptionFR; ?>">
 <meta name="author" content="">
 
 <title>Heddoko <?echo $title; ?></title>
@@ -113,3 +113,17 @@ if(count($dir) > 1) {
 <script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
     for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
     mixpanel.init("67c31e2bae18b35fd6673dfea913eb25");</script>
+
+<!-- HOT JAR -->
+<!-- Hotjar Tracking Code for www.heddoko.com -->
+<script>
+    (function(f,b){
+        var c;
+        f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+        f._hjSettings={hjid:35601, hjsv:4};
+        c=b.createElement("script");c.async=1;
+        c.src="//static.hotjar.com/c/hotjar-"+f._hjSettings.hjid+".js?sv="+f._hjSettings.hjsv;
+        b.getElementsByTagName("head")[0].appendChild(c); 
+    })(window,document);
+</script>
+

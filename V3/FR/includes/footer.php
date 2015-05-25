@@ -5,42 +5,42 @@
 		<div class="hidden-xs hidden-sm col-md-10 col-lg-10 col-md-offset-1">
 		<ul class="footer-nav">
 			<li>
-				<a href="/">Accueil</a>
+				<a id="footer_menu_home" href="/">Accueil</a>
 			</li>
 			<li>
-				<a href="/product">Produit</a>
+				<a id="footer_menu_product" href="/product">Produit</a>
 				<ul>
-					<li><a href="/FR/product/#howitworks">Fonctionnement</a></li>
-					<li><a href="/FR/product/#garment">L'habit</a></li>
-					<li><a href="/FR/product/#mobile">Application mobile</a></li>
-					<li><a href="/FR/product/#web">Application Web</a></li>
-					<li><a href="/FR/product/#benefits">Les avantages</a></li>
+					<li><a id="footer_menu_prod_howitworks" href="/FR/product/#howitworks">Fonctionnement</a></li>
+					<li><a id="footer_menu_prod_garment" href="/FR/product/#garment">L'habit</a></li>
+					<li><a id="footer_menu_prod_mobile" href="/FR/product/#mobile">Application mobile</a></li>
+					<li><a id="footer_menu_prod_web" href="/FR/product/#web">Application Web</a></li>
+					<li><a id="footer_menu_prod_benefits" href="/FR/product/#benefits">Les avantages</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="/about">À propos</a>
+				<a id="footer_menu_about" href="/about">À propos</a>
 				<ul>
-					<li><a href="/FR/about/#mission">Notre Mission</a></li>
-					<li><a href="/FR/about/#team">Notre équipe</a></li>
-					<li><a href="/FR/about/#jointeam">Postuler</a></li>
-					<li><a href="/FR/about/#contact">Contactez-nous</a></li>
+					<li><a id="footer_menu_about_mission" href="/FR/about/#mission">Notre Mission</a></li>
+					<li><a id="footer_menu_about_team" href="/FR/about/#team">Notre équipe</a></li>
+					<li><a id="footer_menu_about_join" href="/FR/about/#jointeam">Postuler</a></li>
+					<li><a id="footer_menu_about_contact" href="/FR/about/#contact">Contactez-nous</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="/press">Médias</a>
+				<a id="footer_menu_press" href="/press">Médias</a>
 				<ul>
-					<li><a href="/FR/press/#inpress">Dans les Médias</a></li>
-					<li><a href="/FR/press/#packages">Trousse média</a></li>
+					<li><a id="footer_menu_press_news" href="/FR/press/#inpress">Dans les Médias</a></li>
+					<li><a id="footer_menu_press_mediakit" href="/FR/press/#packages">Trousse média</a></li>
 				</ul>
 			</li>
 			<li>
-				<a href="/FR/faq">FAQ</a>
+				<a id="footer_menu_faq" href="/FR/faq">FAQ</a>
 			</li>
 			<li>
-				<a href="http://blog.heddoko.com" target="_blank">Blogue</a>
+				<a id="footer_menu_blog" href="http://blog.heddoko.com" target="_blank">Blogue</a>
 			</li>
 			<li>
-				<a href="/FR/signup">S'inscrire</a>
+				<a id="footer_menu_signup" href="/FR/signup">S'inscrire</a>
 			</li>
 		</ul>	
 		</div>
@@ -48,12 +48,12 @@
 		
 		<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer-social">
-			<p><a href="https://www.facebook.com/heddoko" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>
-			<a href="https://twitter.com/heddoko" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
-			<a href="https://www.linkedin.com/company/heddoko" target="_blank"><i class="fa fa-3x fa-linkedin"></i></a>
-			<a href="https://instagram.com/heddoko/" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
-			<a href="https://www.pinterest.com/heddoko/" target="_blank"><i class="fa fa-3x fa-pinterest"></i></a>
-			<a href="https://vimeo.com/user29815178" target="_blank"><i class="fa fa-3x fa-vimeo"></i></a></p>
+			<p><a id="footer_social_facebook" href="https://www.facebook.com/heddoko" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>
+			<a id="footer_social_twitter" href="https://twitter.com/heddoko" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
+			<a id="footer_social_linkedin" href="https://www.linkedin.com/company/heddoko" target="_blank"><i class="fa fa-3x fa-linkedin"></i></a>
+			<a id="footer_social_instagram" href="https://instagram.com/heddoko/" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
+			<a id="footer_social_pinterest" href="https://www.pinterest.com/heddoko/" target="_blank"><i class="fa fa-3x fa-pinterest"></i></a>
+			<a id="footer_social_vimeo" href="https://vimeo.com/user29815178" target="_blank"><i class="fa fa-3x fa-vimeo"></i></a></p>
 		</div>
 
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">

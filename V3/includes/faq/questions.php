@@ -4,7 +4,8 @@
 		<div class="col-md-12 no-padding">
 			<ul id="og-grid" class="og-grid">
 				<li class="mix">
-					<a href="#" 
+					<a href="#"
+						id="faq_pg_app_btn"  
 						data-title="App" 
 						data-description="
 						<strong>Can I access my data anywhere?</strong><br/>
@@ -27,6 +28,7 @@
 				</li>
 				<li class="mix">
 					<a href="#" 
+						id="faq_pg_garment_btn"
 						data-title="Garment" 
 						data-description="
 						<strong>How long does the battery last?</strong><br/>
@@ -49,6 +51,7 @@
 				</li>
 				<li class="mix">
 					<a href="#" 
+						id="faq_pg_team_btn"
 						data-title="Team Management" 
 						data-description="
 						<strong>I’m a coach - can I monitor each athlete on my team simultaneously?</strong><br/>
@@ -74,6 +77,7 @@
 				</li>
 				<li class="mix">
 					<a href="#" 
+						id="faq_pg_athletes_btn"
 						data-title="Athletes" 
 						data-description="
 						<strong>How does the system recognize me?</strong><br/>

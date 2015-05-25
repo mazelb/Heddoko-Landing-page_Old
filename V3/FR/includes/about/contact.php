@@ -17,7 +17,7 @@
 			</div>
 			<div class="col-md-12">
 				<div class="space10"></div>
-				<button type="submit">Envoyer</button>
+				<button type="submit" id="about_pg_sendmessage_btn" >Envoyer</button>
 			</div>
 		</form>
 		<div id="successMessage" class="successmessage">

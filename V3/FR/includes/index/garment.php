@@ -14,7 +14,7 @@
 					</div>
 				</div>
 
-				<p data-animated="0"><a href="/FR/product/#garment" class="btn btn-default">Pour en savoir plus clickez ici</a></p>
+				<p data-animated="0"><a href="/FR/product/#garment" class="btn btn-default" id="index_pg_garment_learnmore_btn">Pour en savoir plus clickez ici</a></p>
 			</div>
 			<div class="col-xs-12 col-md-6 image">
 				<img src="images/index/garment.png" data-animated="4" >

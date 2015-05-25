@@ -8,7 +8,7 @@
 
 		<h1>The First Smart Compression Suit <br/><span> That Tracks Full-Body Movement In 3D</span></h1>
 	
-		<a href="#" class="btn btn-default">Sign Me Up for Beta Access</a>
+		<a href="#" class="btn btn-default" id="index_pg_signup_btn">Sign Me Up for Beta Access</a>
 	</div>
 </div>
 </section>

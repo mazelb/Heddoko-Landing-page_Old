@@ -5,6 +5,7 @@
 			<ul id="og-grid" class="og-grid">
 				<li class="mix">
 					<a href="#" 
+						id="faq_pg_app_btn"  
 						data-title="L'Application" 
 						data-description="
 						<strong>Puis-je accéder à mes données de n'importe où?</strong><br/>
@@ -27,6 +28,7 @@
 				</li>
 				<li class="mix">
 					<a href="#" 
+						id="faq_pg_garment_btn"
 						data-title="Vêtement" 
 						data-description="
 						<strong>Comment nettoyer les vêtements Heddoko ?</strong><br/>
@@ -49,6 +51,7 @@
 				</li>
 				<li class="mix">
 					<a href="#" 
+						id="faq_pg_team_btn"
 						data-title="Pour les Coachs" 
 						data-description="
 						<strong>Je suis coach: puis-je surveiller simultanément chaque athlète de mon équipe ?</strong><br/>
@@ -74,6 +77,7 @@
 				</li>
 				<li class="mix">
 					<a href="#" 
+						id="faq_pg_athletes_btn"
 						data-title="Athletes" 
 						data-description="
 						<strong>Comment le système me reconnait-il ?</strong><br/>

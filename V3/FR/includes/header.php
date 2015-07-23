@@ -73,7 +73,7 @@ switch($fileName) {
 					<li class="<?php echo $links[4]; ?>"><a id="nav_menu_faq" href="/FR/faq">FAQ <span></span></a></li>
 					<li class="<?php echo $links[5]; ?>"><a id="nav_menu_blog" target="_blank" href="http://blog.heddoko.com">Blog <span></span></a></li>
 					<li class="<?php echo $links[6]; ?>"><a id="nav_menu_signup" href="/FR/signup">S'inscrire <span></span></a></li>
-					<li class="<?php echo $links[6]; ?>"><a id="nav_menu_FR" href="/">en <span></span></a></li>
+					<li><a id="nav_menu_FR" href="/">en <span></span></a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->

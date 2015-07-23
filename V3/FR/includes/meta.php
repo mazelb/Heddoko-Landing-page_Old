@@ -26,8 +26,8 @@ if(count($dir) > 2) {
 			$descriptionFR = 'Si vous avez des questions au sujet de notre produit et de son fonctionnement, hésitez pas à nous envoyez un message !';
 		break;
 
-		case 'S\'inscrire':
-			$title = '| Sign Up';
+		case 'signup':
+			$title = '| S\'inscrire';
 			$descriptionFR = 'Inscrivez-vous à notre liste de courriels pour recevoir les dernières nouvelles de Heddoko.';
 		break;
 	}

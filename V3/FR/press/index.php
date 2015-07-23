@@ -8,7 +8,7 @@
 	
 	<?php $fileName = basename(__DIR__); ?>
 
-	<link rel="stylesheet" href="../css/<?php echo $fileName; ?>.css?v=<?php echo rand(); ?>" />
+	<link rel="stylesheet" href="../../css/<?php echo $fileName; ?>.css?v=<?php echo rand(); ?>" />
 </head>
 
 <body id="page-top" class="template-<?php echo $fileName; ?>">

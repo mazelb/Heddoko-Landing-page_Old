@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<!--[if IE 8]>			<html class="ie ie8"> <![endif]-->
-<!--[if IE 9]>			<html class="ie ie9"> <![endif]-->
-<!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
+<!--[if IE 8]>			<html class="ie ie8" lang="fr"> <![endif]-->
+<!--[if IE 9]>			<html class="ie ie9" lang="fr"> <![endif]-->
+<!--[if gt IE 9]><!-->	<html lang="fr"> <!--<![endif]-->
 <head>
 	
 	<?php include('includes/meta.php'); ?>

@@ -8,7 +8,7 @@
 	
 	<?php $fileName =  str_replace('.php', '', basename($_SERVER['PHP_SELF']) ); ?>
 
-	<link rel="stylesheet" href="css/<?php echo $fileName; ?>.css?v=<?php echo rand(); ?>" />
+	<link rel="stylesheet" href="../css/<?php echo $fileName; ?>.css?v=<?php echo rand(); ?>" />
 </head>
 
 <body id="page-top" class="template-<?php echo $fileName; ?>">

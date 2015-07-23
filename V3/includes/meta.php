@@ -43,7 +43,7 @@ if(count($dir) > 1) {
 <meta name="description" content="<?php echo $description; ?>">
 <meta name="author" content="">
 
-<title>Heddoko <?echo $title; ?></title>
+<title>Heddoko <?php echo $title; ?></title>
 
 <!-- Mobile Metas -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

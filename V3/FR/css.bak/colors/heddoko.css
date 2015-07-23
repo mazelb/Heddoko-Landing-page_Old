@@ -1,0 +1,255 @@
+.navbar-brand span {
+	color: #3bd6b2;
+}
+
+.btn-home:before ,
+.btn-home:after {
+	content: "";
+	background: #3bd6b2;
+}
+
+.flogo span {
+	color: #3bd6b2;
+}
+
+.side-widget h5 {
+	color: #3bd6b2;
+}
+
+.side-list li:before {
+	content: "";
+	background: #36c8f9;
+}
+
+.btop {
+	color: #3bd6b2;
+}
+
+.navbar-nav li.active a,.navbar-nav li a:hover {
+	/*color: #3bd6b2;*/
+	color: white;
+	border-bottom: 2px solid white;
+}
+
+#owl-intro .item a:before ,
+#owl-intro .item a:after {
+	content: "";
+	background: #3bd6b2;
+}
+
+#owl-intro .owl-controls .owl-prev:hover,#owl-intro .owl-controls .owl-next:hover,#owl-folio .owl-controls .owl-prev:hover,#owl-folio .owl-controls .owl-next:hover {
+	background: #3bd6b2;
+}
+
+.folio-filter li:hover, .folio-filter li.active {
+	background: #3bd6b2 !important;
+}
+
+#services ul li:hover .ico i {
+	color: #3bd6b2 !important;
+}
+
+#services ul li:nth-child(3) .ico i {
+	color: #3bd6b2;
+}
+
+#owl-fworks .owl-prev:hover:before ,
+#owl-fworks .owl-next:hover:before {
+	color: #3bd6b2;
+}
+
+.s-btn:before ,
+.s-btn:after ,
+.contact-form button:before ,
+.contact-form button:after ,
+.c-form button:before ,
+.c-form button:after {
+	content: "";
+	background: #3bd6b2;
+}
+
+.a-ico i {
+	background: #3bd6b2;
+	border: 1px solid #3bd6b2;
+}
+
+.about-inner h2 span {
+	background: #3bd6b2;
+}
+
+#facts ul li i {
+	color: #49434d;
+}
+
+#facts h3,.inner-wrap2 h3 {
+	color: #3bd6b2;
+}
+
+.services2-content ul li:hover i {
+	background: #3bd6b2;
+}
+
+.services2-content ul li:hover h4 {
+	color: #3bd6b2;
+}
+
+.cq-info span {
+	color: #3bd6b2;
+}
+
+.team-info h4 span {
+	color: #3bd6b2;
+}
+
+.folio-inner h4 span {
+	color: #3bd6b2;
+}
+
+#team .item:hover .team-info {
+	background: #3bd6b2;
+}
+
+.folio-info:hover .folio-inner {
+	background: #3bd6b2;
+}
+
+#owl-team .owl-controls .owl-page.active span {
+	background: #3bd6b2;
+}
+
+.team-overlay .social {
+	background: #3bd6b2;
+}
+
+#owl-team .team-overlay .social li a {
+	color: #3bd6b2 !important;
+}
+
+.cinfo:before {
+	content: "";
+	background: #3bd6b2;
+}
+
+footer p a:hover {
+	color: #3bd6b2;
+}
+
+.social li a:hover {
+	background: #3bd6b2;
+}
+
+.ci-inner i {
+	color: #3bd6b2;
+}
+
+.social-big li a:hover {
+	color: #3bd6b2;
+}
+
+.page-head h2 {
+	color: #3bd6b2;
+}
+
+.rmore:before ,
+.rmore:after {
+	content: "";
+	background: #3bd6b2;
+}
+
+article h4 a:hover {
+	color: #3bd6b2;
+}
+
+.p-ico i {
+	color: #3bd6b2;
+}
+
+.rposts-list li h4 a:hover {
+	color: #3bd6b2;
+}
+
+.tags-list li a:hover {
+	background: #3bd6b2;
+	border: 1px solid #3bd6b2;
+}
+
+.page-nav ul li.active a,.page-nav ul li a:hover {
+	background: #3bd6b2;
+	border-color: #3bd6b2;
+}
+
+.blockquote-wrap {
+	border-left: 6px solid #3bd6b2;
+}
+
+.share-social li a:hover {
+	color: #3bd6b2;
+}
+
+.reply {
+	color: #3bd6b2;
+}
+
+.reply:hover {
+	color: #3bd6b2;
+}
+
+.reply:after {
+	content: "";
+	background: #3bd6b2;
+}
+
+.star .yes {
+	color: #3bd6b2;
+	font-size: 15px;
+}
+
+.bcrumbs li a {
+	color: #3bd6b2;
+}
+
+.lmore:hover {
+	background: #3bd6b2;
+	border: 1px solid #3bd6b2;
+}
+
+.pause-btn {
+	background: url(../../images/colors/heddoko/pause.png) no-repeat;
+}
+
+.play-btn {
+	background: url(../../images/colors/heddoko/play.png) no-repeat;
+}
+
+.blockquote:before {
+	content: "";
+	background: url(../../images/colors/heddoko/quote.png) no-repeat center center;
+}
+
+.sep {
+	background: url(../../images/colors/heddoko/sep.png) no-repeat center;
+}
+
+#services h3, #fworks h3, #about h3, #services2 h3, #team h3, #portfolio h2, .map-wrap h3, .main-content h3 {
+	background: url(../../images/colors/heddoko/sep.png) no-repeat center bottom;
+}
+
+.clients-info h3 {
+	background: url(../../images/sep.png) no-repeat center bottom;
+}
+
+.about ul {
+	background: url(../../images/colors/heddoko/icon-sep.png) no-repeat left center;
+}
+
+#services2 {
+	background: url(../../images/colors/heddoko/sep-big.png) no-repeat center bottom;
+}
+
+.social-big-wrap {
+	background: url(../../images/colors/heddoko/sep-big.png) no-repeat center bottom;
+}
+
+article {
+	background: url(../../images/colors/heddoko/sep-big.png) no-repeat center bottom;
+}

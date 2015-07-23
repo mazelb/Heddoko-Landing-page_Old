@@ -1,0 +1,91 @@
+/*
+
+COLORS ----------------
+GREEN 			#3bd6b2 / rgba(59, 214, 178, 1)
+DARKGREY 		#49434d / rgba(73, 67, 77, 1)
+LIGHTGREY 		#858585 / rgba(133, 133, 133, 1)
+
+*/
+
+/* =====================================================================
+QUESTIONS
+===================================================================== */
+#portfolio {
+	border: 0;
+	margin: 0;
+	padding-top: 0;
+}
+
+#portfolio #folio {}
+
+#portfolio #folio #og-grid {}
+
+#portfolio #folio #og-grid .og-expander {
+	margin-top: 0;
+	margin-bottom: 0;
+	background: #49434d;
+}
+
+#portfolio #folio #og-grid li:nth-child(4) {
+	/*white-space: pre;*/
+}
+
+#portfolio #folio #og-grid li.og-expanded > a::after {
+	border-bottom-color: #49434d;
+}
+
+#portfolio #folio #og-grid li.og-expanded .pthumb {
+	background: rgba(59, 214, 178, 1);
+}
+
+#portfolio #folio #og-grid li .pthumb:before {
+	background: none;
+}
+
+#portfolio #folio #og-grid li .pthumb .p-overlay {
+	top: 0;
+	bottom: 0;
+	background: rgba(59, 214, 178, 0.65);
+}
+
+#portfolio #folio #og-grid li .pthumb .p-overlay h5 {
+	display: none;
+}
+
+#portfolio #folio #og-grid h3 {
+	color: #bbb9b6;
+}
+
+#portfolio #folio #og-grid p, #portfolio #folio #og-grid p span {
+	color: #ffffff;
+}
+
+#portfolio #folio #og-grid p em b {
+	color: #bbb9b6;
+}
+
+#portfolio #folio #og-grid .og-expander .og-expander-inner .og-details {
+	width: 100%;
+	overflow-y: scroll;
+}
+
+#portfolio #folio #og-grid  .og-details a:before, .og-details a,
+#portfolio #folio #og-grid  .og-details a:before, .og-details a:hover {
+	color: #fff;
+	display: none;
+}
+
+#portfolio #folio #og-grid  .og-details a:before, .og-details a:after {
+	background: #3bd6b2;
+}
+
+#portfolio #folio #og-grid .og-fullimg {
+	display: none;
+}
+
+/* =====================================================================
+CONTACT
+===================================================================== */
+#contact h4 {
+	font-weight: 400;
+}

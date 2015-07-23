@@ -11,7 +11,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-dark-suit.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-suit.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Suit up and set up</h4>
@@ -23,7 +23,7 @@
 
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-reduceinjury.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-reduceinjury.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Reduce risk of injury</h4>
@@ -37,7 +37,7 @@ Pinpoint mobility and stability issues that might predispose you to injury.</p>
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-dark-instant.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-instant.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Get instant, specific feedback</h4>
@@ -49,7 +49,7 @@ Pinpoint mobility and stability issues that might predispose you to injury.</p>
 
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-dark-rehab.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-rehab.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Optimize rehabilitation</h4>
@@ -62,7 +62,7 @@ Pinpoint mobility and stability issues that might predispose you to injury.</p>
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-instantfeedback.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-instantfeedback.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Move more efficiently</h4>
@@ -73,7 +73,7 @@ Pinpoint mobility and stability issues that might predispose you to injury.</p>
 
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-dark-measure.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-measure.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Measure your progress</h4>

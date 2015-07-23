@@ -258,7 +258,7 @@ GARMENT
 
 	#garment .container .row > .content img, #garment .container .row > .content .has-icon-img {
 		width: 40%;
-        margin-bottom: 0;
+        padding-top: 40%;
 	}
 }
 
@@ -403,7 +403,7 @@ PRODUCT SPECS
 
 	#productspecs .container .row > .content img, #productspecs .container .row > .content .has-icon-img {
 		width: 40%;
-        margin-bottom: 0;
+        padding-top: 40%;
 	}
 }
 
@@ -413,7 +413,7 @@ PRODUCT SPECS
 	}
 	#productspecs .container .row > .content img, #productspecs .container .row > .content .has-icon-img {
 		width: 60%;
-        margin-bottom: 0;
+        padding-top: 60%;
 	}
 	#productspecs .container .row > .image img {
 		width: 60%;
@@ -666,7 +666,7 @@ PRODUCT BENEFITS
 
 	#productbenefits .container .row > .content img, #productbenefits .container .row > .content .has-icon-img {
 		width: 40%;
-        margin-bottom: 0;
+        padding-top: 40%;
 	}
 }
 
@@ -681,7 +681,7 @@ PRODUCT BENEFITS
 
 	#productbenefits .container .row > .content img, #productbenefits .container .row > .content .has-icon-img {
 		width: 60%;
-        margin-bottom: 0;
+        padding-top: 60%;
 	}
 	#productbenefits .container .row > .image img {
 		width: 60%;

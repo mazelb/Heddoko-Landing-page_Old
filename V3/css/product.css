@@ -322,13 +322,18 @@ GARMENT
 	margin-top: 30px;
 }
 
-#garment .content img {
+#garment .content img, #garment .content .has-icon-img {
 	display: block;
 	width: 80%;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
+}
+#garment .content .has-icon-img {
+    background: transparent center center no-repeat;
+    background-size: contain;
+    padding-top: 80%;
 }
 
 #garment .content p {
@@ -351,8 +356,9 @@ GARMENT
 }
 
 @media (max-width: 479px) {
-	#garment .container .row > .content img {
+	#garment .container .row > .content img, #garment .container .row > .content .has-icon-img {
 		width: 40%;
+        padding-top: 40%;
 	}
 }
 
@@ -361,8 +367,9 @@ GARMENT
 		width: 33.33%;
 	}
 
-	#garment .container .row > .content img {
+	#garment .container .row > .content img, #garment .container .row > .content .has-icon-img {
 		width: 60%;
+        padding-top: 60%;
 	}
 }
 
@@ -433,12 +440,18 @@ MOBILE
 	height: auto;
 }
 
-#mobile .container .row > .content .col-xs-12 .col-xs-12 img {
+#mobile .container .row > .content .col-xs-12 .col-xs-12 img,
+#mobile .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
 	width: 80%;
+}
+#mobile .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img {
+    background: transparent center center no-repeat;
+    background-size: contain;
+    padding-top: 80%;
 }
 
 #mobile .container .row > .content .col-xs-12 .col-xs-12 p {
@@ -449,8 +462,10 @@ MOBILE
 }
 
 @media (max-width: 479px) {
-	#mobile .container .row > .content .col-xs-12 .col-xs-12 img {
+	#mobile .container .row > .content .col-xs-12 .col-xs-12 img,
+    #mobile .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img {
 		width: 40%;
+        padding-top: 40%;
 	}
 }
 
@@ -463,8 +478,10 @@ MOBILE
 		margin-left: 16.665%;
 	}
 
-	#mobile .container .row > .content .col-xs-12 .col-xs-12 img {
+	#mobile .container .row > .content .col-xs-12 .col-xs-12 img,
+	#mobile .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img {
 		width: 60%;
+        padding-top: 60%;
 	}
 }
 
@@ -515,12 +532,18 @@ WEB
 	margin-right: auto;
 }
 
-#web .container .row > .content .col-xs-12 .col-xs-12 img {
+#web .container .row > .content .col-xs-12 .col-xs-12 img,
+#web .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
 	width: 80%;
+}
+#web .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img {
+    background: transparent center center no-repeat;
+    background-size: contain;
+    padding-top: 80%;
 }
 
 #web .container .row > .content .col-xs-12 .col-xs-12 p {
@@ -539,8 +562,10 @@ WEB
 }
 
 @media (max-width: 479px) {
-	#web .container .row > .content .col-xs-12 .col-xs-12 img {
+	#web .container .row > .content .col-xs-12 .col-xs-12 img,
+	#web .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img {
 		width: 40%;
+        padding-top: 40%;
 	}
 }
 
@@ -549,8 +574,10 @@ WEB
 		width: 33.33%;
 	}
 
-	#web .container .row > .content .col-xs-12 .col-xs-12 img {
+	#web .container .row > .content .col-xs-12 .col-xs-12 img,
+	#web .container .row > .content .col-xs-12 .col-xs-12 .has-icon-img {
 		width: 60%;
+        padding-top: 60%;
 	}
 }
 
@@ -760,19 +787,25 @@ BENEFITSATHLETES
 	margin-bottom: 0px;
 }
 
+#benefitsathletes .has-icon-img {
+    background: transparent center center no-repeat;
+    background-size: contain;
+}
+
 /* ===== MEDIA QUERIES ===== */
 @media (min-width: 1px) {
 	#benefitsathletes .column {
 		margin-bottom: 50px;
 	}
 
-	#benefitsathletes img {
+	#benefitsathletes img, #benefitsathletes .has-icon-img {
 		display: block;
 		width: 40%;
 		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 50px;
+        padding-top: 40%;
 	}
 
 	#benefitsathletes h4 {
@@ -786,11 +819,12 @@ BENEFITSATHLETES
 		margin-bottom: 100px;
 	}
 
-	#benefitsathletes img {
-		display: inline;
+	#benefitsathletes img, #benefitsathletes .has-icon-img {
+		display: inline-block;
 		width: 100%;
 		height: auto;
 		margin-bottom: 0px;
+        padding-top: 100%;
 	}
 
 	#benefitsathletes h4 {
@@ -866,19 +900,25 @@ BENEFITSCOACHES
 	margin-bottom: 0px;
 }
 
+#benefitscoaches .has-icon-img {
+    background: transparent center center no-repeat;
+    background-size: contain;
+}
+
 /* ===== MEDIA QUERIES ===== */
 @media (min-width: 1px) {
 	#benefitscoaches .column {
 		margin-bottom: 50px;
 	}
 
-	#benefitscoaches img {
+	#benefitscoaches img, #benefitscoaches .has-icon-img {
 		display: block;
 		width: 40%;
 		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 50px;
+        padding-top: 40%;
 	}
 
 	#benefitscoaches h4 {
@@ -892,11 +932,12 @@ BENEFITSCOACHES
 		margin-bottom: 100px;
 	}
 
-	#benefitscoaches img {
-		display: inline;
+	#benefitscoaches img, #benefitscoaches .has-icon-img {
+		display: inline-block;
 		width: 100%;
 		height: auto;
 		margin-bottom: 0px;
+        padding-top: 100%;
 	}
 
 	#benefitscoaches h4 {

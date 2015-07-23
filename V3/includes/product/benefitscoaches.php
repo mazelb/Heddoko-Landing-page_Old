@@ -11,7 +11,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-dark-manage.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-manage.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Team management</h4>
@@ -22,7 +22,7 @@
 
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-dark-monitoring.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-monitoring.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Athlete monitoring</h4>
@@ -35,7 +35,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-reduceinjury.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-reduceinjury.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Reduce risk of injury</h4>
@@ -47,7 +47,7 @@
 
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-coachanytime.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-coachanytime.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Coach anytime, anywhere</h4>
@@ -60,7 +60,7 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-dark-rehab.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-rehab.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Optimize rehabilitation</h4>
@@ -71,7 +71,7 @@
 
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-					<img src="../images/icons/icon-dark-productivity.svg" class="">
+                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-productivity.svg)"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Optimize productivity</h4>

@@ -16,15 +16,27 @@
 				
 				<div class="col-xs-12">
 					<div class="row">
-						<div class="col-xs-12 col-sm-4 col-sm-offset-2" data-animated="0"><img src="../images/icons/icon-white-feedback.svg" /> <p>Live 3D feedback</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="../images/icons/icon-white-audio.svg" /> <p>Instant audio feedback</p></div>
+                        <div class="col-xs-12 col-sm-4 col-sm-offset-2" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-feedback.svg)"></div>
+                            <p>Live 3D feedback</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-audio.svg)"></div>
+                            <p>Instant audio feedback</p>
+                        </div>
 					</div>
 				</div>
 
 				<div class="col-xs-12">
 					<div class="row">
-						<div class="col-xs-12 col-sm-4 col-sm-offset-2" data-animated="0"><img src="../images/icons/icon-white-movement.svg" /> <p>Movement analysis</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="../images/icons/icon-white-rec.svg" /> <p>Movement recording</p></div>
+                        <div class="col-xs-12 col-sm-4 col-sm-offset-2" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-movement.svg)"></div>
+                            <p>Movement analysis</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-rec.svg)"></div>
+                            <p>Movement recording</p>
+                        </div>
 					</div>
 				</div>
 

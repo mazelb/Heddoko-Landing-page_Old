@@ -7,9 +7,18 @@
 				
 				<div class="col-xs-12">
 					<div class="row">
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-feedback.svg" /> <p>Rétroaction temps réel</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-dark-movement.svg" /> <p>Enregistrement des mouvements</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-injury.svg" /> <p>Profil complet d'une blessure</p></div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-feedback.svg)"></div>
+                            <p>Rétroaction temps réel</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-movement.svg)"></div>
+                            <p>Enregistrement des mouvements</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-injury.svg)"></div>
+                            <p>Profil complet d'une blessure</p>
+                        </div>
 					</div>
 				</div>
 

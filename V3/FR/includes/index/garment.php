@@ -8,9 +8,18 @@
 
 				<div class="col-xs-12">
 					<div class="row">
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-sensors.svg" /> <p>Capteurs intégrés</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-body.svg" /> <p>Saisie de données de tout le corps</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-resist.svg" /> <p>Resiste aux plus durs entraînements</p></div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-sensors.svg)"></div>
+                            <p>Capteurs intégrés</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-body.svg)"></div>
+                            <p>Saisie de données de tout le corps</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-resist.svg)"></div>
+                            <p>Resiste aux plus durs entraînements</p>
+                        </div>
 					</div>
 				</div>
 

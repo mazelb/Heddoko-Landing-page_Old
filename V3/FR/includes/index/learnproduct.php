@@ -13,7 +13,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 content">
-				<h1>Pour en savoir plus <span>sur Heddoko</span> <span><a href="/FR/product" id="index_pg_product_learnmore_btn>clickez ici</a></span></h1>
+				<h1>Pour en savoir plus <span>sur Heddoko</span> <span><a href="/FR/product" id="index_pg_product_learnmore_btn">clickez ici</a></span></h1>
 			</div>
 		</div>
 	</div>

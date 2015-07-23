@@ -7,17 +7,17 @@ $dir = array_filter(explode("/", $_SERVER['PHP_SELF']));
 if(count($dir) > 2) {
 	switch($dir[2]) {
 		case 'product':
-			$title = '| Product';
+			$title = '| Produit';
 			$descriptionFR = 'Heddoko est un habit de compression intelligent avec capteurs de mouvement intégrés qui détectent les mouvements du corps au complet en 3D.';
 		break;
 
 		case 'about':
-			$title = '| About Us';
+			$title = '| À propos';
 			$descriptionFR = 'Qui nous sommes.';
 		break;
 
 		case 'press':
-			$title = '| Press';
+			$title = '| Médias';
 			$descriptionFR = 'Heddoko a fait vibré les médias, voici pourquoi!';
 		break;
 
@@ -26,16 +26,16 @@ if(count($dir) > 2) {
 			$descriptionFR = 'Si vous avez des questions au sujet de notre produit et de son fonctionnement, hésitez pas à nous envoyez un message !';
 		break;
 
-		case 'signup':
+		case 'S\'inscrire':
 			$title = '| Sign Up';
 			$descriptionFR = 'Inscrivez-vous à notre liste de courriels pour recevoir les dernières nouvelles de Heddoko.';
 		break;
 	}
-	$dir = '../';
+	$dir = '../../';
 } else {
-	$title = '| Home';
+	$title = '| Accueil';
 	$descriptionFR = 'Heddoko est un habit de compression intelligent avec capteurs intégrés qui détectent les mouvements du corps au complet en 3D offrant un coaching virtuel.';
-	$dir = '';
+	$dir = '../';
 } ?>
 <!-- Meta -->
 <meta charset="utf-8">
@@ -43,7 +43,7 @@ if(count($dir) > 2) {
 <meta name="description" content="<?php echo $descriptionFR; ?>">
 <meta name="author" content="">
 
-<title>Heddoko <?echo $title; ?></title>
+<title>Heddoko <?php echo $title; ?></title>
 
 <!-- Mobile Metas -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -68,7 +68,7 @@ if(count($dir) > 2) {
 <meta name="theme-color" content="#ffffff">
 
 <!-- facebook -->
-<meta property="og:title" content="Heddoko <?echo $title; ?>" />
+<meta property="og:title" content="Heddoko <?php echo $title; ?>" />
 <meta property="og:site_name" content="Heddoko"/>
 <meta property="og:description" content="Heddoko est un habit de compression intelligent avec capteurs de mouvement int&eacute;gr&eacute;s qui d&eacute;tectent les mouvements du corps au complet en 3D. Il est concu pour les athletes et les enthusiastes de sport leur offrant un coaching virtuel." />
 <!-- end facebook -->

@@ -5,7 +5,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 image">
 				<div class="player">
 					<a href="https://www.youtube.com/watch?v=V4u8pXWo6Qs" class="play fancybox-media" data-animated="0">
-						<img src="images/icons/icon-play.svg">
+                        <div class="has-icon-img"></div>
 					</a>
 					<div class="image-container" data-animated="0">
 						<div class="image-animation"></div>

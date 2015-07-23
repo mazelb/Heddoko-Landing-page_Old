@@ -4,7 +4,9 @@
 		<!-- video loaded by js -->
 	</div>
 	<div class="col-xs-12 col-md-12 col-mg-8 col-lg-8 content">
-		<a href="https://youtu.be/sx5TcrVN9dY" class="hidden-lg play fancybox-media"><img src="images/icons/icon-play.svg" ></a>
+		<a href="https://youtu.be/sx5TcrVN9dY" class="hidden-lg play fancybox-media">
+            <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/icons/icon-play.svg); background-size: contain;"></div>
+		</a>
 
 		<h1>The First Smart Compression Suit <br/><span> That Tracks Full-Body Movement In 3D</span></h1>
 	

@@ -533,7 +533,8 @@ SEE IT LIVE
 	z-index: 20;
 }
 
-#seeitlive .container .row > .image .player a img {
+#seeitlive .container .row > .image .player a img,
+#seeitlive .container .row > .image .player a .has-icon-img {
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -541,6 +542,12 @@ SEE IT LIVE
 	right: 0;
 	width: 20%;
 	margin: auto;
+    padding-top: 20%;
+}
+#seeitlive .container .row > .image .player a .has-icon-img {
+    background: transparent center center no-repeat url(../images/icons/icon-play.svg);
+    background-size: contain;
+    display: block;
 }
 
 #seeitlive .container .row > .image .player a:hover {
@@ -982,6 +989,13 @@ PARTNERS
 #partners .container .row > div a:hover {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+
+#partners .has-icon-img {
+    background: transparent center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-top: 100%;
 }
 
 /* ===== MEDIA QUERIES ===== */

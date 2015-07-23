@@ -8,9 +8,18 @@
 
 				<div class="col-xs-12">
 					<div class="row">
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-sensors.svg" /> <p>Integrated sensors</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-body.svg" /> <p>Full-body data capture</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-resist.svg" /> <p>Resists tough training</p></div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-sensors.svg)"></div>
+                            <p>Integrated sensors</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-body.svg)"></div>
+                            <p>Full-body data capture</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-resist.svg)"></div>
+                            <p>Resists tough training</p>
+                        </div>
 					</div>
 				</div>
 

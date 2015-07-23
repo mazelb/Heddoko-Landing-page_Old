@@ -7,9 +7,18 @@
 				
 				<div class="col-xs-12">
 					<div class="row">
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-feedback.svg" /> <p>Live feedback</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-dark-movement.svg" /> <p>Movement Recording</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-injury.svg" /> <p>Complete injury profile</p></div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-feedback.svg)"></div>
+                            <p>Live feedback</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-movement.svg)"></div>
+                            <p>Movement Recording</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-injury.svg)"></div>
+                            <p>Complete injury profile</p>
+                        </div>
 					</div>
 				</div>
 

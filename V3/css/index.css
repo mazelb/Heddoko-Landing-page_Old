@@ -213,13 +213,18 @@ GARMENT
 	margin-bottom: 30px;
 }
 
-#garment .container .row > .content img {
+#garment .container .row > .content img, #garment .container .row > .content .has-icon-img {
 	display: block;
 	width: 60%;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
+}
+#garment .container .row > .content .has-icon-img {
+    background: transparent center center no-repeat;
+    background-size: contain;
+    padding-top: 60%;
 }
 
 #garment .container .row > .content .btn {
@@ -251,8 +256,9 @@ GARMENT
 		padding-top: 0px;
 	}
 
-	#garment .container .row > .content img {
+	#garment .container .row > .content img, #garment .container .row > .content .has-icon-img {
 		width: 40%;
+        margin-bottom: 0;
 	}
 }
 
@@ -260,7 +266,7 @@ GARMENT
 	#garment .container .row > .content .col-xs-12 .col-xs-12 {
 		width: 33.33%;
 	}
-	#garment .container .row > .content img {
+	#garment .container .row > .content img, #garment .container .row > .content .has-icon-img {
 		width: 60%;
 	}
 }
@@ -359,7 +365,7 @@ PRODUCT SPECS
 	margin-bottom: 30px;
 }
 
-#productspecs .container .row > .content img {
+#productspecs .container .row > .content img, #productspecs .container .row > .content .has-icon-img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -371,8 +377,13 @@ PRODUCT SPECS
     -o-transition: all 250ms ease-out 0s;
     transition: all 250ms ease-out 0s;
 }
+#productspecs .container .row > .content .has-icon-img {
+    background: transparent center center no-repeat;
+    background-size: contain;
+    padding-top: 60%;
+}
 
-#productspecs .container .row > .content a:hover img {
+#productspecs .container .row > .content a:hover img, #productspecs .container .row > .content a:hover .has-icon-img {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
@@ -390,8 +401,9 @@ PRODUCT SPECS
 		padding-top: 40px;
 	}
 
-	#productspecs .container .row > .content img {
+	#productspecs .container .row > .content img, #productspecs .container .row > .content .has-icon-img {
 		width: 40%;
+        margin-bottom: 0;
 	}
 }
 
@@ -399,8 +411,9 @@ PRODUCT SPECS
 	#productspecs .container .row > .content .col-xs-12 .col-xs-12 {
 		width: 33.33%;
 	}
-	#productspecs .container .row > .content img {
+	#productspecs .container .row > .content img, #productspecs .container .row > .content .has-icon-img {
 		width: 60%;
+        margin-bottom: 0;
 	}
 	#productspecs .container .row > .image img {
 		width: 60%;
@@ -606,7 +619,7 @@ PRODUCT BENEFITS
 	margin-bottom: 30px;
 }
 
-#productbenefits .container .row > .content img {
+#productbenefits .container .row > .content img, #productbenefits .container .row > .content .has-icon-img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -618,8 +631,13 @@ PRODUCT BENEFITS
     -o-transition: all 250ms ease-out 0s;
     transition: all 250ms ease-out 0s;
 }
+#productbenefits .container .row > .content .has-icon-img {
+    background: transparent center center no-repeat;
+    background-size: contain;
+    padding-top: 60%;
+}
 
-#productbenefits .container .row > .content a:hover img {
+#productbenefits .container .row > .content a:hover img, #productbenefits .container .row > .content a:hover .has-icon-img {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
@@ -646,8 +664,9 @@ PRODUCT BENEFITS
 		padding-top: 40px;
 	}
 
-	#productbenefits .container .row > .content img {
+	#productbenefits .container .row > .content img, #productbenefits .container .row > .content .has-icon-img {
 		width: 40%;
+        margin-bottom: 0;
 	}
 }
 
@@ -660,8 +679,9 @@ PRODUCT BENEFITS
 		width: 100%;
 	}
 
-	#productbenefits .container .row > .content img {
+	#productbenefits .container .row > .content img, #productbenefits .container .row > .content .has-icon-img {
 		width: 60%;
+        margin-bottom: 0;
 	}
 	#productbenefits .container .row > .image img {
 		width: 60%;

@@ -7,9 +7,18 @@
 				
 				<div class="col-xs-12">
 					<div class="row">
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-coachanytime.svg" /> <p>Coach anytime, anywhere</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-reduceinjury.svg" /> <p>Reduce risk of injury</p></div>
-						<div class="col-xs-12 col-sm-4" data-animated="0"><img src="images/icons/icon-instantfeedback.svg" /> <p>Get instant feedback</p></div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-coachanytime.svg)"></div>
+                            <p>Coach anytime, anywhere</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-reduceinjury.svg)"></div>
+                            <p>Reduce risk of injury</p>
+                        </div>
+                        <div class="col-xs-12 col-sm-4" data-animated="0">
+                            <div class="has-icon-img" style="background-image: url(images/icons/icon-instantfeedback.svg)"></div>
+                            <p>Get instant feedback</p>
+                        </div>
 					</div>
 				</div>
 

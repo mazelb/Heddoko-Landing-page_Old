@@ -89,9 +89,13 @@ SLIDER
 	display: block;
 	font-weight: bold;
 	text-transform: uppercase;
-	text-align: center;
 	font-size: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+.slider-home .container > .fitbox {
+	position:relative;
+	padding-top:50%;
 }
 
 
@@ -100,9 +104,24 @@ SLIDER
 	.slider-home .container > div .play {
 		margin: 0 auto 50px auto;
 	}
-
 	.slider-home .container > div h1 span {
 		display: block;
+	}
+	.slider-home .container > .fitbox {
+			padding-top:72%;
+	}
+	.slider-home .container > div h1 {
+		font-size:20px;
+	}
+}
+
+
+@media (min-width: 1px) and (max-width: 767px) {
+	.slider-home .container > .fitbox {
+			padding-top:65%;
+	}
+	.slider-home .container > div h1 {
+		font-size:20px;
 	}
 }
 

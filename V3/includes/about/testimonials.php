@@ -57,6 +57,14 @@
 							<p>"Posture and alignment are the base of a solid yoga practice. Heddoko will revolutionize the way we move on the mat, making the practice safer and allowing all yoga practitioners to excel towards their goals and intentions."<br/><em>- Emmalynn Chalmers, Yoga instructor and personal trainer</em></p>
 						</div>
 					</div>
+					<div>
+						<div class="col-xs-12 col-md-4 image">
+							<img src="../images/about/emrich.jpg">
+						</div>					
+						<div class="col-xs-12 col-md-8 content">
+							<p>"Wearable technology is helping us understand the most important machine of all, our body! A big part of this is how we move and Heddoko's smart compression garment gives us insight into our movement like never before, providing us with the data we need to take everything to the next level"<br/><em>- Tom Emrich, Wearable tech expert and founder of "We are Wearables"</em></p>
+						</div>
+					</div>
 				</div>
 			</div>
 

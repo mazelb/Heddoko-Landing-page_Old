@@ -88,6 +88,7 @@ $(document).ready(function(){
 		var validateFirstName = false;
 		var validateLastName = false;
 		var validateEmail = false;
+		var validateProfession = false;
 
 		//validate email
 		if($('#mce-EMAIL').val() == '' || $('#mce-EMAIL').val() == null || $('#mce-EMAIL').val() == undefined || !validateEmailFunc( $('#mce-EMAIL').val() )) {
@@ -102,9 +103,14 @@ $(document).ready(function(){
 			validateLastName = true;
 		}
 
+		if($('#mce-MMERGE3').val() == "" || $('#mce-MMERGE3').val() == null || $('#mce-MMERGE3').val() == undefined) {
+			validateProfession = true;
+		}
+
 		if(!validateFirstName &&
 			!validateLastName &&
-			!validateEmail) { //ALL GOOD
+			!validateEmail &&
+			!validateProfession ) { //ALL GOOD
 
 			$('.ajax').show();
 
@@ -162,6 +168,10 @@ $(document).ready(function(){
 
 			if(validateEmail) {
 				$('#thankyoudiv').html('Please enter a valid email address');
+			}
+
+			if(validateProfession) {
+				$('#thankyoudiv').html('Please enter a valid profession');
 			}
 
 			$('#thankyoudiv').show();

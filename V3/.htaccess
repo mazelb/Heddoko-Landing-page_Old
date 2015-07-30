@@ -1,17 +1,20 @@
 
 ##########
-# Password-protecting this directory
+# Password-protecting this directory.
+# Update "TO-BE-PROTECTED" with the folder you want to protect.
+#
 # Example at: http://davidwalsh.name/password-protect-directory-using-htaccess
 # htpasswd generator: http://www.htaccesstools.com/htpasswd-generator/
 ##########
 
-AuthType Basic  
-AuthName "restricted area"  
-AuthUserFile "C:\Users\Frank\Qsync\Francis Amankrah\Code\Heddoko-Landing-page\V3\.htpasswd"
-require valid-user
+#AuthType Basic
+#AuthName "restricted area"
+#AuthUserFile /home/hoopslou/public_html/TO-BE-PROTECTED/.htpasswd
+#require valid-user
 
 ##########
 # Spam blocking.
+#
 # Inspired from: https://moz.com/blog/how-to-stop-spam-bots-from-ruining-your-analytics-referral-data
 # Slightly modified to match a domain with a sub-domain (or not).
 ##########

@@ -1,7 +1,21 @@
 
+##########
+# Password-protecting this directory
+# Example at: http://davidwalsh.name/password-protect-directory-using-htaccess
+# htpasswd generator: http://www.htaccesstools.com/htpasswd-generator/
+##########
+
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile "C:\Users\Frank\Qsync\Francis Amankrah\Code\Heddoko-Landing-page\V3\.htpasswd"
+require valid-user
+
+##########
 # Spam blocking.
 # Inspired from: https://moz.com/blog/how-to-stop-spam-bots-from-ruining-your-analytics-referral-data
 # Slightly modified to match a domain with a sub-domain (or not).
+##########
+
 RewriteEngine on
 RewriteCond %{HTTP_REFERER} ^http://(.*\.)?event\-tracking\.com/ [NC,OR]
 RewriteCond %{HTTP_REFERER} ^http://(.*\.)?e\-buyeasy\.com/ [NC,OR]

@@ -22,7 +22,7 @@
 				</div>
 				<div class="col-md-3 cq-info">
 					<img src="images/index/award_c2mtl.jpg" alt="2015 C2Mtl Bronfman Foundation Emmerging Entrepreneurs">
-					<p>Selected <span>Emmerging Entrepreneur of the year</span> <span> by the Claudine and Stephen Bronfman Family Foundation </span></p>
+					<p>Selected <span>Emerging Entrepreneur of the year</span> <span> by the Claudine and Stephen Bronfman Family Foundation </span></p>
 				</div>
 			</div>
 		</div>

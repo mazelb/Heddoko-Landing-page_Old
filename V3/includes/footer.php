@@ -1,9 +1,9 @@
 <!-- Footer -->
-<footer>
+<footer itemscope itemtype="http://schema.org/WPFooter">
 	<div class="container">
 		<div class="row">
 		<div class="hidden-xs hidden-sm col-md-10 col-lg-10 col-md-offset-1">
-		<ul class="footer-nav">					
+		<ul class="footer-nav">
 			<li>
 				<a id="footer_menu_home" href="/">Home</a>
 			</li>
@@ -42,10 +42,10 @@
 			<li>
 				<a id="footer_menu_signup" href="/signup">Sign up</a>
 			</li>
-		</ul>	
+		</ul>
 		</div>
 		</div>
-		
+
 		<div class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer-social">
 			<p><a id="footer_social_facebook" href="https://www.facebook.com/heddoko" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>

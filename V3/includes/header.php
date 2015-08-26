@@ -4,7 +4,7 @@
 <?php //include('includes/loader.php'); ?>
 <?php //include('includes/responsive.php'); ?>
 
-<?php 
+<?php
 $links = array(null, null, null, null, null, null, null);
 switch($fileName) {
 	case 'index':
@@ -31,7 +31,7 @@ switch($fileName) {
 }
 ?>
 <!-- Header -->
-<header>
+<header itemscope itemtype="http://schema.org/WPHeader">
 	<nav class="navbar navbar-custom navbar-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
@@ -44,7 +44,7 @@ switch($fileName) {
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
 					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 					<li class="<?php echo $links[0]; ?>"><a id="nav_menu_home" href="/">Home <span></span></a></li>
 					<li class="<?php echo $links[1]; ?>"><a id="nav_menu_product" href="/product">Product <span></span></a>

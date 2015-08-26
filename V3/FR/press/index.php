@@ -3,15 +3,15 @@
 <!--[if IE 9]>			<html class="ie ie9" lang="fr"> <![endif]-->
 <!--[if gt IE 9]><!-->	<html lang="fr"> <!--<![endif]-->
 <head>
-	
+
 	<?php include('../includes/meta.php'); ?>
-	
+
 	<?php $fileName = basename(__DIR__); ?>
 
 	<link rel="stylesheet" href="../../css/<?php echo $fileName; ?>.css?v=<?php echo rand(); ?>" />
 </head>
 
-<body id="page-top" class="template-<?php echo $fileName; ?>">
+<body id="page-top" class="template-<?php echo $fileName; ?>" itemscope itemtype="http://schema.org/WebPage">
 
 <?php include('../includes/header.php'); ?>
 

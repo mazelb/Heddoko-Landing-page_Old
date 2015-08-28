@@ -1,8 +1,17 @@
 <!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8" lang="fr"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9" lang="fr"> <![endif]-->
-<!--[if gt IE 9]><!-->	<html lang="fr"> <!--<![endif]-->
+<!--[if gt IE 9]><!-->	<html lang="fr"
+							  xmlns:og="http://ogp.me/ns#"
+     						  xmlns:fb="https://www.facebook.com/2008/fbml"> <!--<![endif]-->
 <head>
+
+	<meta property="og:title" content="Heddoko" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="heddoko.com" />
+	<meta property="og:image" content="http://heddoko.com/images/android-icon-48x48.png" />
+	<meta property="og:description" content="Le premier habit intelligent à detecter tous les mouvements du corps en 3D" />
+
 	
 	<?php include('includes/meta.php'); ?>
 	

@@ -226,6 +226,13 @@ header .navbar-top .container > .navbar-collapse .navbar-nav li .dropdown-menu l
 	border: none;
 }
 
+header .fb-like {
+	padding-top: 3px;
+	overflow: hidden !important;
+  	width: 90px;
+}
+
+
 /* ===== SPECIAL CASES ===== */
 
 /*.template-index header {
@@ -476,7 +483,6 @@ PAGES
 }
 
 .main-content {
-	padding-top: 100px;
 	padding-bottom: 30px;
 }
 

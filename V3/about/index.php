@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8" lang="en"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9" lang="en"> <![endif]-->
-<!--[if gt IE 9]><!-->	<html lang="en"> <!--<![endif]-->
+<!--[if gt IE 9]><!-->	<html lang="en"
+							  xmlns:og="http://ogp.me/ns#"
+     						  xmlns:fb="https://www.facebook.com/2008/fbml"> <!--<![endif]-->
 <head>
 
 	<?php include('../includes/meta.php'); ?>
@@ -12,6 +14,8 @@
 </head>
 
 <body id="page-top" class="template-<?php echo $fileName; ?>" itemscope itemtype="http://schema.org/AboutPage">
+
+
 
 <?php include('../includes/header.php'); ?>
 

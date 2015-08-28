@@ -32,6 +32,30 @@ switch($fileName) {
 ?>
 <!-- Header -->
 <header>
+<!--Facebook like button -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<svg height="0" width="0">
+  <filter id="fb-filter">
+    <feColorMatrix type="hueRotate" values="292"/>
+    <feColorMatrix type="saturate" values="5.5"/>
+  </filter>
+</svg>
+<style>
+  .fb-like{
+    -webkit-filter: url(#fb-filter); 
+    filter: url(#fb-filter);
+  }
+</style>
+<!-- end styling for facebook like button-->
+
 	<nav class="navbar navbar-custom navbar-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
@@ -74,6 +98,7 @@ switch($fileName) {
 					<li class="<?php echo $links[5]; ?>"><a id="nav_menu_blog" target="_blank" href="http://blog.heddoko.com">Blog <span></span></a></li>
 					<li class="<?php echo $links[6]; ?>"><a id="nav_menu_signup" href="/signup">Sign Up <span></span></a></li>
 					<li><a id="nav_menu_FR" href="/FR/">fr <span></span></a></li>
+					<li><div class="fb-like" data-href="https://www.facebook.com/heddoko?fref=ts" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></li>			
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->

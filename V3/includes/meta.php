@@ -8,7 +8,7 @@ if(count($dir) > 1) {
 	switch($dir[1]) {
 		case 'product':
 			$title = '| Product';
-			$description = 'HEDDOKO is a smart compression garment that uses textile embedded sensors to continuously track your body movement and give you live 3D coaching.';
+			$description = 'HEDDOKO is a smart compression garment that uses textile embedded sensors to continuously track your body movement and give you live 3D coaching.';				
 		break;
 
 		case 'about':
@@ -69,9 +69,21 @@ if(count($dir) > 1) {
 
 <!-- facebook -->
 <meta property="og:title" content="Heddoko <?php echo $title; ?>" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="heddoko.com<?php echo $dir; ?>" />
 <meta property="og:site_name" content="Heddoko"/>
-<meta property="og:description" content="HEDDOKO is a wearable technology that serves as a personal training partner and coaching companion. HEDDOKO is a smart compression garment that uses textile embedded sensors to continuously track your body movement and give you live 3D coaching. " />
+<meta property="og:image" content="http://heddoko.com/images/android-icon-48x48.png" />
+<meta property="og:description" content="<?php echo $description; ?>" />
 <!-- end facebook -->
+
+
+<!--Twitter Card -->
+<meta name="twitter:card" content="<?php echo $description;?>" />
+<meta name="twitter:site" content="@heddoko" />
+<meta name="twitter:title" content="Heddoko <?php echo $title;?>" />
+<meta name="twitter:description" content="<?php echo $description;?>" />
+<meta name="twitter:image" content="http://heddoko.com/images/android-icon-48x48.png" />
+<!--end twitter-->
 
 <!-- Custom Google Web Font -->
 <link href="<?php echo $dir; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet">

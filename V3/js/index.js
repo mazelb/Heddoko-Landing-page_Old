@@ -171,7 +171,7 @@ $(document).ready(function(){
 			}
 
 			if(validateProfession) {
-				$('#thankyoudiv').html('Please enter a valid profession');
+				$('#thankyoudiv').html('Please select a valid profession');
 			}
 
 			$('#thankyoudiv').show();

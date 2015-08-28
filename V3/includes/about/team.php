@@ -5,12 +5,14 @@
 				<h2>Our Team <span></span></h2>
 
 				<p class="title-sub">In the last year, the Heddoko has grown from a team of 2 to a team of 13.</p>
-			</div>	
+			</div>
 		</div>
 
 		<div class="row">
 		<div class="col-md-12">
 			<div class="owl-team">
+
+				<!-- Mazen -->
 				<div class="item col-md-4 col-md-offset-2" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -24,11 +26,13 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Mazen<span>CEO / Founder</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Mazen<span itemprop="roleName">CEO / Founder</span></h4>
 						</div>
 					</div>
 				</div>
+
+				<!-- Alex -->
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -42,8 +46,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Alex <span>COO / Co-founder</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Alex <span itemprop="roleName">COO / Co-founder</span></h4>
 						</div>
 					</div>
 				</div>
@@ -54,6 +58,8 @@
 		<div class="row">
 		<div class="col-md-12">
 			<div class="owl-team">
+
+				<!-- Jon -->
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -66,11 +72,13 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Jonathan<span>Chief Engineer</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Jonathan<span itemprop="roleName">Chief Engineer</span></h4>
 						</div>
 					</div>
 				</div>
+
+				<!-- Diana -->
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -84,11 +92,13 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Diana <span>Lead designer</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Diana <span itemprop="roleName">Lead designer</span></h4>
 						</div>
 					</div>
 				</div>
+
+				<!-- Lisa -->
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -102,8 +112,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Lisa <span>Marketing and Digital Engagement Coordinador</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Lisa <span itemprop="roleName">Marketing and Digital Engagement Coordinador</span></h4>
 						</div>
 					</div>
 				</div>
@@ -114,6 +124,8 @@
 		<div class="row">
 		<div class="col-md-12">
 			<div class="owl-team">
+
+				<!-- Adel -->
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -127,11 +139,13 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Adel<span>Design Engineer</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Adel<span itemprop="roleName">Design Engineer</span></h4>
 						</div>
 					</div>
 				</div>
+
+				<!-- Sara -->
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -144,11 +158,13 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Sara <span>Fashion Designer</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Sara <span itemprop="roleName">Fashion Designer</span></h4>
 						</div>
 					</div>
 				</div>
+
+				<!-- Shahab -->
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -161,8 +177,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Shahab <span>Project Manager</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Shahab <span itemprop="roleName">Project Manager</span></h4>
 						</div>
 					</div>
 				</div>
@@ -173,6 +189,8 @@
 		<div class="row">
 		<div class="col-md-12">
 			<div class="owl-team">
+
+				<!-- Frank -->
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -186,11 +204,13 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Frank<span>Research Engineer</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Frank<span itemprop="roleName">Research Engineer</span></h4>
 						</div>
 					</div>
 				</div>
+
+				<!-- Alessandra -->
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -203,11 +223,13 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Alessandra <span>Designer</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Alessandra <span itemprop="roleName">Designer</span></h4>
 						</div>
 					</div>
 				</div>
+
+				<!-- Karla -->
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -220,8 +242,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Karla <span>Marketing Analyst</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Karla <span itemprop="roleName">Marketing Analyst</span></h4>
 						</div>
 					</div>
 				</div>
@@ -232,6 +254,8 @@
 		<div class="row">
 		<div class="col-md-12">
 			<div class="owl-team">
+
+				<!-- Anuj -->
 				<div class="item col-md-4 col-md-offset-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -244,8 +268,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Anuj<span>Design Engineer</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Anuj<span itemprop="roleName">Design Engineer</span></h4>
 						</div>
 					</div>
 				</div>

@@ -5,7 +5,7 @@
 				<h2>Notre équipe <span></span></h2>
 
 				<p class="title-sub">Au cours des deux dernières années, l'équipe Heddoko est passée de deux membres à treize.</p>
-			</div>	
+			</div>
 		</div>
 
 		<div class="row">
@@ -103,7 +103,7 @@
 							</div>
 						</div>
 						<div class="team-info">
-							<h4>Lisa <span>Coordonnatrice du marketing électronique</span></h4>
+							<h4>Lisa <span>Coordonnatrice du marketing et experte en biomécanique</span></h4>
 						</div>
 					</div>
 				</div>

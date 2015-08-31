@@ -113,7 +113,7 @@
 							</div>
 						</div>
 						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
-							<h4 itemprop="name">Lisa <span itemprop="roleName">Marketing and Digital Engagement Coordinador</span></h4>
+							<h4 itemprop="name">Lisa <span itemprop="roleName">Marketing and Biomechanics Lead</span></h4>
 						</div>
 					</div>
 				</div>

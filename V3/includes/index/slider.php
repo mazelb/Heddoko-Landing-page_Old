@@ -4,12 +4,12 @@
 		<!-- video loaded by js -->
 	</div>
 	<div class="col-xs-12 col-md-12 col-mg-8 content fitbox">
-		<a href="https://youtu.be/sx5TcrVN9dY" class="hidden-lg play fancybox-media">
+		<a href="https://youtu.be/sx5TcrVN9dY" class="hidden-lg play fancybox-media" itemscope itemtype="http://schema.org/VideoObject">
             <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/icons/icon-play.svg); background-size: contain;"></div>
         </a>
 
 		<h1>The First Smart Compression Suit <br/><span> That Tracks Full-Body Movement In 3D</span></h1>
-	
+
 		<a href="#" class="btn btn-default" id="index_pg_signup_btn">Sign Me Up for Beta Access</a>
 	</div>
 
@@ -24,7 +24,7 @@
 
 			<!-- Begin MailChimp Signup Form -->
 			<div id="mc_embed_signup">
-				
+
 				<form class="form" action="http://heddoko.us8.list-manage.com/subscribe/post-json?u=4752cc710a498b9b75d697500&amp;id=b22a426cab&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate="">
 				<div id="mc_embed_signup_scroll">
 					<div class="mc-field-group form-group">

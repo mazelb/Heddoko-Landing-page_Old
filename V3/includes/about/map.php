@@ -9,7 +9,9 @@
 		<div class="container">
 			<div class="ci-inner col-md-6">
 				<i class="fa fa-map-marker"></i>
-				<p itemscope itemtype="http://schema.org/LocalBusiness">District 3 Innovation Center 1250 Guy Street, Room 620, Montr&eacute;al, QC H3H 2L3</p>
+				<p itemscope itemtype="http://schema.org/LocalBusiness">
+                    District 3 Innovation Center 1250 Guy Street, Suite 600, Montr&eacute;al, QC H3H 2L3
+                </p>
 			</div>
 			<div class="ci-inner col-md-6">
 				<i class="fa fa-envelope"></i>

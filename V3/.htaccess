@@ -36,6 +36,7 @@ RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?i4u\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?videos-for-your-business\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?video--production\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?zhihu\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?m\.zol\.com\.cn [NC,OR]
 
 # We just don't want these keywords.
 RewriteCond %{HTTP_REFERER} advair [NC,OR]

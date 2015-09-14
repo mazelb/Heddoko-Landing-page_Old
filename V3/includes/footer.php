@@ -46,19 +46,35 @@
 		</div>
 		</div>
 
-		<div class="row">
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer-social">
-			<p><a id="footer_social_facebook" href="https://www.facebook.com/heddoko" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>
-			<a id="footer_social_twitter" href="https://twitter.com/heddoko" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
-			<a id="footer_social_linkedin" href="https://www.linkedin.com/company/heddoko" target="_blank"><i class="fa fa-3x fa-linkedin"></i></a>
-			<a id="footer_social_instagram" href="https://instagram.com/heddoko/" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
-			<a id="footer_social_pinterest" href="https://www.pinterest.com/heddoko/" target="_blank"><i class="fa fa-3x fa-pinterest"></i></a>
-			<a id="footer_social_vimeo" href="https://vimeo.com/user29815178" target="_blank"><i class="fa fa-3x fa-vimeo"></i></a></p>
-		</div>
+        <div class="row">
+            <div class="col-xs-12">
+                <a
+                    class="twitter-timeline"
+                    href="https://twitter.com/heddoko"
+                    data-widget-id="639827624223735808"
+                    data-chrome="transparent noheader noborders noscrollbars"
+                    style="">
+                        Tweets by @heddoko
+                </a>
 
-		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<p id="copyright">&copy; Copyright Heddoko</p>
-		</div>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+        </div>
+
+        <!-- Social buttons -->
+		<div class="row">
+    		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer-social">
+    			<p><a id="footer_social_facebook" href="https://www.facebook.com/heddoko" target="_blank"><i class="fa fa-3x fa-facebook"></i></a>
+    			<a id="footer_social_twitter" href="https://twitter.com/heddoko" target="_blank"><i class="fa fa-3x fa-twitter"></i></a>
+    			<a id="footer_social_linkedin" href="https://www.linkedin.com/company/heddoko" target="_blank"><i class="fa fa-3x fa-linkedin"></i></a>
+    			<a id="footer_social_instagram" href="https://instagram.com/heddoko/" target="_blank"><i class="fa fa-3x fa-instagram"></i></a>
+    			<a id="footer_social_pinterest" href="https://www.pinterest.com/heddoko/" target="_blank"><i class="fa fa-3x fa-pinterest"></i></a>
+    			<a id="footer_social_vimeo" href="https://vimeo.com/user29815178" target="_blank"><i class="fa fa-3x fa-vimeo"></i></a></p>
+    		</div>
+
+    		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    			<p id="copyright">&copy; Copyright Heddoko</p>
+    		</div>
 		</div>
 	</div>
 </footer>

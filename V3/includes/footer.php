@@ -46,20 +46,27 @@
 		</div>
 		</div>
 
-        <div class="row">
+        <!-- Twitter -->
+        <!-- <div class="row">
             <div class="col-xs-12">
                 <a
                     class="twitter-timeline"
                     href="https://twitter.com/heddoko"
                     data-widget-id="639827624223735808"
                     data-chrome="transparent noheader noborders noscrollbars"
-                    style="">
+                    style="display: inherit; margin: 0 auto;">
                         Tweets by @heddoko
                 </a>
 
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <style media="screen">
+                    .twitter-timeline-rendered {
+                        display: inherit !important;
+                        margin: 0 auto;
+                    }
+                </style>
             </div>
-        </div>
+        </div> -->
 
         <!-- Social buttons -->
 		<div class="row">

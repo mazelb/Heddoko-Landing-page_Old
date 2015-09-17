@@ -12,8 +12,8 @@
 
     // Define base name and filename for stylesheet.
     $fileName = basename(__DIR__);
-    $dir = array_filter(explode("/", $_SERVER['PHP_SELF']));
-    $stylesheet = $dir[1] == 'FR' ? '../..' : '..';
+    $self = array_filter(explode("/", $_SERVER['PHP_SELF']));
+    $stylesheet = $self[1] == 'FR' ? '../..' : '..';
     $stylesheet .= '/css/'. $fileName .'.css?20150917';
     ?>
 

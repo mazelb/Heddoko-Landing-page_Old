@@ -1,11 +1,13 @@
-<?php 
+<?php
 /* =======================================
 Defines directory for images, css, scripts, titles, and descriptions
 ======================================= */
 $dir = array_filter(explode("/", $_SERVER['PHP_SELF']));
 
-if(count($dir) > 2) {
-	switch($dir[2]) {
+if (count($dir) > 2)
+{
+	switch($dir[2])
+    {
 		case 'product':
 			$title = '| Produit';
 			$descriptionFR = 'Heddoko est un habit de compression intelligent avec capteurs de mouvement intégrés qui détectent les mouvements du corps au complet en 3D.';
@@ -30,6 +32,15 @@ if(count($dir) > 2) {
 			$title = '| S\'inscrire';
 			$descriptionFR = 'Inscrivez-vous à notre liste de courriels pour recevoir les dernières nouvelles de Heddoko.';
 		break;
+
+		case '404':
+			$title = '| Page non trouvée.';
+			$description = '';
+		break;
+
+        default:
+            $title = '';
+            $description = '';
 	}
 	$dir = '../../';
 } else {
@@ -122,7 +133,6 @@ mixpanel.init("9d63065ca7ef6c3ce1a7c1da2f03c798");</script><!-- end Mixpanel -->
         f._hjSettings={hjid:35601, hjsv:4};
         c=b.createElement("script");c.async=1;
         c.src="//static.hotjar.com/c/hotjar-"+f._hjSettings.hjid+".js?sv="+f._hjSettings.hjsv;
-        b.getElementsByTagName("head")[0].appendChild(c); 
+        b.getElementsByTagName("head")[0].appendChild(c);
     })(window,document);
 </script>
-

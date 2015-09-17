@@ -5,12 +5,19 @@
 							  xmlns:og="http://ogp.me/ns#"
      						  xmlns:fb="https://www.facebook.com/2008/fbml"> <!--<![endif]-->
 <head>
+    <?php
 
-	<?php include('../includes/meta.php'); ?>
+    // Include meta tags.
+    include('../includes/meta.php');
 
-	<?php $fileName = basename(__DIR__); ?>
+    // Define base name and filename for stylesheet.
+    $fileName = basename(__DIR__);
+    $dir = array_filter(explode("/", $_SERVER['PHP_SELF']));
+    $stylesheet = $dir[1] == 'FR' ? '../..' : '..';
+    $stylesheet .= '/css/'. $fileName .'.css?20150917';
+    ?>
 
-	<link rel="stylesheet" href="../css/<?= $fileName; ?>.css?v=<?= time() ?>" />
+	<link rel="stylesheet" href="<?= $stylesheet ?>">
 </head>
 
 <body id="page-top" class="template-<?= $fileName; ?>">

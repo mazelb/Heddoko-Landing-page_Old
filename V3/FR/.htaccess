@@ -1,0 +1,5 @@
+
+##########
+# Error documents.
+##########
+ErrorDocument 404	/FR/404/index.php

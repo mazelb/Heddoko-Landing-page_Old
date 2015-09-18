@@ -25,6 +25,8 @@
 
 <?php include('../includes/press/facts.php'); ?>
 
+<?php include('../includes/press/twitter.php'); ?>
+
 <?php include('../includes/footer.php'); ?>
 
 <!-- page specific -->

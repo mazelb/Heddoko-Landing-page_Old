@@ -179,6 +179,17 @@ PACKAGES
 	text-transform: uppercase;
 }
 
+/* =====================================================================
+TWITTER
+===================================================================== */
+#twitter {
+    background-color: #ccc;
+}
+.twitter-timeline-rendered {
+    display: inherit !important;
+    margin: 0 auto;
+}
+
 /* ===== MEDIA QUERIES ===== */
 @media (min-width: 1px) {
 	#packages .container .row .package a {

@@ -79,10 +79,21 @@ if (count($dir) > 2)
 <meta name="theme-color" content="#ffffff">
 
 <!-- facebook -->
-<meta property="og:title" content="Heddoko <?php echo $title; ?>" />
-<meta property="og:site_name" content="Heddoko"/>
-<meta property="og:description" content="Heddoko est un habit de compression intelligent avec capteurs de mouvement int&eacute;gr&eacute;s qui d&eacute;tectent les mouvements du corps au complet en 3D. Il est concu pour les athletes et les enthusiastes de sport leur offrant un coaching virtuel." />
+<meta property="og:title" content="Heddoko" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="heddoko.com<?php echo $dir; ?>" />
+<meta property="og:image" content="http://heddoko.com/images/android-icon-48x48.png" />
+<meta property="og:description" content="Le premier habit intelligent à detecter tous les mouvements du corps en 3D" />
 <!-- end facebook -->
+
+
+<!--Twitter Card -->
+<meta name="twitter:card" content="<?php echo $descriptionFR;?>" />
+<meta name="twitter:site" content="@heddoko" />
+<meta name="twitter:title" content="Heddoko <?php echo $title;?>" />
+<meta name="twitter:description" content="<?php echo $descriptionFR;?>" />
+<meta name="twitter:image" content="http://heddoko.com/images/android-icon-48x48.png" />
+<!--end twitter-->
 
 <!-- Custom Google Web Font -->
 <link href="<?php echo $dir; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet">

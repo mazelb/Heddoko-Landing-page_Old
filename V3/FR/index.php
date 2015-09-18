@@ -6,15 +6,8 @@
      						  xmlns:fb="https://www.facebook.com/2008/fbml"> <!--<![endif]-->
 <head>
 
-	<meta property="og:title" content="Heddoko" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="heddoko.com" />
-	<meta property="og:image" content="http://heddoko.com/images/android-icon-48x48.png" />
-	<meta property="og:description" content="Le premier habit intelligent à detecter tous les mouvements du corps en 3D" />
-
-	
 	<?php include('includes/meta.php'); ?>
-	
+
 	<?php $fileName =  str_replace('.php', '', basename($_SERVER['PHP_SELF']) ); ?>
 
 	<link rel="stylesheet" href="../css/<?php echo $fileName; ?>.css?v=<?php echo rand(); ?>" />

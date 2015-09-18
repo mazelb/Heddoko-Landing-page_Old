@@ -4,7 +4,16 @@
 		<!-- video loaded by js -->
 	</div>
 	<div class="col-xs-12 col-md-12 col-mg-8 content fitbox">
-		<a href="https://youtu.be/sx5TcrVN9dY" class="hidden-lg play fancybox-media" itemscope itemtype="http://schema.org/VideoObject">
+		<a
+            href="https://youtu.be/sx5TcrVN9dY"
+            class="hidden-lg play fancybox-media"
+            itemscope itemtype="http://schema.org/VideoObject">
+
+            <meta itemprop="name" content="Heddoko Teaser" />
+            <meta itemprop="description" content="Heddoko Teaser" />
+            <meta itemprop="thumbnailUrl" content="http://heddoko.com/images/apple-icon-precomposed.png" />
+            <meta itemprop="uploadDate" content="2015-02-25" />
+            
             <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/icons/icon-play.svg); background-size: contain;"></div>
         </a>
 

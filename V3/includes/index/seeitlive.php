@@ -9,6 +9,11 @@
             </div>
 			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 image">
 				<div class="player" itemscope itemtype="http://schema.org/VideoObject">
+                    <meta itemprop="name" content="Heddoko Smart Sports Clothing Live Demo" />
+                    <meta itemprop="description" content="Heddoko Smart Sports Clothing Live Demo" />
+                    <meta itemprop="thumbnailUrl" content="http://heddoko.com/images/apple-icon-precomposed.png" />
+                    <meta itemprop="uploadDate" content="2015-02-25" />
+
 					<a href="https://www.youtube.com/watch?v=V4u8pXWo6Qs" class="play fancybox-media" data-animated="0">
                         <div class="has-icon-img"></div>
 					</a>

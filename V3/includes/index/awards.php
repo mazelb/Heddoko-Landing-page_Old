@@ -1,5 +1,5 @@
 <!-- Awards -->
-<section id="awards" itemscope itemtype="http://schema.org/Product">
+<section id="awards" itemscope itemtype="http://schema.org/Organization">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">

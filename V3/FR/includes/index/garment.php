@@ -1,4 +1,6 @@
 <section id="garment" itemscope itemtype="http://schema.org/Product">
+    <meta itemprop="name" content="Heddoko Suit">
+
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-6 content">

@@ -1,4 +1,4 @@
-<section id="garment">
+<section id="garment" itemscope itemtype="http://schema.org/Product">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" data-animated="0">
@@ -41,7 +41,7 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
-				<img src="../images/product/garment.png" data-animated="0">
+				<img src="../images/product/garment.png" data-animated="0" itemprop="image">
 			</div>
 		</div>
 	</div>

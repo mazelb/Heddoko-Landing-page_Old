@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="../../css/<?php echo $fileName; ?>.css?v=<?php echo rand(); ?>" />
 </head>
 
-<body id="page-top" class="template-<?php echo $fileName; ?>">
+<body id="page-top" class="template-<?php echo $fileName; ?>" itemscope itemtype="http://schema.org/WebPage">
 
 <?php include('../includes/header.php'); ?>
 

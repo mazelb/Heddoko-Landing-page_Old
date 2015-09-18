@@ -11,6 +11,8 @@
 		<div class="row">
 		<div class="col-md-12">
 			<div class="owl-team">
+
+				<!-- Mazen -->
 				<div class="item col-md-4 col-md-offset-2" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
@@ -24,8 +26,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Mazen<span>CEO / Fondateur</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Mazen<span itemprop="roleName">CEO / Fondateur</span></h4>
 						</div>
 					</div>
 				</div>
@@ -42,8 +44,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Alex <span>COO / Co-fondateur</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Alex <span itemprop="roleName">COO / Co-fondateur</span></h4>
 						</div>
 					</div>
 				</div>
@@ -66,8 +68,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Jonathan<span>Ingénieur en chef</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Jonathan<span itemprop="roleName">Ingénieur en chef</span></h4>
 						</div>
 					</div>
 				</div>
@@ -84,8 +86,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Diana <span>Designer principale</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Diana <span itemprop="roleName">Designer principale</span></h4>
 						</div>
 					</div>
 				</div>
@@ -102,8 +104,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Lisa <span>Coordonnatrice du marketing et experte en biomécanique</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Lisa <span itemprop="roleName">Coordonnatrice du marketing et experte en biomécanique</span></h4>
 						</div>
 					</div>
 				</div>
@@ -127,8 +129,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Adel<span>Ingénieur de conception</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Adel<span itemprop="roleName">Ingénieur de conception</span></h4>
 						</div>
 					</div>
 				</div>
@@ -144,8 +146,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Sara <span>Créatrice de mode</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Sara <span itemprop="roleName">Créatrice de mode</span></h4>
 						</div>
 					</div>
 				</div>
@@ -161,8 +163,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Shahab <span>Chef de projet</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Shahab <span itemprop="roleName">Chef de projet</span></h4>
 						</div>
 					</div>
 				</div>
@@ -186,8 +188,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Frank<span>Ingénieur de recherche</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Frank<span itemprop="roleName">Ingénieur de recherche</span></h4>
 						</div>
 					</div>
 				</div>
@@ -203,8 +205,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Alessandra <span>Designer</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Alessandra <span itemprop="roleName">Designer</span></h4>
 						</div>
 					</div>
 				</div>
@@ -220,8 +222,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Karla <span>Analyste en marketing</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Karla <span itemprop="roleName">Analyste en marketing</span></h4>
 						</div>
 					</div>
 				</div>
@@ -244,8 +246,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h4>Anuj<span>Ingénieur de conception</span></h4>
+						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
+							<h4 itemprop="name">Anuj<span itemprop="roleName">Ingénieur de conception</span></h4>
 						</div>
 					</div>
 				</div>

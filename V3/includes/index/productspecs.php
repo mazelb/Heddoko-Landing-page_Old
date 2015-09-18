@@ -1,4 +1,4 @@
-<section id="productspecs"itemscope itemtype="http://schema.org/MobileApplication">
+<section id="productspecs" itemscope itemtype="http://schema.org/MobileApplication">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right content">

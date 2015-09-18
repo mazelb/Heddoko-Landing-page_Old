@@ -24,7 +24,9 @@
 				</div>
 
 				<p data-animated="0">
-					<a itemprop="url" href="/product/#garment" class="btn btn-default" id="index_pg_garment_learnmore_btn">Learn more</a>
+					<a itemprop="url" href="/product/#garment" class="btn btn-default" id="index_pg_garment_learnmore_btn">
+                        Learn more
+                    </a>
 				</p>
 			</div>
 			<div class="col-xs-12 col-md-6 image">

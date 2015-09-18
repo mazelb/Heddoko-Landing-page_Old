@@ -4,7 +4,7 @@
 <?php //include('includes/loader.php'); ?>
 <?php //include('includes/responsive.php'); ?>
 
-<?php 
+<?php
 $links = array(null, null, null, null, null, null, null);
 switch($fileName) {
 	case 'index':
@@ -31,7 +31,7 @@ switch($fileName) {
 }
 ?>
 <!-- Header -->
-<header>
+<header itemscope itemtype="http://schema.org/WPHeader">
 		<!--Facebook like button -->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
@@ -50,7 +50,7 @@ switch($fileName) {
 	</svg>
 	<style>
 	  .fb-like{
-	    -webkit-filter: url(#fb-filter); 
+	    -webkit-filter: url(#fb-filter);
 	    filter: url(#fb-filter);
 	  }
 	</style>
@@ -68,7 +68,7 @@ switch($fileName) {
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav" itemscope itemtype="http://schema.org/SiteNavigationElement">
 					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 					<li class="<?php echo $links[0]; ?>"><a id="nav_menu_home" href="/FR/">Accueil <span></span></a></li>
 					<li class="<?php echo $links[1]; ?>"><a id="nav_menu_product" href="/FR/product">Produit <span></span></a>
@@ -98,7 +98,7 @@ switch($fileName) {
 					<li class="<?php echo $links[5]; ?>"><a id="nav_menu_blog" target="_blank" href="http://blog.heddoko.com">Blog <span></span></a></li>
 					<li class="<?php echo $links[6]; ?>"><a id="nav_menu_signup" href="/FR/signup">S'inscrire <span></span></a></li>
 					<li><a id="nav_menu_FR" href="/">en <span></span></a></li>
-					<li><div class="fb-like" data-href="https://www.facebook.com/heddoko?fref=ts" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></li>			
+					<li><div class="fb-like" data-href="https://www.facebook.com/heddoko?fref=ts" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->

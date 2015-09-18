@@ -4,7 +4,7 @@
 		<!-- video loaded by js -->
 	</div>
     <div class="col-xs-12 col-md-12 col-mg-8 content fitbox">
-        <a href="https://youtu.be/sx5TcrVN9dY" class="hidden-lg play fancybox-media">
+        <a href="https://youtu.be/sx5TcrVN9dY" class="hidden-lg play fancybox-media" itemscope itemtype="http://schema.org/VideoObject">
             <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/icons/icon-play.svg); background-size: contain;"></div>
         </a>
 

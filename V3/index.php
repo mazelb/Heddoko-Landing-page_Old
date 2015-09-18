@@ -19,6 +19,8 @@
 
 <?php include('includes/index/slider.php'); ?>
 
+<?php include('includes/index/featured.php'); ?>
+
 <?php include('includes/index/garment.php'); ?>
 
 <?php include('includes/index/productspecs.php'); ?>

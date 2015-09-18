@@ -459,7 +459,7 @@ PRODUCT SPECS
 @media (min-width: 768px) {
 	#productspecs {
 		height: 650px;
-	}	
+	}
 }
 
 /* =====================================================================
@@ -935,27 +935,114 @@ AWARDS
 	width: auto;
 }
 
+/* =====================================================================
+FEATURED
+===================================================================== */
+#featured {}
+
+#featured .container {}
+
+#featured .container .row {
+	position: relative;
+}
+
+#awards .container .row > div {
+	position: static;
+}
+
+#featured .container .row > div h2 {
+	color: #3bd6b2;
+	font-size: 26px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+#featured .container .row > div h2 span {
+	background: #3bd6b2;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30px;
+	height: 5px;
+	margin-top: 30px;
+}
+
+#featured .container .row > div img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 100%;
+	height: auto;
+}
+
+#featured .container .row > div p {
+	font-size: 14px;
+	font-style: normal;
+}
+
+#featured .container .row > div p span {
+	display: inline;
+	color: #858585;
+	font-style: normal;
+	margin: 0;
+}
+
+#featured .container .row > div a.prev {
+	left: 0;
+}
+
+#featured .container .row > div a.next {
+	right: 0;
+}
+
+#featured .container .row > div a.prev,
+#featured .container .row > div a.next {
+	display: block;
+	cursor: pointer;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: absolute;
+	height: 50px;
+	width: auto;
+}
+
+#featured .container .row > div a.prev img,
+#featured .container .row > div a.next img {
+	height: 100%;
+	width: auto;
+}
+
 /* ===== MEDIA QUERIES ===== */
 @media (min-width: 1px) and (max-width: 767px) {
-	#awards .container .row > div a.prev {
+	#awards .container .row > div a.prev,
+	#featured .container .row > div a.prev {
 		left: 15px;
 	}
 
-	#awards .container .row > div a.next {
+	#awards .container .row > div a.next,
+	#featured .container .row > div a.next {
 		right: 15px;
 	}
 
 }
 
 @media (min-width: 992px) {
-	#awards .container .row > div img {
+	#awards .container .row > div img,
+	#featured .container .row > div img {
 		width: auto;
 		max-height: 200px;
 	}
 }
 
 @media (min-width: 1200px) {
-	#awards .container .row > div p span {
+	#awards .container .row > div p span,
+	#featured .container .row > div p span {
 		display: block;
 	}
 }
@@ -1112,7 +1199,7 @@ SUBSCRIBE
 /* ===== MEDIA QUERIES ===== */
 @media (min-width: 1px) and (max-width: 991px) {
 
-	
+
 	#subscribe .form-control {
 		margin-bottom: 10px;
 	}

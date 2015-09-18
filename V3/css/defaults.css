@@ -255,9 +255,9 @@ header .fb-like {
 	}
 
 	header .navbar-top .container > .navbar-collapse .navbar-nav li a {
-		font-size: 11px;	
+		font-size: 11px;
 	}
-	
+
 	header .navbar-top .container > .navbar-collapse .navbar-nav li a span {
 		display: none;
 	}
@@ -274,7 +274,7 @@ header .fb-like {
 }
 
 @media (min-width: 320px) {
-	
+
 }
 
 @media (min-width: 768px) {
@@ -311,12 +311,12 @@ header .fb-like {
 	}
 
 	header .navbar-top .container > .navbar-collapse .navbar-nav li a {
-		font-size: 13px;	
+		font-size: 13px;
 	}
 }
 
 @media (min-width: 1200px) {
-	
+
 }
 
 /* =====================================================================
@@ -356,7 +356,7 @@ footer .container .footer-nav li a {
 }
 
 footer .container .footer-nav li > a {
-	
+
 }
 
 footer .container .footer-nav li ul {
@@ -425,7 +425,7 @@ footer .container #copyright {
 	footer .container .footer-social a:hover {
 		color: #3bd6b2;
 	}
-	
+
 }
 
 @media (min-width: 320px) {}
@@ -483,6 +483,7 @@ PAGES
 }
 
 .main-content {
+    /*padding-top: 140px;*/
 	padding-bottom: 30px;
 }
 
@@ -522,7 +523,7 @@ PAGES
 
 @media (min-width: 768px) {
 	#intro {
-		height: 102px;
+		height: 162px;
 	}
 }
 
@@ -546,5 +547,3 @@ SECTIONS
 	width: 100%;
 	height: auto;
 }
-
-

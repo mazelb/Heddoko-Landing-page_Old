@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8" lang="fr"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9" lang="fr"> <![endif]-->
-<!--[if gt IE 9]><!-->	<html lang="fr"> <!--<![endif]-->
+<!--[if gt IE 9]><!-->	<html lang="fr"
+							  xmlns:og="http://ogp.me/ns#"
+     						  xmlns:fb="https://www.facebook.com/2008/fbml"> <!--<![endif]-->
 <head>
-	
+
 	<?php include('../includes/meta.php'); ?>
-	
+
 	<?php $fileName = basename(__DIR__); ?>
 
 	<link rel="stylesheet" href="../../css/<?php echo $fileName; ?>.css?v=<?php echo rand(); ?>" />

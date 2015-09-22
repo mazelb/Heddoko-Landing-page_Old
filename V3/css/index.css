@@ -970,13 +970,13 @@ FEATURED
 	margin-top: 30px;
 }
 
-#featured .container .row > div img {
+#featured .container .row .cq-info img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-	width: 100%;
-	height: auto;
+	width: auto;
+    height: 40px;
 }
 
 #featured .container .row > div p {
@@ -1030,14 +1030,20 @@ FEATURED
 		right: 15px;
 	}
 
+    #featured .container .row .cq-info img {
+        height: 55px;
+    }
 }
 
 @media (min-width: 992px) {
-	#awards .container .row > div img,
-	#featured .container .row > div img {
+	#awards .container .row > div img {
 		width: auto;
 		max-height: 200px;
 	}
+
+    #featured .container .row .cq-info img {
+        height: 50px;
+    }
 }
 
 @media (min-width: 1200px) {

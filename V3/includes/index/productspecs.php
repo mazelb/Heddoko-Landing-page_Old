@@ -32,7 +32,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 image">
 				<div class="image-container" data-animated="0">
 					<div class="image-animation"></div>
-					<img itemprop="screenshot" src="images/index/heddoko_app.jpg" />
+					<img itemprop="screenshot" src="images/index/heddoko_app.jpg" alt="App" />
 				</div>
 			</div>
 		</div>

@@ -9,28 +9,28 @@ if (count($dir) > 1)
 	switch($dir[1])
     {
 		case 'product':
-			$title = '| Product';
+			$title = '| Product: A Smart Compression Suit and More';
 			$description = 'HEDDOKO is a smart compression garment that uses textile embedded sensors to continuously track your body movement and give you live 3D coaching.';
 		break;
 
 		case 'about':
-			$title = '| About Us';
-			$description = 'Who we are';
+			$title = '| About Us: Motion Capture and Tracking';
+			$description = 'Who we are: makers of smart clothing';
 		break;
 
 		case 'press':
 			$title = '| Press';
-			$description = 'Heddoko has received a lot of buzz - here is the latest!';
+			$description = 'Heddoko has received a lot of buzz - here is the latest! #mocap';
 		break;
 
 		case 'faq':
 			$title = '| FAQ';
-			$description = 'If you have questions regarding our product and how it works, don\'t hesitate to ask!';
+			$description = 'If you have questions regarding our smart compression suit or athelete management system and how they works, don\'t hesitate to ask!';
 		break;
 
 		case 'signup':
-			$title = '| Sign Up';
-			$description = 'Subscribe to our mailing list to keep in touch and receive the latest Heddoko news!';
+			$title = '| Sign Up: learn about Heddoko and mocap';
+			$description = 'Subscribe to our mailing list to keep in touch and receive the latest news on Heddoko and our motion capture technology!';
 		break;
 
 		case '404':
@@ -45,16 +45,16 @@ if (count($dir) > 1)
 	$dir = '../';
 } else {
 	$title = '| Home';
-	$description = 'Heddoko Empowers perfection in your training by tracking your movement and getting live coaching feedback, it\'s your own personal performance centre';
+	$description = 'Heddoko empowers perfection in your training by tracking your movement and getting live coaching feedback through our smart compression suit. It\'s your own personal performance centre.';
 	$dir = '';
 } ?>
 <!-- Meta -->
 <meta charset="utf-8">
-<meta name="keywords" content="" />
+<meta name="keywords" content="smart compression suit, smart clothing, motion tracking, motion capture, mocap, athlete management system" />
 <meta name="description" content="<?php echo $description; ?>">
 <meta name="author" content="">
 
-<title>Heddoko <?php echo $title; ?></title>
+<title>Heddoko <?= $title; ?></title>
 
 <!-- Mobile Metas -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

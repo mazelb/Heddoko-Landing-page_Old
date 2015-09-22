@@ -7,7 +7,7 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-md-5 col-md-offset-1 content">
-				
+
 				<div class="col-xs-12">
 					<div class="row">
                         <div class="col-xs-12 col-sm-4" data-animated="0">
@@ -44,7 +44,7 @@
 			</div>
 
 			<div class="col-xs-12 col-md-5 image">
-				<img src="../images/product/heddoko_web.png" data-animated="0">
+				<img src="../images/product/heddoko_web.png" data-animated="0" alt="Web app">
 			</div>
 		</div>
 	</div>

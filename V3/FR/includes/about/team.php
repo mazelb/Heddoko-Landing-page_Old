@@ -16,7 +16,7 @@
 				<div class="item col-md-4 col-md-offset-2" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_mazen.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_mazen.jpg" class="img-responsive" alt="Mazen"/>
 							<div class="team-overlay mazen">
 								<div class="social">
 									<ul data-animated="0">
@@ -34,7 +34,7 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_alex.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_alex.jpg" class="img-responsive" alt="Alex"/>
 							<div class="team-overlay alex">
 								<div class="social">
 									<ul data-animated="0">
@@ -59,7 +59,7 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_jonathan.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_jonathan.jpg" class="img-responsive" alt="Jonathan"/>
 							<div class="team-overlay jonathan">
 								<div class="social">
 									<ul data-animated="0">
@@ -76,7 +76,7 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_diana.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_diana.jpg" class="img-responsive" alt="Diana"/>
 							<div class="team-overlay diana">
 								<div class="social">
 									<ul data-animated="0">
@@ -94,7 +94,7 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_lisa.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_lisa.jpg" class="img-responsive" alt="Lisa"/>
 							<div class="team-overlay lisa">
 								<div class="social">
 									<ul data-animated="0">
@@ -119,7 +119,7 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_adel.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_adel.jpg" class="img-responsive" alt="Adel"/>
 							<div class="team-overlay adel">
 								<div class="social">
 									<ul data-animated="0">
@@ -137,7 +137,7 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_sara.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_sara.jpg" class="img-responsive" alt="Sara"/>
 							<div class="team-overlay sara">
 								<div class="social">
 									<ul data-animated="0">
@@ -154,7 +154,7 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_shahab.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_shahab.jpg" class="img-responsive" alt="Shahab"/>
 							<div class="team-overlay shahab">
 								<div class="social">
 									<ul data-animated="0">
@@ -178,7 +178,7 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_frank.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_frank.jpg" class="img-responsive" alt="Frank"/>
 							<div class="team-overlay frank">
 								<div class="social">
 									<ul data-animated="0">
@@ -196,7 +196,7 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_alessandra.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_alessandra.jpg" class="img-responsive" alt="Alessandra"/>
 							<div class="team-overlay alessandra">
 								<div class="social">
 									<ul data-animated="0">
@@ -213,7 +213,7 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_karla.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_karla.jpg" class="img-responsive" alt="Karla"/>
 							<div class="team-overlay karla">
 								<div class="social">
 									<ul data-animated="0">
@@ -237,7 +237,7 @@
 				<div class="item col-md-4 col-md-offset-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_anuj.jpg" class="img-responsive" alt=""/>
+							<img src="../images/about/team/team_anuj.jpg" class="img-responsive" alt="Anuj"/>
 							<div class="team-overlay anuj">
 								<div class="social">
 									<ul data-animated="0">

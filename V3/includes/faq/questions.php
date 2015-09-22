@@ -5,12 +5,12 @@
 			<ul id="og-grid" class="og-grid">
 				<li class="mix">
 					<a href="#"
-						id="faq_pg_app_btn"  
-						data-title="App" 
+						id="faq_pg_app_btn"
+						data-title="App"
 						data-description="
 						<strong>Can I access my data anywhere?</strong><br/>
 						Yes. You can access your data through the cloud.<br/><br/>
- 
+
 						<strong>Does the app have learning capabilities?</strong><br/>
 						Yes. Artificial intelligence allows the system to learn about your body and how you move and provide insight on your performance.<br/><br/>
 
@@ -18,7 +18,7 @@
 						Yes. In addition to guiding movement, the system is designed to be a motivational tool as well, enabling you to set goals and track your progress over time.
 						">
 						<div class="pthumb">
-							<img src="/images/faq/faq_mobile.svg" class="img-responsive" alt="" />
+							<img src="/images/faq/faq_mobile.svg" class="img-responsive" alt="App-related FAQs" />
 							<h4>App</h4>
 							<div class="p-overlay">
 								<h5>App</h5>
@@ -27,9 +27,9 @@
 					</a>
 				</li>
 				<li class="mix">
-					<a href="#" 
+					<a href="#"
 						id="faq_pg_garment_btn"
-						data-title="Garment" 
+						data-title="Garment"
 						data-description="
 						<strong>How long does the battery last?</strong><br/>
 						The battery allows for 4 hours of continuous motion capture.<br/><br/>
@@ -41,8 +41,8 @@
 						Throw it in your washing machine! The garment is very durable and completely waterproof.  Just make sure it’s a cold wash and that you air-dry it before wearing.
 						">
 						<div class="pthumb">
-							<img src="/images/faq/faq_clothes.svg" class="img-responsive" alt="" />
-							<h4>Garment</h4>
+							<img src="/images/faq/faq_clothes.svg" class="img-responsive" alt="Garment-related FAQs" />
+							<h4>Smart Garment</h4>
 							<div class="p-overlay">
 								<h5>Garment</h5>
 							</div>
@@ -50,9 +50,9 @@
 					</a>
 				</li>
 				<li class="mix">
-					<a href="#" 
+					<a href="#"
 						id="faq_pg_team_btn"
-						data-title="Team Management" 
+						data-title="Team Management"
 						data-description="
 						<strong>I’m a coach - can I monitor each athlete on my team simultaneously?</strong><br/>
 						Yes. Using the Web Dashboard, you can keep track of each athlete on the team. The dashboard allows you to monitor performance (both individual and aggregated), and provides indicators so you can specifically cater to their individual movement needs.<br/><br/>
@@ -67,8 +67,8 @@
 						The Web Dashboard displays information including user profiles, injury profiles, skill level, calibration data, paired-devices tracking, recorded movements, recorded scores, user objectives, routine playlists, rankings, and performance metrics.
 						">
 						<div class="pthumb">
-							<img src="/images/faq/faq_progress.svg" class="img-responsive" alt="" />
-							<h4>Team Management</h4>
+							<img src="/images/faq/faq_progress.svg" class="img-responsive" alt="Team Management-related FAQs" />
+							<h4>Team/Athlete Management System</h4>
 							<div class="p-overlay">
 								<h5>Team Management</h5>
 							</div>
@@ -76,9 +76,9 @@
 					</a>
 				</li>
 				<li class="mix">
-					<a href="#" 
+					<a href="#"
 						id="faq_pg_athletes_btn"
-						data-title="Athletes" 
+						data-title="Athletes"
 						data-description="
 						<strong>How does the system recognize me?</strong><br/>
 						Once you put on the garment and select your user profile, you will be guided through a set of predefined poses in order to calibrate the system.<br/><br/>
@@ -93,7 +93,7 @@
 						Heddoko guides you towards moving more efficiently in real time by providing annotations on the 3D model that articulate specifically what needs to be adjusted. Additionally, our “ghost feature” allows you to track and record your performance and compare yourself in real time either to a past performance or a “gold standard” (i.e. an expert executing the same movement).
 						">
 						<div class="pthumb">
-							<img src="/images/faq/faq_heartrate.svg" class="img-responsive" alt="" />
+							<img src="/images/faq/faq_heartrate.svg" class="img-responsive" alt="Athletes-related FAQs" />
 							<h4>Athletes</h4>
 							<div class="p-overlay">
 								<h5>Athletes</h5>

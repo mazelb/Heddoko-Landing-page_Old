@@ -43,7 +43,7 @@
 
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 image">
-				<img src="../images/product/garment.png" data-animated="0" itemprop="image">
+				<img src="../images/product/garment.png" data-animated="0" itemprop="image" alt="Smart Garment">
 			</div>
 		</div>
 	</div>

@@ -9,7 +9,7 @@
     				<div class="image-animation">
     					<div class="image-videos"></div>
     				</div>
-    				<img src="../images/product/heddoko_app.png" itemprop="screenshot" />
+    				<img src="../images/product/heddoko_app.png" itemprop="screenshot" alt="Mobile app" />
     			</div>
     		</div>
     	</div>

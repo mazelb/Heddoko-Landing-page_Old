@@ -4,7 +4,7 @@
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 pull-right content">
 				<h2 data-animated="0">Les avantages <span></span></h2>
 				<p data-animated="0">Doté d’une analyse précise et personnalisée des mouvements en 3D, Heddoko est révolutionnaire. C’est la clé de l’excellence pour les athlètes devoués de tous les niveaux.</p>
-				
+
 				<div class="col-xs-12">
 					<div class="row">
                         <div class="col-xs-12 col-sm-4" data-animated="0">
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 image">
-				<img src="images/index/heddoko_webapp.png" data-animated="0" />
+				<img src="images/index/heddoko_webapp.png" data-animated="0" alt="Web app" />
 			</div>
 		</div>
 	</div>

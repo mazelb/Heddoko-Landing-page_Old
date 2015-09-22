@@ -9,11 +9,11 @@
 			<div class="col-xs-12 col-md-5 col-md-offset-1">
 				<div class="image-container" data-animated="0">
 					<div class="image-animation"></div>
-					<img src="../images/product/heddoko_mobile.png">
+					<img src="../images/product/heddoko_mobile.png" alt="Mobile app">
 				</div>
 			</div>
 			<div class="col-xs-12 col-md-5 content">
-				
+
 				<div class="col-xs-12">
 					<div class="row">
                         <div class="col-xs-12 col-sm-4 col-sm-offset-2" data-animated="0">

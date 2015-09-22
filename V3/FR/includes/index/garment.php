@@ -32,7 +32,7 @@
                 </p>
 			</div>
 			<div class="col-xs-12 col-md-6 image">
-				<img itemprop="image" src="images/index/garment.png" data-animated="4" >
+				<img itemprop="image" src="images/index/garment.png" data-animated="4" alt="Garment">
 			</div>
 		</div>
 	</div>

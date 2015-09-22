@@ -3,7 +3,7 @@
 	<div class="col-xs-12 col-md-12 col-mg-8 col-lg-8">
 		<h1>Want to find out more?</h1>
 
-		<p><em>Subscribe to our mailing list to keep in touch and receive the latest Heddoko news.</em></p>
+		<p><em>Subscribe to our mailing list to keep in touch and receive the latest news about Heddoko and our motion capture technology.</em></p>
 
 		<!-- Begin MailChimp Signup Form -->
 		<div id="mc_embed_signup">

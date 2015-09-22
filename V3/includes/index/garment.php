@@ -4,9 +4,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-6 content">
-				<h2 data-animated="0">Garment <span></span></h2>
+				<h2 data-animated="0">Smart Garment <span></span></h2>
 
-				<p itemprop="description" data-animated="0">Heddoko is a smart compression garment that uses textile embedded sensors to track your body movement and give you live 3D coaching. </p>
+				<p itemprop="description" data-animated="0">Heddoko is a smart compression suit that uses textile embedded sensors to track your body movement and give you live 3D coaching. </p>
 
 				<div class="col-xs-12">
 					<div class="row">
@@ -32,7 +32,7 @@
 				</p>
 			</div>
 			<div class="col-xs-12 col-md-6 image">
-				<img itemprop="image" src="images/index/garment.png" data-animated="4" >
+				<img itemprop="image" src="images/index/garment.png" data-animated="4" alt="Garment">
 			</div>
 		</div>
 	</div>

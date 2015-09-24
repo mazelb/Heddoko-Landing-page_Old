@@ -2,3 +2,90 @@
 .main-content {
     text-align: center;
 }
+
+/* =====================================================================
+SUBSCRIBE
+===================================================================== */
+#subscribe {
+	background: #3bd6b2;
+	padding: 40px 0;
+}
+
+#subscribe h2 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 36px;
+	margin: 0;
+	text-align: center;
+}
+
+#subscribe input {
+	background: #b1efe0;
+}
+
+#subscribe input::-webkit-input-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#subscribe input:-moz-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#subscribe input::-moz-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#subscribe input:-ms-input-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#subscribe .input-group-btn input {
+	margin: 0;
+}
+
+#subscribe .container > div .ajax {
+	display: none;
+	margin: 0 auto;
+
+}
+
+#subscribe .container > div #thankyoudiv-2 {
+	color: #fff;
+	display: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#subscribe .container > div .btn {
+	padding-top: 12px;
+	padding-bottom: 11px;
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media (min-width: 1px) and (max-width: 991px) {
+
+
+	#subscribe .form-control {
+		margin-bottom: 10px;
+	}
+
+	#subscribe .input-group {
+		display: block;
+	}
+
+	#subscribe .input-group input {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	#subscribe h2 span {
+		display: block;
+	}
+}

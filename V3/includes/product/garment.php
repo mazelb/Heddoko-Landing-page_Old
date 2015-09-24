@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" data-animated="0">
-				<h2>Garment <span></span></h2>
+				<h2>Smart Garment <span></span></h2>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1 content">
 				<div class="col-xs-12" data-animated="0">

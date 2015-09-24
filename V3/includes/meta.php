@@ -20,7 +20,7 @@ if (count($dir) > 1)
 
 		case 'press':
 			$title = '| Press';
-			$description = 'Heddoko has received a lot of buzz - here is the latest! #mocap';
+			$description = 'Heddoko has received a lot of buzz - here is the latest!';
 		break;
 
 		case 'faq':
@@ -29,7 +29,7 @@ if (count($dir) > 1)
 		break;
 
 		case 'signup':
-			$title = '| Sign Up: learn about Heddoko and mocap';
+			$title = '| Sign up to learn about Heddoko';
 			$description = 'Subscribe to our mailing list to keep in touch and receive the latest news on Heddoko and our motion capture technology!';
 		break;
 
@@ -44,7 +44,7 @@ if (count($dir) > 1)
 	}
 	$dir = '../';
 } else {
-	$title = '| Home';
+	$title = '| Smart compression suits';
 	$description = 'Heddoko empowers perfection in your training by tracking your movement and getting live coaching feedback through our smart compression suit. It\'s your own personal performance centre.';
 	$dir = '';
 } ?>

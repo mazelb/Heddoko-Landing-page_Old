@@ -3,6 +3,9 @@ Thumbs.db
 
 # IDE files.
 .idea
+/.tags
+/.tags_swap
+/tags
 
 # .htpasswd
 .htpasswd

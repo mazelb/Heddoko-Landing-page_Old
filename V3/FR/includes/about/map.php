@@ -14,8 +14,10 @@
                 </p>
 			</div>
 			<div class="ci-inner col-md-6">
-				<i class="fa fa-envelope"></i>
-				<p>info@heddoko.com</p>
+				<a href="mailto:web@heddoko.com">
+                    <i class="fa fa-envelope"></i>
+                    <p> web@heddoko.com</p>
+                </a>
 			</div>
 		</div>
 	</div>

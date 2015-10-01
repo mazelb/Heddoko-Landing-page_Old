@@ -14,7 +14,8 @@
         <h1 class="page-title">Page not found <span></span></h1>
 
 	    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1">
-			It looks like the page you're looking for might have been moved or removed altogether.
+            You were born to move. Unfortunately the page you are looking for has too.
+			<!-- It looks like the page you're looking for might have been moved or removed altogether. -->
             <br><br>
 
             Please browse to our <a href="/">homepage</a> or try one of these links:

@@ -35,17 +35,17 @@ if (count($dir) > 1)
 
 		case '404':
 			$title = '| Page not found.';
-			$description = '';
+			$description = 'The First Smart Compression Suit That Tracks Full-Body Movement In 3D';
 		break;
 
         default:
             $title = '';
-            $description = '';
+            $description = 'The First Smart Compression Suit That Tracks Full-Body Movement In 3D';
 	}
 	$dir = '../';
 } else {
-	$title = '| Smart compression suits';
-	$description = 'Heddoko empowers perfection in your training by tracking your movement and getting live coaching feedback through our smart compression suit. It\'s your own personal performance centre.';
+	$title = '| Track your movements in 3D';
+	$description = 'Heddoko empowers perfection in human movement. The only fitness wearable technology to provide real-time 3D corrective feedback.';
 	$dir = '';
 } ?>
 <!-- Meta -->

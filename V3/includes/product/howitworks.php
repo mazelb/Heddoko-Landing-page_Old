@@ -2,8 +2,9 @@
 	<div class="container">
 		<div class="row">
 
+    			<h1 class="page-title">How it works <span></span></h1>
+
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-1 col-lg-offset-1 pull-right">
-				<h4 data-animated="0">This is how it works:</h4>
 
 				<div class="row select active" data-animated="0">
 					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">

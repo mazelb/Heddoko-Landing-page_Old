@@ -35,6 +35,15 @@ RewriteEngine on
 RewriteCond %{HTTP_REFERER} !^https?://(.*\.)?heddoko\.com/.*$ [NC]
 
 # Newly added
+RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?zhubajie\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?ipmo\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?vikecn\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?680\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?roadwarriorvoices\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?int\.search\.myway\.com [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?m2mzona\.hu [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://118\.193\.188\.225 [NC,OR]
+RewriteCond %{HTTP_REFERER} ^https?://172\.27\.72\.27 [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?youdao\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?i4u\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?videos-for-your-business\.com [NC,OR]

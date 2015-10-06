@@ -1,0 +1,119 @@
+/*
+
+COLORS ----------------
+GREEN 			#3bd6b2 / rgba(59, 214, 178, 1)
+DARKGREY 		#49434d / rgba(73, 67, 77, 1)
+LIGHTGREY 		#858585 / rgba(133, 133, 133, 1)
+
+*/
+
+/* =====================================================================
+HEADER
+===================================================================== */
+header {
+	background: none;
+}
+
+/* =====================================================================
+SLIDER
+===================================================================== */
+.thank-you {
+	background: #49434d url(../images/thank-you/bg.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 0;
+	min-height: 768px;
+	position: relative;
+}
+
+.thank-you .container > div {
+	float: none;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.thank-you .container > div h1 {
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+
+.thank-you .container > div h2 {
+    color: #fff;
+}
+
+.thank-you .container > div p {
+	color: #fff;
+	display: block;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.thank-you .container > div .form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.thank-you .container > div .form .btn {
+	margin: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 12px;
+	padding-bottom: 11px;
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media (min-width: 1px) and (max-width: 767px) {
+
+	.thank-you .container > div h1 span {
+		display: block;
+	}
+
+	.thank-you .container > div .form .input-group {
+		display: block;
+	}
+
+	.thank-you .container > div .form .input-group .form-control {
+		margin-bottom: 10px;
+	}
+
+	.thank-you .container > div .form .input-group .btn {
+		display: block;
+		width: 100%;
+	}
+}
+
+/* =====================================================================
+.thank-you
+===================================================================== */
+.thank-you .container .row > div form .btn {
+	padding-top: 12px;
+	padding-bottom: 11px;
+}
+
+.thank-you .container .row form .btn[disabled] {
+	background-color: transparent;
+}
+
+.thank-you .container .row .ajax,
+.thank-you .container .row #thankyoudiv {
+	display: none;
+}
+
+.thank-you .container .row > div #thankyoudiv {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

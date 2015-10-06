@@ -22,7 +22,7 @@
 <?php include('../includes/footer.php'); ?>
 
 <!-- page specific -->
-<script src="../js/<?php echo $fileName; ?>.js"></script>
+<script src="../js/<?php echo $fileName; ?>.js?20151006"></script>
 
 </body>
 </html>

@@ -111,7 +111,7 @@ $(document).ready(function(){
 						$('#mc-embedded-subscribe-form input').removeClass('disabled').removeAttr('disabled');
 						$('#mc-embedded-subscribe-form select').removeClass('disabled').removeAttr('disabled');
 						$('.ajax').hide();
-						$('#thankyoudiv').html('Thank You').show();
+						$('#thankyoudiv').html('Merci').show();
 
 						ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
 						mixpanel.track('user_signed_up');
@@ -126,15 +126,15 @@ $(document).ready(function(){
 			$('.ajax').hide();
 
 			if(validateLastName) {
-				$('#thankyoudiv').html('Please enter a last name');
+				$('#thankyoudiv').html('Veuillez saisir votre nom');
 			}
 
 			if(validateFirstName) {
-				$('#thankyoudiv').html('Please enter a first name');
+				$('#thankyoudiv').html('Veuillez saisir votre prénom');
 			}
 
 			if(validateEmail) {
-				$('#thankyoudiv').html('Please enter a valid email address');
+				$('#thankyoudiv').html('Veuillez saisir votre courriel');
 			}
 
 			$('#thankyoudiv').show();

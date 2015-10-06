@@ -14,7 +14,7 @@
     $fileName = basename(__DIR__);
     $self = array_filter(explode("/", $_SERVER['PHP_SELF']));
     $stylesheet = $self[1] == 'FR' ? '../..' : '..';
-    $stylesheet .= '/css/'. $fileName .'.css?20151005';
+    $stylesheet .= '/css/'. $fileName .'.css?20151006';
     ?>
 
 	<link rel="stylesheet" href="<?= $stylesheet ?>">
@@ -27,6 +27,7 @@
 <?php include('../includes/thank-you/message.php'); ?>
 
 <?php include('../includes/footer.php'); ?>
-
+    
+    <script src="../js/thank-you.js"></script>
 </body>
 </html>

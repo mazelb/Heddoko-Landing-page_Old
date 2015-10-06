@@ -28,6 +28,10 @@ SLIDER
 	position: relative;
 }
 
+.thank-you .row:first-child {
+    margin-top: 250px;
+}
+
 .thank-you .container > div {
 	float: none;
 	margin-top: 200px;
@@ -57,8 +61,16 @@ SLIDER
 	margin-bottom: 60px;
 }
 
-.thank-you .container .social a {
+.thank-you .container .social-btns {
+    margin: 100px auto;
+}
+
+.thank-you .container .social-btns a {
     margin: 5px 15px;
+    color: #fff;
+}
+.thank-you .container .social-btns a:hover {
+    color: #3BD6B2;
 }
 
 

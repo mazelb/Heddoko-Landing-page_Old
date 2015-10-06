@@ -4,10 +4,10 @@
         <div class="row">
         
             <div class="col-xs-12 col-md-5 col-mg-5 col-lg-5">
-                <h1>Thanks for signing up!</h1>
+                <h1 style="margin-bottom: 78px;">Thanks for signing up!</h1>
                 <h2>Welcome to the <em>Heddoko community</em></h2>
                 
-                <a href="/product" class="btn btn-default">
+                <a href="/product" class="btn btn-default" style="margin-top: 15px">
                     Continue learning about Heddoko
                 </a>
             </div>
@@ -23,7 +23,7 @@
             
         </div>
         
-        <div class="row social">
+        <div class="row social-btns">
             <div class="col-xs-12 col-md-12 col-mg-12 col-lg-12">
                 <a id="footer_social_facebook" href="https://www.facebook.com/heddoko" target="_blank">
                     <i class="fa fa-2x fa-facebook"></i>

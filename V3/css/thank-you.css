@@ -57,20 +57,10 @@ SLIDER
 	margin-bottom: 60px;
 }
 
-.thank-you .container > div .form {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 80%;
+.thank-you .container .social a {
+    margin: 5px 15px;
 }
 
-.thank-you .container > div .form .btn {
-	margin: 0;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 12px;
-	padding-bottom: 11px;
-}
 
 /* ===== MEDIA QUERIES ===== */
 @media (min-width: 1px) and (max-width: 767px) {
@@ -78,42 +68,8 @@ SLIDER
 	.thank-you .container > div h1 span {
 		display: block;
 	}
-
-	.thank-you .container > div .form .input-group {
-		display: block;
-	}
-
-	.thank-you .container > div .form .input-group .form-control {
-		margin-bottom: 10px;
-	}
-
-	.thank-you .container > div .form .input-group .btn {
-		display: block;
-		width: 100%;
-	}
-}
-
-/* =====================================================================
-.thank-you
-===================================================================== */
-.thank-you .container .row > div form .btn {
-	padding-top: 12px;
-	padding-bottom: 11px;
-}
-
-.thank-you .container .row form .btn[disabled] {
-	background-color: transparent;
-}
-
-.thank-you .container .row .ajax,
-.thank-you .container .row #thankyoudiv {
-	display: none;
-}
-
-.thank-you .container .row > div #thankyoudiv {
-	color: #fff;
-	font-size: 18px;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+    
+    .thank-you .container > div .btn {
+        margin-bottom: 50px;
+    }
 }

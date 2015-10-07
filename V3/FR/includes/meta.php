@@ -35,12 +35,12 @@ if (count($dir) > 2)
 
 		case '404':
 			$title = '| Page non trouvée.';
-			$description = '';
+			$descriptionFR = '';
 		break;
 
         default:
             $title = '';
-            $description = '';
+            $descriptionFR = '';
 	}
 	$dir = '../../';
 } else {

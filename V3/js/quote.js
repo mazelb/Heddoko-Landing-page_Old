@@ -41,6 +41,7 @@ $(document).ready(function() {
         // Format request data and send request.
         $.ajax({
             type: 'POST',
+            cache: false,
             url: $(this).attr('action'),
             data: {
                 first_name: this.first_name.value,
@@ -52,18 +53,19 @@ $(document).ready(function() {
                 website: this.website.value,
                 token: this.token.value
             },
-            cache: false,
-            error: function(response) {
-                console.log('Error: ' + response.responseText);
+            complete: function(response) {
 
                 $('.ajax').hide();
-                $('.errormessage').show();
-            },
-            success: function (response) {
-                console.log(response);
 
-                $('.ajax').hide();
-                $('.successmessage').show();
+                // Make sure request was successful.
+                if (response.status != 201) {
+                    $('.errormessage').show();
+                    console.log('Error: ' + response.responseText);
+                }
+
+                else {
+                    $('.successmessage').show();
+                }
             }
         });
 

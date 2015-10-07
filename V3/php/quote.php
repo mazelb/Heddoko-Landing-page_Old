@@ -49,7 +49,7 @@ class Quote
             $request = new InsightlyRequest('POST', $apiKey, $endpoint);
             $result = $request->body($data)->asJSON();
 
-            return static::send('Lead successfully created.');
+            return static::send('Lead successully created.', 201);
         }
 
         catch (Exception $error) {

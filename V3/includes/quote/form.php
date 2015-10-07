@@ -8,9 +8,9 @@ require '../php/quote.php';
         <div class="row">
             <div class="col-xs-12 col-md-12 col-mg-8 col-lg-8 col-mg-offset-2 col-lg-offset-2">
                 <h1>Ask for a quote</h1>
-                <p><em>Ask for a quote</em></p>
+                <p><em>And we'll get back to you shortly.</em></p>
 
-                <form class="form" name="quotation" action="../php/quote.php" method="post">
+                <form class="form" name="quotation" action="/php/quote.php" method="post">
 
                     <!-- First name -->
                     <div class="form-group">

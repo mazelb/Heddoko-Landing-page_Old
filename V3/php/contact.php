@@ -2,7 +2,8 @@
 
 // Define some constants
 define( "RECIPIENT_NAME", "Heddoko" );
-define( "RECIPIENT_EMAIL", "info@heddoko.com" );
+define( "RECIPIENT_EMAIL", "web@heddoko.com" );
+// define( "RECIPIENT_EMAIL", "info@heddoko.com" );
 // define( "EMAIL_SUBJECT", "$subject" );
 
 // Read the form values

@@ -7,16 +7,10 @@ LIGHTGREY 		#858585 / rgba(133, 133, 133, 1)
 
 */
 
-/* =====================================================================
-HEADER
-===================================================================== */
 header {
 	background: none;
 }
 
-/* =====================================================================
-SLIDER
-===================================================================== */
 .quotation-form {
 	background: #49434d url(../images/quote/bg.jpg) no-repeat center center;
 	-webkit-background-size: cover;
@@ -121,7 +115,7 @@ SLIDER
 }
 
 /* =====================================================================
-.quotation-form
+.Form
 ===================================================================== */
 .quotation-form .container .row > div form .btn {
 	padding-top: 12px;
@@ -130,6 +124,11 @@ SLIDER
 
 .quotation-form .container .row form .btn[disabled] {
 	background-color: transparent;
+}
+
+.quotation-form .container .row form .error {
+    color: #fff;
+    display: none;
 }
 
 .quotation-form .container .row .ajax,

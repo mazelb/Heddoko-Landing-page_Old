@@ -10,14 +10,12 @@
     // Include meta tags.
     include('../includes/meta.php');
 
-    // Define base name and filename for stylesheet.
+    // Define base name.
     $fileName = basename(__DIR__);
     $self = array_filter(explode("/", $_SERVER['PHP_SELF']));
-    $stylesheet = $self[1] == 'FR' ? '../..' : '..';
-    $stylesheet .= '/css/'. $fileName .'.css?20151006';
+    $baseName = $self[1] == 'FR' ? '../..' : '..';
     ?>
-
-	<link rel="stylesheet" href="<?= $stylesheet ?>">
+	<link rel="stylesheet" href="<?= $baseName ?>/css/<?= $fileName ?>.css?20151007">
 </head>
 
 <body id="page-top" class="template-<?= $fileName; ?>">
@@ -30,5 +28,6 @@
 
 <?php include('../includes/footer.php'); ?>
 
+    <script type="text/javascript" src="<?= $baseName .'/js/'. $fileName .'.js?20151007' ?>"></script>
 </body>
 </html>

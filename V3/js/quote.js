@@ -39,56 +39,31 @@ $(document).ready(function() {
         $('.ajax').show();
 
         // Format request data and send request.
-        var formData = {
-            first_name: this.first_name.value,
-            last_name: this.last_name.value,
-            title: this.title.value,
-            phone: this.phone.value,
-            email: this.email.value,
-            website: this.website.value,
-            token: this.token.value
-        };
-
-        console.log(formData);
-
         $.ajax({
             type: 'POST',
             url: $(this).attr('action'),
-            data: formData,
+            data: {
+                first_name: this.first_name.value,
+                last_name: this.last_name.value,
+                organization: this.organization.value,
+                title: this.title.value,
+                phone: this.phone.value,
+                email: this.email.value,
+                website: this.website.value,
+                token: this.token.value
+            },
             cache: false,
-            dataType: 'json',
-            contentType: 'application/json; charset=utf-8',
             error: function(response) {
-                console.log(response);
-                alert('Could not process your request. Please try again later.');
+                console.log('Error: ' + response.responseText);
+
+                $('.ajax').hide();
+                $('.errormessage').show();
             },
             success: function (response) {
                 console.log(response);
-            },
-            successBackup : function(data) {
-                if (data.result != 'success') {
-                    // Something went wrong, do something to notify the user. maybe alert(data.msg);
 
-                    $('#mc-embedded-subscribe-form input').removeClass('disabled').removeAttr('disabled');
-                    $('#mc-embedded-subscribe-form select').removeClass('disabled').removeAttr('disabled');
-                    $('.ajax').hide();
-                    $('#thankyoudiv').html(data.msg).show();
-
-                    ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'sign_up_failed');
-                    mixpanel.track('sign_up_failed');
-
-                } else {
-                    // It worked, carry on...
-                    $('#mc-embedded-subscribe-form input').val('');
-                    $('#mc-embedded-subscribe-form select').val('');
-                    $('#mc-embedded-subscribe-form input').removeClass('disabled').removeAttr('disabled');
-                    $('#mc-embedded-subscribe-form select').removeClass('disabled').removeAttr('disabled');
-                    $('.ajax').hide();
-                    $('#thankyoudiv').html('Thank You').show();
-
-                    ga('send', 'event', 'mailchimp_server', 'mailchimp_server_response', 'user_signed_up');
-                    mixpanel.track('user_signed_up');
-                }
+                $('.ajax').hide();
+                $('.successmessage').show();
             }
         });
 

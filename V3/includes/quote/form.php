@@ -22,6 +22,11 @@ require '../php/quote.php';
                         <input type="text" class="form-control" name="last_name" placeholder="Last Name" required>
                     </div>
 
+                    <!-- Organization -->
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="organization" placeholder="Organization" required>
+                    </div>
+
                     <!-- Title -->
                     <div class="form-group">
                         <input type="text" class="form-control" name="title" placeholder="Title" required>
@@ -37,12 +42,12 @@ require '../php/quote.php';
 
                     <!-- Email -->
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email address">
+                        <input type="email" class="form-control" name="email" value="" placeholder="Email address">
                     </div>
 
                     <!-- Website -->
                     <div class="form-group">
-                        <input type="url" class="form-control" name="website" placeholder="Website">
+                        <input type="url" class="form-control" name="website" value="" placeholder="Website">
                     </div>
 
                     <!-- Submit button -->
@@ -54,6 +59,14 @@ require '../php/quote.php';
                 </form>
 
                 <img src="../images/ajax-loader.gif" class="ajax">
+
+                <div class="errormessage">
+                    We could not process your request. Please try again later.
+                </div>
+
+                <div class="successmessage">
+                    Thank you for your inquiry.
+                </div>
                 <br>
                 <br>
                 <br>

@@ -20,29 +20,58 @@ class Quote
     {
         // Make sure this is in fact a request, and we're not just including the file
         // from another PHP script.
-        if (strtolower($_SERVER['REQUEST_METHOD']) != 'post') {
+        if (strtoupper($_SERVER['REQUEST_METHOD']) != 'POST') {
             return;
         }
 
         // Check the request token.
+        if (!strlen($_POST['token']) || $_POST['token'] !== static::getToken()) {
+            return static::send('Invalid request token.', 400);
+        }
 
-        static::send($_REQUEST);
+        // Retrieve parameters.
+        $data = [
+            'FIRST_NAME' => strip_tags(trim($_POST['first_name'])),
+            'LAST_NAME' => strip_tags(trim($_POST['last_name'])),
+            'ORGANIZATION_NAME' => strip_tags(trim($_POST['organization'])),
+            'TITLE' => strip_tags(trim($_POST['title'])),
+            'PHONE_NUMBER' => strip_tags(trim($_POST['phone'])),
+            'EMAIL_ADDRESS' => strip_tags(trim($_POST['email'])),
+            'WEBSITE_URL' => strip_tags(trim($_POST['website'])),
+        ];
+
+        // Create lead on Insightly API.
+        require 'insightly.php';
+        $apiKey = '4172a7db-fbb9-45c5-bf6f-d1655b123420';
+        $endpoint = '/v2.1/Leads';
+        try
+        {
+            $request = new InsightlyRequest('POST', $apiKey, $endpoint);
+            $result = $request->body($data)->asJSON();
+
+            return static::send('Lead successfully created.');
+        }
+
+        catch (Exception $error) {
+            return static::send($error->getMessage(), 500);
+        }
     }
 
     /**
      * Sends a response back to the client.
      *
-     * @param mixed $data   Data to send back to client.
+     * @param string $msg   Message to send back to client.
      * @param int $status   HTTP status code.
      */
-    public static function send($data, $status = 200)
+    public static function send($msg, $status = 200)
     {
         // Send the status code.
         header('HTTP/1.1 '. $status);
 
         // Finish request.
         if (static::isAjax()) {
-            echo json_encode($data);
+            header('Content-Type: application/json; charset=utf-8');
+            echo json_encode($msg);
         } else {
             $location = strpos($_SERVER['HTTP_REFERER'], '/FR/quote') ? '/FR/quote' : '/quote';
             header('Location: '. $location);

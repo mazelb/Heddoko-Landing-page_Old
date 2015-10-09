@@ -53,6 +53,7 @@ if (count($dir) > 1)
 <meta name="keywords" content="smart compression suit, smart clothing, motion tracking, motion capture, mocap, athlete management system" />
 <meta name="description" content="<?php echo $description; ?>">
 <meta name="author" content="">
+<meta name="p:domain_verify" content="fc3c9cbdd7425794cf665b51fdbc88e4">
 
 <title>Heddoko <?= $title; ?></title>
 

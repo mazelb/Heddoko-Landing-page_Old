@@ -53,6 +53,7 @@ if (count($dir) > 2)
 <meta name="keywords" content="" />
 <meta name="description" content="<?php echo $descriptionFR; ?>">
 <meta name="author" content="">
+<meta name="p:domain_verify" content="fc3c9cbdd7425794cf665b51fdbc88e4">
 
 <title>Heddoko <?php echo $title; ?></title>
 

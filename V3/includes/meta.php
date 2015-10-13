@@ -15,7 +15,9 @@ if (count($dir) > 1)
 
 		case 'about':
 			$title = '| About Us: Motion Capture and Tracking';
-			$description = 'Who we are: makers of smart clothing';
+			// $description = 'Who we are: makers of smart clothing';
+            $description = 'Heddoko is a wearable technology startup that was born a year ago '.
+                'from an idea at the precise intersection of sports, technology, and passion.';
 		break;
 
 		case 'press':
@@ -25,7 +27,9 @@ if (count($dir) > 1)
 
 		case 'faq':
 			$title = '| FAQ';
-			$description = 'If you have questions regarding our smart compression suit or athelete management system and how they works, don\'t hesitate to ask!';
+			// $description = 'If you have questions regarding our smart compression suit or '.
+            //     'athelete management system and how they works, don\'t hesitate to ask!';
+            $description = 'Frequently Asked Questions regarding our motion capture system and how it works.';
 		break;
 
 		case 'signup':
@@ -45,7 +49,10 @@ if (count($dir) > 1)
 	$dir = '../';
 } else {
 	$title = '| Track your movements in 3D';
-	$description = 'Heddoko empowers perfection in human movement. The only fitness wearable technology to provide real-time 3D corrective feedback.';
+    // $description =  'Heddoko empowers perfection in human movement. The only fitness wearable '.
+    //                 'technology to provide real-time 3D corrective feedback.';
+    $description =  'Heddoko is the world\'s first smart compression suit that tracks full-body '.
+                    'movement in 3D and gives you live coaching feedback.';
 	$dir = '';
 } ?>
 <!-- Meta -->

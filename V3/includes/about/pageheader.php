@@ -22,17 +22,17 @@
                 <meta itemprop="founder" content="Mazen Elbawab" />
                 <meta itemprop="founder" content="Alexandre Fainberg" />
 
-                <span class="green">Heddoko</span>, Japanese for head coach, was born a year ago
-                from an idea at the precise intersection of <span class="green">sports</span>,
-                <span class="green">technology</span>, and <span class="green">passion</span> –
+                <em>Heddoko</em>, Japanese for head coach, was born a year ago
+                from an idea at the precise intersection of <em>sports</em>,
+                <em>technology</em>, and <em>passion</em> –
                 in the mind of a software engineer training for a mixed martial arts (MMA)
                 competition in a Montreal gym.
                 <br>
                 <br>
 
                 Officially founded in <span itemprop="foundingDate">May of 2014</span>,
-                <span class="green">Heddoko</span> became not just a company, but a
-                <span class="green">community of professionals</span> bound by pushing the
+                <em>Heddoko</em> became not just a company, but a
+                <em>community of professionals</em> bound by pushing the
                 boundaries of human performance and the belief in the power of the human spirit.
                 <br>
                 <br>

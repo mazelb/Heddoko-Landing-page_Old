@@ -1,4 +1,8 @@
 <?php
+
+// General helper class.
+include '../php/helper.php';
+
 /* =======================================
 Defines directory for images, css, scripts, titles, and descriptions
 ======================================= */

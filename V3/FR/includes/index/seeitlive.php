@@ -68,6 +68,10 @@
                                 Claudia Bacco: OK great, thank you." />
 
 					<a href="https://www.youtube.com/watch?v=V4u8pXWo6Qs" class="play fancybox-media" data-animated="0">
+                        <?= Heddoko::pin([
+                            'media' => 'https://www.youtube.com/watch?v=V4u8pXWo6Qs',
+                            'description' => 'Heddoko Smart Sports Clothing Live Demo'
+                        ]) ?>
                         <div class="has-icon-img"></div>
 					</a>
 					<div class="image-container" data-animated="0">

@@ -10,7 +10,7 @@ window.mobileAndTabletcheck = function() {
 /* =====================================================================
 NAV BACKGROUND SCROLLING
 ===================================================================== */
-$(window).scroll(function() {    
+$(window).scroll(function() {
 	var scroll = $(window).scrollTop();
 	if (scroll >= 220) {
 		$('header').addClass('highlight');
@@ -30,7 +30,7 @@ function playVideo(element) {
 SLIDER HTML5 VIDEO
 ===================================================================== */
 $(document).ready(function() {
-	//do not load video on smaller screens	
+	//do not load video on smaller screens
 	if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
 		$('.slider-home .container > div .play').hide();
 
@@ -38,12 +38,12 @@ $(document).ready(function() {
 		.on('canplaythrough', function(){
 			var windowHeight = $(window).height();
 			windowHeight = (windowHeight > 767) ? windowHeight : 768;
-			
+
 			var videoWidth = (windowHeight/($('.slider-home .videobg video')[0].videoHeight))*($('.slider-home .videobg video')[0].videoWidth);
 			videoWidth = parseInt(videoWidth);
 
 			var marginLeft = ((videoWidth-($(window).width()))/2)*-1;
-			
+
 			$('.slider-home .videobg video').css('marginLeft', marginLeft);
 
 			$('.slider-home .videobg').fadeIn('slow', playVideo('.videobg video'));
@@ -68,7 +68,7 @@ function validateEmailFunc(email) {
 FORM LIGHTBOX
 ===================================================================== */
 $(document).ready(function(){
-	$('.slider-home .btn').click(function(){
+	$('#index_pg_signup_btn').click(function(){
 		$('#modal').fadeIn();
 		return false;
 	});
@@ -111,8 +111,8 @@ $(document).ready(function(){
 			$.ajax({
 		        type: $('#mc-embedded-subscribe-form').attr('method'),
 		        url: $('#mc-embedded-subscribe-form').attr('action'),
-		        data: { EMAIL: $('#mce-EMAIL').val(), 
-		        FNAME: $('#mce-FNAME').val(), 
+		        data: { EMAIL: $('#mce-EMAIL').val(),
+		        FNAME: $('#mce-FNAME').val(),
 		        LNAME: $('#mce-LNAME').val(),
 		        MMERGE3: $('#mce-MMERGE3').val() },
 		        cache       : false,
@@ -122,7 +122,7 @@ $(document).ready(function(){
 		        success     : function(data) {
 		            if (data.result != 'success') {
 						// Something went wrong, do something to notify the user. maybe alert(data.msg);
-						
+
 						$('#mc-embedded-subscribe-form input').removeClass('disabled').removeAttr('disabled');
 						$('#mc-embedded-subscribe-form select').removeClass('disabled').removeAttr('disabled');
 						$('.ajax').hide();
@@ -178,8 +178,8 @@ $(document).ready(function(){
 		    "$email": $('#mce-EMAIL').val()
 		});
 		mixpanel.track('sign_up_button_clicked');
-	});	
-	
+	});
+
 	//signed up button
 	$('#mc-embedded-subscribe-2').click(function() {
 		ga('send', 'event', 'button', 'click', 'sign_up_button2_clicked');
@@ -188,14 +188,14 @@ $(document).ready(function(){
 		    "$email": $('#mce-EMAIL').val()
 		});
 		mixpanel.track('sign_up_button2_clicked');
-	});	
+	});
 });
 
 /* =====================================================================
 Analytics
 ===================================================================== */
 $(document).ready(function() {
-	//menu buttons	
+	//menu buttons
 	$('#nav_menu_FR').click(function() {
 		ga('send', 'event', 'button', 'click', 'nav_menu_FR_clicked');
 		mixpanel.track("nav_menu_FR_clicked");
@@ -271,7 +271,7 @@ $(document).ready(function() {
 	$('#nav_menu_signup').click(function() {
 		ga('send', 'event', 'button', 'click', 'nav_menu_signup_clicked');
 		mixpanel.track("nav_menu_signup_clicked");
-	});	
+	});
 
 	//Footer buttons
 	$('#footer_social_twitter').click(function() {
@@ -373,7 +373,7 @@ $(document).ready(function() {
 	$('#footer_menu_signup').click(function() {
 		ga('send', 'event', 'button', 'click', 'footer_menu_signup_clicked');
 		mixpanel.track("footer_menu_signup_clicked");
-	});	
+	});
 
 	//inpage buttons
 	$('#index_pg_signup_btn').click(function() {
@@ -489,7 +489,7 @@ SLIDER FORM SUBMIT
 // 		//     "$email": $('#mce-EMAIL').val()
 // 		// });
 // 		// mixpanel.track('sign_up_button_clicked');
-// 	});	
+// 	});
 // });
 
 /* =====================================================================
@@ -521,7 +521,7 @@ $(document).ready(function() {
 PRODUCT SPECS HTML5 VIDEO
 ===================================================================== */
 $(document).ready(function() {
-	//do not load video on smaller screens	
+	//do not load video on smaller screens
 	if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
 
 		var videoFile = $('<video loop muted></video>')
@@ -571,7 +571,7 @@ $(document).ready(function() {
 SEE IT LIVE HTML5 VIDEO
 ===================================================================== */
 $(document).ready(function() {
-	//do not load video on smaller screens	
+	//do not load video on smaller screens
 	if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
 
 		var videoFile = $('<video loop muted></video>')
@@ -601,7 +601,7 @@ $(document).ready(function() {
 LEARN MORE ON THE PRODUCT
 ===================================================================== */
 $(document).ready(function() {
-	//do not load video on smaller screens	
+	//do not load video on smaller screens
 	if($(document).width() > 768 && !window.mobileAndTabletcheck()) {
 
 		var videos = [false, false];
@@ -615,14 +615,14 @@ $(document).ready(function() {
 		var videoFile = $('<video loop muted></video>')
 		.on('canplaythrough', function(){
 			var windowHeight = document.getElementById('learnproduct').offsetHeight;
-			
+
 			var videoWidth = (windowHeight/($('#learnproduct .videobg video')[0].videoHeight))*($('#learnproduct .videobg video')[0].videoWidth);
 			videoWidth = parseInt(videoWidth);
 
 			var marginLeft = ((videoWidth-($(window).width()))/2)*-1;
-			
+
 			// $('#learnproduct .videobg video').css('marginLeft', marginLeft);
-			
+
 			videos[0] = true;
 			bothVideosLoade();
 		})
@@ -633,7 +633,7 @@ $(document).ready(function() {
 		$('#learnproduct .videobg').append('<div class="preventcontrols"></div>');
 
 		var videoAppFile = $('<video loop muted></video>')
-		.on('canplaythrough', function(){			
+		.on('canplaythrough', function(){
 			videos[1] = true;
 			bothVideosLoade();
 		})
@@ -650,9 +650,9 @@ $(document).ready(function() {
 AWARDS SLIDER
 ===================================================================== */
 $(document).ready(function() {
- 
+
   var owl = $("#award-slider");
- 
+
   $("#award-slider").owlCarousel({
     autoPlay : 3000,
     stopOnHover : true,
@@ -734,7 +734,7 @@ $(document).ready(function(){
 		//     "$email": $('#mce-EMAIL-2').val()
 		// });
 		// mixpanel.track('sign_up_button_clicked');
-	});	
+	});
 });
 
 /* =====================================================================

@@ -1,3 +1,9 @@
+<?php
+
+// General helper class.
+include 'php/helper.php';
+
+?>
 <!DOCTYPE html>
 <!--[if IE 8]>			<html class="ie ie8" lang="fr"> <![endif]-->
 <!--[if IE 9]>			<html class="ie ie9" lang="fr"> <![endif]-->
@@ -40,7 +46,7 @@
 <?php include('includes/footer.php'); ?>
 
 <!-- page specific -->
-<script src="js/<?php echo $fileName; ?>.js"></script>
+<script src="js/index.js?20151013"></script>
 
 </body>
 </html>

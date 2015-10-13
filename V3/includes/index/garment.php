@@ -6,7 +6,10 @@
 			<div class="col-xs-12 col-md-6 content">
 				<h2 data-animated="0">Smart Garment <span></span></h2>
 
-				<p itemprop="description" data-animated="0">Heddoko is a smart compression suit that uses textile embedded sensors to track your body movement and give you live 3D coaching. </p>
+				<p itemprop="description" data-animated="0">
+                    Heddoko is a smart compression suit that uses textile embedded sensors to track
+                    your body movement and give you live 3D coaching.
+                </p>
 
 				<div class="col-xs-12">
 					<div class="row">
@@ -31,6 +34,7 @@
                     </a>
 				</p>
 			</div>
+                <?= Heddoko::pin('http://www.heddoko.com/images/index/garment.png', 'Heddoko smart garment') ?>
 			<div class="col-xs-12 col-md-6 image">
 				<img itemprop="image" src="images/index/garment.png" data-animated="4" alt="Garment">
 			</div>

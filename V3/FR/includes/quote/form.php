@@ -7,8 +7,10 @@ require '../../php/quote.php';
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12 col-mg-8 col-lg-8 col-mg-offset-2 col-lg-offset-2">
-                <h1>Demandez un devis</h1>
-                <p><em>Et nous vous reviendrons dans les plus bref délais.</em></p>
+                <h1>Demandez votre kit de développement maintenant</h1>
+                <p><em>
+                    Veuillez compléter ce formulaire pour demander un devis.
+                </em></p>
 
                 <form class="form" name="quotation" action="/php/quote.php" method="post">
 
@@ -65,7 +67,7 @@ require '../../php/quote.php';
                 </div>
 
                 <div class="successmessage">
-                    Merci pour votre requête.
+                    Merci pour votre requête. Un représentant des ventes prendra contact avec vous très bientôt.
                 </div>
                 <br>
                 <br>

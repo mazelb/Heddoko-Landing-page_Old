@@ -40,7 +40,14 @@
 				<a id="footer_menu_blog" href="http://blog.heddoko.com" target="_blank">Blogue</a>
 			</li>
 			<li>
-				<a id="footer_menu_signup" href="/FR/signup">S'inscrire</a>
+                <ul>
+                    <li>
+                        <a id="footer_menu_quote" href="/FR/quote">Kit de développement</a>
+    				</li>
+                    <li>
+                        <a id="footer_menu_signup" href="/FR/signup">L'infolettre</a>
+                    </li>
+                </ul>
 			</li>
 		</ul>
 		</div>

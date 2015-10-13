@@ -8,7 +8,7 @@
             href="https://youtu.be/sx5TcrVN9dY"
             class="hidden-lg play fancybox-media"
             itemscope itemtype="http://schema.org/VideoObject">
-            
+
             <meta itemprop="name" content="Heddoko Teaser" />
             <meta itemprop="description" content="Heddoko Teaser" />
             <meta itemprop="thumbnailUrl" content="http://heddoko.com/images/apple-icon-precomposed.png" />
@@ -19,7 +19,18 @@
 
         <h1>Le premier habit intelligent <br/><span> à detecter tous les mouvements du corps en 3D</span></h1>
 
-        <a href="#" class="btn btn-default" id="index_pg_signup_btn">M'inscrire pour l'accès Bêta</a>
+		<div class="row">
+		    <div class="col-xs-12 col-md-4 col-md-offset-2" style="margin-bottom: 20px;">
+                <a href="#" class="btn btn-default" id="index_pg_signup_btn">
+                    Inscrivez-vous à l'infolettre
+                </a>
+		    </div>
+		    <div class="col-xs-12 col-md-4">
+        		<a href="/FR/quote" class="btn btn-default">
+                    Demandez votre kit de développement
+                </a>
+		    </div>
+		</div>
     </div>
 </div>
 </section>

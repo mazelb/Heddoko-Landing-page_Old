@@ -40,7 +40,14 @@
 				<a id="footer_menu_blog" href="http://blog.heddoko.com" target="_blank">Blog</a>
 			</li>
 			<li>
-				<a id="footer_menu_signup" href="/signup">Sign up</a>
+                <ul>
+                    <li>
+                        <a id="footer_menu_quote" href="/quote">Dev Kit</a>
+    				</li>
+                    <li>
+                        <a id="footer_menu_signup" href="/signup">Sign up</a>
+                    </li>
+                </ul>
 			</li>
 		</ul>
 		</div>
@@ -87,18 +94,27 @@
 <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> -->
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
-<script src="<?php echo $dir; ?>js/jquery.easing.min.js"></script>
-<script src="<?php echo $dir; ?>js/jquery.appear.js"></script>
-<script src="<?php echo $dir; ?>js/jquery.animateNumber.js"></script>
+<!-- Scripts -->
+<script type="text/javascript" src="<?= $dir; ?>js/modernizr.custom.js"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/jquery.js"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/bootstrap.js"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/source/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/jquery.appear.js"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/jquery.animateNumber.js"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/jquery.mixitup.min.js"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/jquery.gmap.js"></script>
 
-<script src="<?php echo $dir; ?>js/stellar.js"></script>
-<script src="<?php echo $dir; ?>js/portfolio.js"></script>
-<script src="<?php echo $dir; ?>js/contact.js"></script>
-<script src="<?php echo $dir; ?>js/jCProgress-1.0.3.js"></script>
-<script src="<?php echo $dir; ?>js/jquery.parallax-1.1.3.js"></script>
-<script src="<?php echo $dir; ?>js/jquery.mixitup.min.js"></script>
-<script src="<?php echo $dir; ?>js/grid.js"></script>
-<script src="<?php echo $dir; ?>js/owl-carousel/owl.carousel.min.js"></script>
+<script src="<?= $dir; ?>js/stellar.js"></script>
+<script src="<?= $dir; ?>js/portfolio.js"></script>
+<script src="<?= $dir; ?>js/contact.js"></script>
+<script src="<?= $dir; ?>js/jCProgress-1.0.3.js"></script>
+<script src="<?= $dir; ?>js/grid.js"></script>
+<script src="<?= $dir; ?>js/owl-carousel/owl.carousel.min.js"></script>
 
-<script src="<?php echo $dir; ?>js/jquery.gmap.js"></script>
-<script src="<?php echo $dir; ?>js/main.js"></script>
+<script src="<?= $dir; ?>js/main.js"></script>
+
+<!-- Pinterest -->
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>

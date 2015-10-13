@@ -13,13 +13,20 @@
             <meta itemprop="description" content="Heddoko Teaser" />
             <meta itemprop="thumbnailUrl" content="http://heddoko.com/images/apple-icon-precomposed.png" />
             <meta itemprop="uploadDate" content="2015-02-25" />
-            
+
             <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/icons/icon-play.svg); background-size: contain;"></div>
         </a>
 
 		<h1>The First Smart Compression Suit <br/><span> That Tracks Full-Body Movement In 3D</span></h1>
 
-		<a href="#" class="btn btn-default" id="index_pg_signup_btn">Sign Me Up for Beta Access</a>
+		<div class="row">
+		    <div class="col-xs-12 col-md-4 col-md-offset-2" style="margin-bottom: 20px;">
+                <a href="#" class="btn btn-default" id="index_pg_signup_btn">Sign Up To Our Newsletter</a>
+		    </div>
+		    <div class="col-xs-12 col-md-4">
+        		<a href="/quote" class="btn btn-default">Request Your Development Kit Now</a>
+		    </div>
+		</div>
 	</div>
 
 </div>

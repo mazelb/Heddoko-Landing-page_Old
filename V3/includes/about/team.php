@@ -16,7 +16,10 @@
 				<div class="item col-md-4 col-md-offset-2" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_mazen.jpg" class="img-responsive" alt="Mazen"/>
+							<img
+                                src="../images/about/team/team_mazen.jpg"
+                                class="img-responsive"
+                                alt="Mazen - CEO / Founder"/>
 							<div class="team-overlay mazen">
 								<div class="social">
 									<ul data-animated="0">
@@ -36,7 +39,10 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_alex.jpg" class="img-responsive" alt="Alex"/>
+							<img
+                                src="../images/about/team/team_alex.jpg"
+                                class="img-responsive"
+                                alt="Alex - COO / Co-founder" />
 							<div class="team-overlay alex">
 								<div class="social">
 									<ul data-animated="0">
@@ -63,7 +69,10 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_jonathan.jpg" class="img-responsive" alt="Jonathan"/>
+							<img
+                                src="../images/about/team/team_jonathan.jpg"
+                                class="img-responsive"
+                                alt="Jonathan - Chief Engineer"/>
 							<div class="team-overlay jonathan">
 								<div class="social">
 									<ul data-animated="0">
@@ -82,7 +91,10 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_diana.jpg" class="img-responsive" alt="Diana"/>
+							<img
+                                src="../images/about/team/team_diana.jpg"
+                                class="img-responsive"
+                                alt="Diana - Lead designer" />
 							<div class="team-overlay diana">
 								<div class="social">
 									<ul data-animated="0">
@@ -102,7 +114,10 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_lisa.jpg" class="img-responsive" alt="Lisa"/>
+							<img
+                                src="../images/about/team/team_lisa.jpg"
+                                class="img-responsive"
+                                alt="Lisa - Marketing and Biomechanics Lead" />
 							<div class="team-overlay lisa">
 								<div class="social">
 									<ul data-animated="0">
@@ -129,7 +144,10 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_adel.jpg" class="img-responsive" alt="Adel"/>
+							<img
+                                src="../images/about/team/team_adel.jpg"
+                                class="img-responsive"
+                                alt="Adel - Design Engineer"/>
 							<div class="team-overlay adel">
 								<div class="social">
 									<ul data-animated="0">
@@ -149,7 +167,10 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_sara.jpg" class="img-responsive" alt="Sara"/>
+							<img
+                                src="../images/about/team/team_sara.jpg"
+                                class="img-responsive"
+                                alt="Sara - Fashion Designer"/>
 							<div class="team-overlay sara">
 								<div class="social">
 									<ul data-animated="0">
@@ -168,7 +189,10 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_shahab.jpg" class="img-responsive" alt="Shahab"/>
+							<img
+                                src="../images/about/team/team_shahab.jpg"
+                                class="img-responsive"
+                                alt="Shahab - Project Manager"/>
 							<div class="team-overlay shahab">
 								<div class="social">
 									<ul data-animated="0">
@@ -194,7 +218,10 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_frank.jpg" class="img-responsive" alt="Frank"/>
+							<img
+                                src="../images/about/team/team_frank.jpg"
+                                class="img-responsive"
+                                alt="Frank - Software/Research Engineer"/>
 							<div class="team-overlay frank">
 								<div class="social">
 									<ul data-animated="0">
@@ -205,7 +232,7 @@
 							</div>
 						</div>
 						<div class="team-info" itemscope itemtype="http://schema.org/EmployeeRole">
-							<h4 itemprop="name">Frank<span itemprop="roleName">Research Engineer</span></h4>
+							<h4 itemprop="name">Frank<span itemprop="roleName">Software/Research Engineer</span></h4>
 						</div>
 					</div>
 				</div>
@@ -214,7 +241,10 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_alessandra.jpg" class="img-responsive" alt="Alessandra"/>
+							<img
+                                src="../images/about/team/team_alessandra.jpg"
+                                class="img-responsive"
+                                alt="Alessandra - Designer"/>
 							<div class="team-overlay alessandra">
 								<div class="social">
 									<ul data-animated="0">
@@ -233,7 +263,10 @@
 				<div class="item col-md-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_karla.jpg" class="img-responsive" alt="Karla"/>
+							<img
+                                src="../images/about/team/team_karla.jpg"
+                                class="img-responsive"
+                                alt="Karla - Marketing Analyst"/>
 							<div class="team-overlay karla">
 								<div class="social">
 									<ul data-animated="0">
@@ -259,7 +292,10 @@
 				<div class="item col-md-4 col-md-offset-4" data-animated="0">
 					<div class="col-md-12">
 						<div class="team-staff">
-							<img src="../images/about/team/team_anuj.jpg" class="img-responsive" alt="Anuj"/>
+							<img
+                                src="../images/about/team/team_anuj.jpg"
+                                class="img-responsive"
+                                alt="Anuj - Design Engineer"/>
 							<div class="team-overlay anuj">
 								<div class="social">
 									<ul data-animated="0">

@@ -9,12 +9,12 @@ if (count($dir) > 1)
 	switch($dir[1])
     {
 		case 'product':
-			$title = '| Product: A Smart Compression Suit and More';
+			$title = '| Learn about our motion capture suit';
 			$description = 'HEDDOKO is a smart compression garment that uses textile embedded sensors to continuously track your body movement and give you live 3D coaching.';
 		break;
 
 		case 'about':
-			$title = '| About Us: Motion Capture and Tracking';
+			$title = '| Motion Capture and Tracking';
 			// $description = 'Who we are: makers of smart clothing';
             $description = 'Heddoko is a wearable technology startup that was born a year ago '.
                 'from an idea at the precise intersection of sports, technology, and passion.';
@@ -48,7 +48,7 @@ if (count($dir) > 1)
 	}
 	$dir = '../';
 } else {
-	$title = '| Track your movements in 3D';
+	$title = '| Track your movement/motion in 3D';
     // $description =  'Heddoko empowers perfection in human movement. The only fitness wearable '.
     //                 'technology to provide real-time 3D corrective feedback.';
     $description =  'Heddoko is the world\'s first smart compression suit that tracks full-body '.
@@ -134,7 +134,7 @@ if (count($dir) > 1)
 
 <!-- Style Switch -->
 <link rel="stylesheet" href="<?php echo $dir; ?>css/colors/heddoko.css" />
-<link rel="stylesheet" href="<?php echo $dir; ?>css/defaults.css" />
+<link rel="stylesheet" href="<?php echo $dir; ?>css/defaults.css?20151013" />
 
 <!-- WEBFONTS -->
 <!-- insert script here -->

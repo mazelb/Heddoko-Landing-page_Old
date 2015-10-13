@@ -1,7 +1,7 @@
 /* =====================================================================
 NAV BACKGROUND SCROLLING
 ===================================================================== */
-$(window).scroll(function() {    
+$(window).scroll(function() {
 	var scroll = $(window).scrollTop();
 	if (scroll >= 220) {
 		$('header').addClass('highlight');
@@ -57,6 +57,7 @@ $(document).ready(function(){
 		var validateFirstName = false;
 		var validateLastName = false;
 		var validateEmail = false;
+		var validateProfession = false;
 
 		//validate email
 		if($('#mce-EMAIL').val() == '' || $('#mce-EMAIL').val() == null || $('#mce-EMAIL').val() == undefined || !validateEmailFunc( $('#mce-EMAIL').val() )) {
@@ -71,9 +72,14 @@ $(document).ready(function(){
 			validateLastName = true;
 		}
 
+		if($('#mce-MMERGE3').val() == '' || $('#mce-MMERGE3').val() == null || $('#mce-MMERGE3').val() == undefined) {
+			validateProfession = true;
+		}
+
 		if(!validateFirstName &&
 			!validateLastName &&
-			!validateEmail) { //ALL GOOD
+			!validateEmail &&
+            !validateProfession) { //ALL GOOD
 
 			console.log($('#mce-EMAIL').val());
 			console.log($('#mce-FNAME').val());
@@ -84,8 +90,8 @@ $(document).ready(function(){
 			$.ajax({
 		        type: $('#mc-embedded-subscribe-form').attr('method'),
 		        url: $('#mc-embedded-subscribe-form').attr('action'),
-		        data: { EMAIL: $('#mce-EMAIL').val(), 
-		        FNAME: $('#mce-FNAME').val(), 
+		        data: { EMAIL: $('#mce-EMAIL').val(),
+		        FNAME: $('#mce-FNAME').val(),
 		        LNAME: $('#mce-LNAME').val(),
 		        MMERGE3: $('#mce-MMERGE3').val() },
 		        cache       : false,
@@ -95,7 +101,7 @@ $(document).ready(function(){
 		        success     : function(data) {
 		            if (data.result != 'success') {
 						// Something went wrong, do something to notify the user. maybe alert(data.msg);
-						
+
 						$('#mc-embedded-subscribe-form input').removeClass('disabled').removeAttr('disabled');
 						$('#mc-embedded-subscribe-form select').removeClass('disabled').removeAttr('disabled');
 						$('.ajax').hide();
@@ -125,6 +131,12 @@ $(document).ready(function(){
 			$('#mc-embedded-subscribe-form select').removeClass('disabled').removeAttr('disabled');
 			$('.ajax').hide();
 
+            console.log('validate errors');
+
+			if(validateProfession) {
+				$('#thankyoudiv').html('Veuillez selectionner une profession');
+			}
+
 			if(validateLastName) {
 				$('#thankyoudiv').html('Veuillez saisir votre nom');
 			}
@@ -151,5 +163,5 @@ $(document).ready(function(){
 		    "$email": $('#mce-EMAIL').val()
 		});
 		mixpanel.track('sign_up_button_clicked');
-	});	
+	});
 });

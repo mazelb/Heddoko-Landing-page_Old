@@ -10,19 +10,38 @@
 			<form class="form" action="http://heddoko.us8.list-manage.com/subscribe/post-json?u=4752cc710a498b9b75d697500&amp;id=b22a426cab&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate="">
 			<div id="mc_embed_signup_scroll">
 				<div class="mc-field-group form-group">
-					<input type="email" class="form-control" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="Email Address">
+					<input
+                        type="email"
+                        value=""
+                        name="EMAIL"
+                        class="required email form-control"
+                        id="mce-EMAIL"
+                        placeholder="Email Address">
 				</div>
 
 				<div class="mc-field-group form-group">
-					<input type="text" class="form-control" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="First Name">
+					<input
+                        type="text"
+                        class="form-control"
+                        value=""
+                        name="FNAME"
+                        class="form-control"
+                        id="mce-FNAME"
+                        placeholder="First Name">
 				</div>
 
 				<div class="mc-field-group form-group">
-					<input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME" placeholder="Last Name">
+					<input
+                        type="text"
+                        value=""
+                        name="LNAME"
+                        class="form-control"
+                        id="mce-LNAME"
+                        placeholder="Last Name">
 				</div>
 
 				<div class="mc-field-group form-group">
-					<select name="MMERGE3" class="form-control" id="mce-MMERGE3">
+					<select name="MMERGE3" class="required form-control" id="mce-MMERGE3">
 						<option value="" disabled selected>Profession</option>
 						<option value="Athlete">Athlete</option>
 						<option value="Coach">Coach</option>

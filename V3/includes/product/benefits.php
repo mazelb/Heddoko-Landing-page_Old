@@ -10,9 +10,17 @@
 				<div class="col-xs-12">
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 col-sm-offset-6" data-animated="0">
-                            <a id="product_pg_benefits_athlete_btn" href="#benefitsathletes">
-                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-athletes.svg)"></div>
-                                <div class="has-icon-img green" style="background-image: url(../images/icons/icon-green-athletes.svg)"></div>
+                            <a
+                                id="product_pg_benefits_athlete_btn"
+                                href="#benefitsathletes"
+                                title="Athletes">
+
+                                <div
+                                    class="has-icon-img"
+                                    style="background-image: url(../images/icons/icon-white-athletes.svg)"></div>
+                                <div
+                                    class="has-icon-img green"
+                                    style="background-image: url(../images/icons/icon-green-athletes.svg)"></div>
                                 <p>Athletes</p>
                             </a>
                         </div>
@@ -23,9 +31,17 @@
 				<div class="col-xs-12">
 					<div class="row">
 						<div class="col-xs-12 col-sm-4 col-sm-offset-2" data-animated="0">
-                            <a id="product_pg_benefits_coaches_btn" href="#benefitscoaches">
-                                <div class="has-icon-img" style="background-image: url(../images/icons/icon-white-coaches.svg)"></div>
-                                <div class="has-icon-img green" style="background-image: url(../images/icons/icon-green-coaches.svg)"></div>
+                            <a
+                                id="product_pg_benefits_coaches_btn"
+                                href="#benefitscoaches"
+                                title="Coaches">
+
+                                <div
+                                    class="has-icon-img"
+                                    style="background-image: url(../images/icons/icon-white-coaches.svg)"></div>
+                                <div
+                                    class="has-icon-img green"
+                                    style="background-image: url(../images/icons/icon-green-coaches.svg)"></div>
                                 <p>Coaches</p>
                             </a>
                         </div>

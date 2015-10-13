@@ -163,7 +163,9 @@
 						data-largesrc="/images/press/big/outsideonline.jpg"
 						data-title="The First Smart Fitness Apparel We’re Actually Excited to Own"
 						data-description="
-						<br>
+						Most feedback athletes receive on their weight-lifting form is subjective.
+                        Mazen Elbawab, CEO of Heddoko, wants to change that. He founded his company
+                        to create an empirical tracker of form during gym workouts.<br>
 						<span>
     						<em><b>Website:</b> Outside Online</em>
     						<em><b>Author:</b> Michael Frank</em>
@@ -185,7 +187,7 @@
 						data-largesrc="/images/press/big/wired.jpg"
 						data-title="Supersuits - Clothes get smart"
 						data-description="
-						As you exercise, motion-capture technology (mocap)on Heddoko's suit creates a 3D model of your body movements.<br>
+						As you exercise, motion-capture technology (mocap) on Heddoko's suit creates a 3D model of your body movements.<br>
     						<span>
     						<em><b>Website:</b> Wired</em>
     						<em><b>Date:</b> 2015</em>
@@ -199,6 +201,7 @@
 						</div>
 					</a>
 				</li>
+
 				<li class="mix">
 					<a href="http://www.sporttechie.com/2015/02/27/heddoko-is-a-smart-garment-that-gives-athletes-3d-visuals-about-their-movements/"
 						target="_blank"

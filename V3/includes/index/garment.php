@@ -14,15 +14,24 @@
 				<div class="col-xs-12">
 					<div class="row">
                         <div class="col-xs-12 col-sm-4" data-animated="0">
-                            <div class="has-icon-img" style="background-image: url(images/icons/icon-sensors.svg)"></div>
+                            <div
+                                class="has-icon-img"
+                                style="background-image: url(images/icons/icon-sensors.svg)"
+                                title="Integrated sensors"></div>
                             <p>Integrated sensors</p>
                         </div>
                         <div class="col-xs-12 col-sm-4" data-animated="0">
-                            <div class="has-icon-img" style="background-image: url(images/icons/icon-body.svg)"></div>
+                            <div
+                                class="has-icon-img"
+                                style="background-image: url(images/icons/icon-body.svg)"
+                                title="Full-body data capture"></div>
                             <p>Full-body data capture</p>
                         </div>
                         <div class="col-xs-12 col-sm-4" data-animated="0">
-                            <div class="has-icon-img" style="background-image: url(images/icons/icon-resist.svg)"></div>
+                            <div
+                                class="has-icon-img"
+                                style="background-image: url(images/icons/icon-resist.svg)"
+                                title="Resists tough training"></div>
                             <p>Resists tough training</p>
                         </div>
 					</div>

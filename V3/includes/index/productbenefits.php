@@ -8,15 +8,24 @@
 				<div class="col-xs-12">
 					<div class="row">
                         <div class="col-xs-12 col-sm-4" data-animated="0">
-                            <div class="has-icon-img" style="background-image: url(images/icons/icon-coachanytime.svg)"></div>
+                            <div
+                                class="has-icon-img"
+                                style="background-image: url(images/icons/icon-coachanytime.svg)"
+                                title="Coach anytime, anywhere"></div>
                             <p>Coach anytime, anywhere</p>
                         </div>
                         <div class="col-xs-12 col-sm-4" data-animated="0">
-                            <div class="has-icon-img" style="background-image: url(images/icons/icon-reduceinjury.svg)"></div>
+                            <div
+                                class="has-icon-img"
+                                style="background-image: url(images/icons/icon-reduceinjury.svg)"
+                                title="Reduce risk of injury"></div>
                             <p>Reduce risk of injury</p>
                         </div>
                         <div class="col-xs-12 col-sm-4" data-animated="0">
-                            <div class="has-icon-img" style="background-image: url(images/icons/icon-instantfeedback.svg)"></div>
+                            <div
+                                class="has-icon-img"
+                                style="background-image: url(images/icons/icon-instantfeedback.svg)"
+                                title="Get instant feedback"></div>
                             <p>Get instant feedback</p>
                         </div>
 					</div>

@@ -11,15 +11,24 @@
 				<div class="col-xs-12">
 					<div class="row">
                         <div class="col-xs-12 col-sm-4" data-animated="0">
-                            <div class="has-icon-img" style="background-image: url(images/icons/icon-feedback.svg)"></div>
+                            <div
+                                class="has-icon-img"
+                                style="background-image: url(images/icons/icon-feedback.svg)"
+                                title="Live feedback"></div>
                             <p>Live feedback</p>
                         </div>
                         <div class="col-xs-12 col-sm-4" data-animated="0">
-                            <div class="has-icon-img" style="background-image: url(images/icons/icon-dark-movement.svg)"></div>
+                            <div
+                                class="has-icon-img"
+                                style="background-image: url(images/icons/icon-dark-movement.svg)"
+                                title="Movement Recording"></div>
                             <p>Movement Recording</p>
                         </div>
                         <div class="col-xs-12 col-sm-4" data-animated="0">
-                            <div class="has-icon-img" style="background-image: url(images/icons/icon-injury.svg)"></div>
+                            <div
+                                class="has-icon-img"
+                                style="background-image: url(images/icons/icon-injury.svg)"
+                                title="Complete injury profile"></div>
                             <p>Complete injury profile</p>
                         </div>
 					</div>

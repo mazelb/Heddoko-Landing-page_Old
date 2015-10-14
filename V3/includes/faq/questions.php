@@ -33,7 +33,7 @@
 				<li class="mix">
 					<a href="#"
 						id="faq_pg_garment_btn"
-						data-title="Garment"
+						data-title="Smart Garment"
 						data-description="
 						<strong>How long does the battery last?</strong><br/>
 						The battery allows for 4 hours of continuous motion capture.<br/><br/>
@@ -48,7 +48,7 @@
 							<img src="/images/faq/faq_clothes.svg" class="img-responsive" alt="Garment-related FAQs" />
 							<h4>Smart Garment</h4>
 							<div class="p-overlay">
-								<h5>Garment</h5>
+								<h5>Smart Garment</h5>
 							</div>
 						</div>
 					</a>
@@ -57,7 +57,7 @@
 				<li class="mix">
 					<a href="#"
 						id="faq_pg_team_btn"
-						data-title="Team Management"
+						data-title="Team/Athlete Management System"
 						data-description="
 						<strong>I’m a coach - can I monitor each athlete on my team simultaneously?</strong><br/>
 						Yes. Using the Web Dashboard, you can monitor each athlete’s performance on
@@ -88,7 +88,7 @@
 							<img src="/images/faq/faq_progress.svg" class="img-responsive" alt="Team Management-related FAQs" />
 							<h4>Team/Athlete Management System</h4>
 							<div class="p-overlay">
-								<h5>Team Management</h5>
+								<h5>Team/Athlete Management System</h5>
 							</div>
 						</div>
 					</a>

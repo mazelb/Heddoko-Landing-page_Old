@@ -17,6 +17,9 @@ $(window).scroll(function() {
 // Quotation form.
 $(document).ready(function() {
 
+    // Send a common pageview to GA from the English or French website.
+    ga('send', 'pageview', '/quotation-form-landed');
+
     // Attach submit listener to form.
     $(document.quotation).on('submit', function(event) {
         event.preventDefault();
@@ -37,6 +40,9 @@ $(document).ready(function() {
         // Slide out form and show loading animation.
         $(this).slideUp(500);
         $('.ajax').show();
+
+        // Send virtual pageview to GA.
+        ga('send', 'pageview', '/quotation-form-sending');
 
         // Format request data and send request.
         $.ajax({
@@ -65,6 +71,9 @@ $(document).ready(function() {
 
                 else {
                     $('.successmessage').show();
+
+                    // Send virtual pageview to GA.
+                    ga('send', 'pageview', '/quotation-form-sent');
                 }
             }
         });

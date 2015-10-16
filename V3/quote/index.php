@@ -28,6 +28,6 @@
 
 <?php include('../includes/footer.php'); ?>
 
-    <script type="text/javascript" src="<?= $baseName .'/js/'. $fileName .'.js?20151007' ?>"></script>
+    <script type="text/javascript" src="<?= $baseName .'/js/'. $fileName .'.js?20151016' ?>"></script>
 </body>
 </html>

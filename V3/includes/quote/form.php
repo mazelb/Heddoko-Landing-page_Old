@@ -7,7 +7,7 @@ require '../php/quote.php';
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12 col-mg-8 col-lg-8 col-mg-offset-2 col-lg-offset-2">
-                <h1>Request Your Development Kit Now</h1>
+                <h1>Get Your Development Kit Now</h1>
                 <p><em>Please fill out this form to request a quotation for a development kit.</em></p>
 
                 <form class="form" name="quotation" action="/php/quote.php" method="post">

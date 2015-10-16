@@ -24,7 +24,7 @@
                 <a href="#" class="btn btn-default" id="index_pg_signup_btn">Sign Up To Our Newsletter</a>
 		    </div>
 		    <div class="col-xs-12 col-md-4">
-        		<a href="/quote" class="btn btn-default">Request Your Development Kit Now</a>
+        		<a href="/quote" class="btn btn-default">Get Your Development Kit Now</a>
 		    </div>
 		</div>
 	</div>

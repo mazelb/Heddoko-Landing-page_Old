@@ -9,8 +9,8 @@
 				<div class="row select active" data-animated="0">
 					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 						<span class="image" title="Motion capture (Mocap) suit">
-							<img src="../images/icons/icon-suit-green.svg" class="green">
-							<img src="../images/icons/icon-suit.svg" >
+							<img src="../images/icons/icon-suit-green.svg" class="green" alt="Suit up with Heddoko">
+							<img src="../images/icons/icon-suit.svg" alt="Suit up with Heddoko">
 						</span>
 
 						<span class="vertical"></span>
@@ -23,8 +23,8 @@
 				<div class="row select" data-animated="0">
 					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 						<span class="image" title="Mobile coaching">
-							<img src="../images/icons/icon-heddokoapp-green.svg" class="green">
-							<img src="../images/icons/icon-heddokoapp.svg">
+							<img src="../images/icons/icon-heddokoapp-green.svg" class="green" alt="Pair with Mobile/Web App">
+							<img src="../images/icons/icon-heddokoapp.svg" alt="Pair with Mobile/Web App">
 						</span>
 
 						<span class="vertical"></span>
@@ -37,8 +37,8 @@
 				<div class="row select" data-animated="0">
 					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 						<span class="image" title="Movement analysis">
-							<img src="../images/icons/icon-3dmovement-green.svg" class="green">
-							<img src="../images/icons/icon-3dmovement.svg">
+							<img src="../images/icons/icon-3dmovement-green.svg" class="green" alt="3D motion capture">
+							<img src="../images/icons/icon-3dmovement.svg" alt="3D motion capture">
 						</span>
 
 						<span class="vertical"></span>
@@ -51,8 +51,8 @@
 				<div class="row select" data-animated="0">
 					<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 						<span class="image" title="Improve sports performance">
-							<img src="../images/icons/icon-improve-green.svg" class="green">
-							<img src="../images/icons/icon-improve.svg">
+							<img src="../images/icons/icon-improve-green.svg" class="green" alt="Movement perfection">
+							<img src="../images/icons/icon-improve.svg" alt="Movement perfection">
 						</span>
 
 						<span class="vertical"></span>

@@ -17,7 +17,10 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-suit.svg)"></div>
+                    <div
+                        class="has-icon-img"
+                        style="background-image: url(../images/icons/icon-dark-suit.svg)"
+                        title="Suit up and set up"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Suit up and set up</h4>
@@ -32,7 +35,10 @@
 
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-reduceinjury.svg)"></div>
+                    <div
+                        class="has-icon-img"
+                        style="background-image: url(../images/icons/icon-reduceinjury.svg)"
+                        title="Reduce risk of injury"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Reduce risk of injury</h4>
@@ -49,7 +55,10 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-instant.svg)"></div>
+                    <div
+                        class="has-icon-img"
+                        style="background-image: url(../images/icons/icon-dark-instant.svg)"
+                        title="Get instant, specific feedback"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Get instant, specific feedback</h4>
@@ -67,7 +76,10 @@
 
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-rehab.svg)"></div>
+                    <div
+                        class="has-icon-img"
+                        style="background-image: url(../images/icons/icon-dark-rehab.svg)"
+                        title="Optimize rehabilitation"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Optimize rehabilitation</h4>
@@ -86,7 +98,10 @@
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-instantfeedback.svg)"></div>
+                    <div
+                        class="has-icon-img"
+                        style="background-image: url(../images/icons/icon-instantfeedback.svg)"
+                        title="Move more efficiently"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Move more efficiently</h4>
@@ -102,7 +117,10 @@
 
 			<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 column">
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 icon" data-animated="0">
-                    <div class="has-icon-img" style="background-image: url(../images/icons/icon-dark-measure.svg)"></div>
+                    <div
+                        class="has-icon-img"
+                        style="background-image: url(../images/icons/icon-dark-measure.svg)"
+                        title="Measure your progress"></div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 					<h4>Measure your progress</h4>

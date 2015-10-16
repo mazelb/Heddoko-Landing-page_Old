@@ -42,12 +42,12 @@ class Quote
 
         // Create lead on Insightly API.
         require 'insightly.php';
-        //$apiKey = '69c05e7f-c9ce-4c37-b75a-e77b3a8b8689';
-        $apiKey = '4172a7db-fbb9-45c5-bf6f-d1655b123420';
+        $liveApiKey = '69c05e7f-c9ce-4c37-b75a-e77b3a8b8689';
+        $devApiKey = '4172a7db-fbb9-45c5-bf6f-d1655b123420';    // Replace this with your testing API key.
         $endpoint = '/v2.1/Leads';
         try
         {
-            $request = new InsightlyRequest('POST', $apiKey, $endpoint);
+            $request = new InsightlyRequest('POST', $liveApiKey, $endpoint);
             $result = $request->body($data)->asJSON();
 
             return static::send('Lead successully created.', 201);

@@ -21,6 +21,9 @@ class Heddoko
 
         // Retrieve style options
         $pos = isset($options['position']) ? $options['position'] : 'top:40px;left:40px;';
+        
+        // Temporary
+        return '';
 
         return  '<div style="position:absolute;z-index:100;'. $pos .'">'.
                     '<a data-pin-color="red"'.

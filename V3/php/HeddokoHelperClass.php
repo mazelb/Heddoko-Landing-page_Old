@@ -38,4 +38,12 @@ class Heddoko
                     '</a>'.
                 '</div>';
     }
+    
+    /**
+     * 
+     */
+    public static function isLocal()
+    {
+        return stripos($_SERVER['HTTP_HOST'], 'heddoko.com') === false;
+    }
 }

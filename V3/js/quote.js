@@ -54,6 +54,7 @@ $(document).ready(function() {
                 last_name: this.last_name.value,
                 organization: this.organization.value,
                 title: this.title.value,
+                num_units: this.num_units.value,
                 phone: this.phone.value,
                 email: this.email.value,
                 website: this.website.value,

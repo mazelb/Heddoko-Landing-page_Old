@@ -13,6 +13,12 @@ Quote::processRequest();
 
 class Quote
 {
+    // Replace this with your TESTING api key.
+    const DEV_API_KEY = '4172a7db-fbb9-45c5-bf6f-d1655b123420';
+    
+    // Replace this with the LIVE api key.
+    const LIVE_API_KEY = '69c05e7f-c9ce-4c37-b75a-e77b3a8b8689';
+    
     /**
      * Processes a quotation request.
      */
@@ -38,24 +44,25 @@ class Quote
             'PHONE_NUMBER' => strip_tags(trim($_POST['phone'])),
             'EMAIL_ADDRESS' => strip_tags(trim($_POST['email'])),
             'WEBSITE_URL' => strip_tags(trim($_POST['website'])),
+            'LEAD_RATING' => (int) $_POST['num_units'],
         ];
 
-        // Create lead on Insightly API.
         require 'insightly.php';
-        $liveApiKey = '69c05e7f-c9ce-4c37-b75a-e77b3a8b8689';
-        $devApiKey = '4172a7db-fbb9-45c5-bf6f-d1655b123420';    // Replace this with your testing API key.
-        $endpoint = '/v2.1/Leads';
+        require 'HeddokoHelperClass.php';
+        $apiKey = Heddoko::isLocal() ? static::DEV_API_KEY : static::LIVE_API_KEY;
+        
+        // Create lead on Insightly API.
         try
         {
-            $request = new InsightlyRequest('POST', $liveApiKey, $endpoint);
+            $request = new InsightlyRequest('POST', $apiKey, '/v2.1/Leads');
             $result = $request->body($data)->asJSON();
-
-            return static::send('Lead successully created.', 201);
         }
 
         catch (Exception $error) {
             return static::send($error->getMessage(), 500);
         }
+        
+        return static::send('Lead created.', 201);
     }
 
     /**

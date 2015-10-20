@@ -44,7 +44,7 @@ class Quote
             'PHONE_NUMBER' => strip_tags(trim($_POST['phone'])),
             'EMAIL_ADDRESS' => strip_tags(trim($_POST['email'])),
             'WEBSITE_URL' => strip_tags(trim($_POST['website'])),
-            'LEAD_RATING' => (int) $_POST['num_units'],
+            // 'LEAD_RATING' => (int) $_POST['num_units'],
         ];
 
         require 'insightly.php';

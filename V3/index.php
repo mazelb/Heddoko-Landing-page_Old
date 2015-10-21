@@ -10,7 +10,7 @@
 
 	<?php $fileName =  str_replace('.php', '', basename($_SERVER['PHP_SELF']) ); ?>
 
-	<link rel="stylesheet" href="css/index.css?20150922" />
+	<link rel="stylesheet" href="css/index.css?20151021" />
 </head>
 
 <body id="page-top" class="template-<?php echo $fileName; ?>" itemscope itemtype="http://schema.org/WebPage">
@@ -18,6 +18,8 @@
 <?php include('includes/header.php'); ?>
 
 <?php include('includes/index/slider.php'); ?>
+
+<?php include('includes/index/connection.php'); ?>
 
 <?php include('includes/index/featured.php'); ?>
 

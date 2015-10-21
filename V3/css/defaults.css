@@ -529,7 +529,8 @@ PAGES
 
 @media (min-width: 768px) {
 	#intro {
-		height: 162px;
+		/*height: 162px;*/
+		height: 120px;
 	}
 }
 

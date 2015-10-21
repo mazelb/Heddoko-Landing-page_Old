@@ -72,6 +72,7 @@ $(document).ready(function() {
 
                 else {
                     $('.successmessage').show();
+                    console.log(response.responseText);
 
                     // Send virtual pageview to GA.
                     ga('send', 'pageview', '/quotation-form-sent');

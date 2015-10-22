@@ -1,6 +1,6 @@
 <?php
 // Include the "quotation" token to validate requests.
-require '../php/quote.php';
+require realpath(__DIR__) .'/../../php/quote.php';
 ?>
 
 <section class="quotation-form">
@@ -31,7 +31,7 @@ require '../php/quote.php';
                     <div class="form-group">
                         <input type="text" class="form-control" name="title" placeholder="Title" required>
                     </div>
-                    
+
                     <!-- Units required -->
                     <div class="form-group">
                         <input type="number" min="1" class="form-control" name="num_units" placeholder="# of units required" required>

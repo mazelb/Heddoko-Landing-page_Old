@@ -6,8 +6,9 @@ Defines directory for images, css, scripts, titles, and descriptions
 $dir = array_filter(explode("/", $_SERVER['PHP_SELF']));
 
 // General helper class.
-$helperPath = count($dir) == 2 ? '../php/HeddokoHelperClass.php' : 'php/HeddokoHelperClass.php';
-include_once $helperPath;
+// $helperPath = count($dir) == 2 ? '../php/HeddokoHelperClass.php' : 'php/HeddokoHelperClass.php';
+// include_once $helperPath;
+include_once realpath(__DIR__) .'/../php/HeddokoHelperClass.php';
 
 if (count($dir) > 1)
 {

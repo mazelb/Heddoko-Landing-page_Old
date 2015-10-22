@@ -25,6 +25,18 @@ class Quote
     // Name of lead source field.
     const LEAD_SOURCE_NAME = 'Web_RFQ';
 
+    //
+    // Details for "thank you" message.
+    //
+
+    const EMAIL_FROM = 'sales@heddoko.com';
+    const EMAIL_SUBJECT_EN = 'Heddoko Development Kit';
+    const EMAIL_SUBJECT_FR = 'Kit de développement Heddoko';
+
+    //
+    // Other class variables. These will be set by the class as needed.
+    //
+
     static $apiKey;
     static $error;
 
@@ -68,18 +80,21 @@ class Quote
         }
 
         //
-        // Step 2: Create lead on insightly.
+        // Step 2:  Create lead on insightly.
         //
 
         // Retrieve the parameters to create a new lead on Insightly.
+        $firstName = strip_tags(trim($_POST['first_name']));
+        $lastName = strip_tags(trim($_POST['last_name']));
+        $emailAddress = strip_tags(trim($_POST['email']));
         $data =
         [
-            'FIRST_NAME' => strip_tags(trim($_POST['first_name'])),
-            'LAST_NAME' => strip_tags(trim($_POST['last_name'])),
+            'FIRST_NAME' => $firstName,
+            'LAST_NAME' => $lastName,
             'ORGANIZATION_NAME' => strip_tags(trim($_POST['organization'])),
             'TITLE' => strip_tags(trim($_POST['title'])),
             'PHONE_NUMBER' => strip_tags(trim($_POST['phone'])),
-            'EMAIL_ADDRESS' => strip_tags(trim($_POST['email'])),
+            'EMAIL_ADDRESS' => $emailAddress,
             'WEBSITE_URL' => strip_tags(trim($_POST['website'])),
             'LEAD_SOURCE_ID' => $leadSourceID
         ];
@@ -91,13 +106,47 @@ class Quote
         }
 
         //
-        // Step 3: Send thank you email.
+        // Step 3:  Send thank you email. We will continue with the process regardless of if the
+        //          email was sent or not.
         //
 
-        // ...
+        $enMsg =
+            'Dear %1$s,'
+            . "\r\n"
+            ."\r\n"
+            .'Thank you for your request for a Heddoko development kit. A sales '
+            .'representative will get in touch with you very soon.'
+            ."\r\n"
+            ."\r\n"
+            .'- The Heddoko Team';
+
+        $frMsg =
+            '%1$s,'
+            ."\r\n"
+            ."\r\n"
+            .'Merci pour votre demande pour un kit de développement Heddoko. Un '
+            .'représentant des ventes prendra contact avec vous très bientôt.'
+            ."\r\n"
+            ."\r\n"
+            ."- L'équipe Heddoko";
+
+        $message = stripos($_SERVER['HTTP_REFERER'], '/FR/') === false ? $enMsg : $frMsg;
+
+        $fullName = $firstName .' '. $lastName;
+        mail(
+            "$fullName <$emailAddress>",
+            static::EMAIL_SUBJECT_EN,
+            wordwrap(sprintf($message, $fullName), 70, "\r\n"),
+            'From: '. static::EMAIL_FROM ."\r\n".
+            'Reply-To: '. static::EMAIL_FROM ."\r\n".
+            'X-Mailer: PHP/'. phpversion()
+        );
+
+        // Send the email message back to client for debugging.
+        Heddoko::isLocal() ? wordwrap(sprintf($message, $fullName), 70, "\r\n") : null;
 
         //
-        // Step 4: Add the # of units requested as a custom field.
+        // Step 4:  Add the # of units requested as a custom field.
         //
 
         // Retrieve the custom fields so that we can find the right CUSTOM_FIELD_ID.
@@ -158,6 +207,7 @@ class Quote
         if (!static::$apiKey)
         {
             static::$apiKey = Heddoko::isLocal() ? static::DEV_API_KEY : static::LIVE_API_KEY;
+            // static::$apiKey = static::DEV_API_KEY;
         }
 
         // Make the request.

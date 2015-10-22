@@ -9,8 +9,6 @@
  */
 
 // If a request is being sent, process it.
-require_once 'insightly.php';
-require_once 'HeddokoHelperClass.php';
 Quote::processRequest();
 
 class Quote
@@ -21,11 +19,19 @@ class Quote
     // Replace this with the LIVE api key.
     const LIVE_API_KEY = '69c05e7f-c9ce-4c37-b75a-e77b3a8b8689';
 
+    // Name of custom field to store the # of units requested.
+    const NUM_UNITS_FIELD = 'Kits_Qty';
+
+    // Name of lead source field.
+    const LEAD_SOURCE_NAME = 'Web_RFQ';
+
     static $apiKey;
     static $error;
 
     /**
      * Processes a quotation request.
+     *
+     * @return mixed
      */
     public static function processRequest()
     {
@@ -40,113 +46,138 @@ class Quote
             return static::send('Invalid request token.', 400);
         }
 
-        // Retrieve parameters.
-        $data = [
+        //
+        // Step 1:  Find the LEAD_SOURCE_ID to use with Insightly. We start with this to avoid
+        //          having to make another request later to update the newly created lead.
+        //
+
+        $leadSourceID = null;
+
+        // Retrieve the lead sources so we can find the right LEAD_SOURCE_ID.
+        $leadSources = static::makeRequest('GET', '/v2.2/LeadSources');
+        if (!empty($leadSources))
+        {
+            // Find the right LEAD_SOURCE_ID.
+            foreach ($leadSources as $source)
+            {
+                if ($source->LEAD_SOURCE == static::LEAD_SOURCE_NAME) {
+                    $leadSourceID = $source->LEAD_SOURCE_ID;
+                    break;
+                }
+            }
+        }
+
+        //
+        // Step 2: Create lead on insightly.
+        //
+
+        // Retrieve the parameters to create a new lead on Insightly.
+        $data =
+        [
             'FIRST_NAME' => strip_tags(trim($_POST['first_name'])),
             'LAST_NAME' => strip_tags(trim($_POST['last_name'])),
             'ORGANIZATION_NAME' => strip_tags(trim($_POST['organization'])),
             'TITLE' => strip_tags(trim($_POST['title'])),
             'PHONE_NUMBER' => strip_tags(trim($_POST['phone'])),
             'EMAIL_ADDRESS' => strip_tags(trim($_POST['email'])),
-            'WEBSITE_URL' => strip_tags(trim($_POST['website']))
+            'WEBSITE_URL' => strip_tags(trim($_POST['website'])),
+            'LEAD_SOURCE_ID' => $leadSourceID
         ];
 
-        static::$apiKey = Heddoko::isLocal() ? static::DEV_API_KEY : static::LIVE_API_KEY;
-
-        // Create lead on Insightly API.
-        if (!$leadID = static::createLead($data)) {
-            return static::send(static::$error, 500);
+        // Create lead on Insightly API. If an error occurs, we'll send a 500 HTTP code. In any
+        // other case we'll return a 201 HTTP code to indicate that the lead was created.
+        if (!$lead = static::makeRequest('POST', '/v2.2/Leads', $data)) {
+            return static::abort('Could not create lead');
         }
 
+        //
+        // Step 3: Send thank you email.
+        //
+
+        // ...
+
+        //
+        // Step 4: Add the # of units requested as a custom field.
+        //
+
         // Retrieve the custom fields so that we can find the right CUSTOM_FIELD_ID.
-        if (!$customFields = static::getCustomFields()) {
-            return static::send(static::$error, 201);
+        if (!$customFields = static::makeRequest('GET', '/v2.2/CustomFields')) {
+            return static::abort('Could not retrieve custom fields', 201);
+        }
+
+        // Make sure we have custom fields to work with.
+        elseif (empty($customFields)) {
+            return static::abort('No custom fields found.', 201);
         }
 
         // Find the right CUSTOM_FIELD_ID.
-        $fieldID = null;
+        $customFieldID = null;
         foreach ($customFields as $field)
         {
-            if ($field->FIELD_NAME == 'Kits_Qty') {
-                $fieldID = $field->CUSTOM_FIELD_ID;
+            if ($field->FIELD_NAME == static::NUM_UNITS_FIELD) {
+                $customFieldID = $field->CUSTOM_FIELD_ID;
                 break;
             }
         }
-        if (!strlen($fieldID)) {
-            return static::send('Could not find custom field name "Kits_Qty"', 201);
+        if (!strlen($customFieldID)) {
+            return static::abort('Could not find custom field name for # of units', 201);
         }
 
         // Add the # of units as a custom field.
-        static::setNumUnits($leadID, $fieldID, $_POST['num_units']);
+        $endpoint = '/v2.2/Leads/'. $lead->LEAD_ID .'/CustomFields';
+        $data =
+        [
+            'CUSTOM_FIELD_ID' => $customFieldID,
+            'FIELD_VALUE' => (int) $_POST['num_units'],
+            'STRING_VALUE' => (int) $_POST['num_units']
+        ];
 
-        return strlen(static::$error) ? static::send(static::$error, 201) : static::send('Lead created.', 201);
+        if (!$response = static::makeRequest('PUT', $endpoint, $data)) {
+            return static::abort('Could not update the # of units', 201);
+        }
+
+        // Finish the request.
+        return static::send('Lead created.', 201);
     }
 
     /**
+     * Makes a request to the Insightly API.
      *
+     * @param string $verb
+     * @param string $endpoint
+     * @param array $data
+     * @return stdClass|null
      */
-    public static function createLead(array $data)
+    public static function makeRequest($verb, $endpoint, array $data = [])
     {
-        $leadID = null;
+        // Dependencies
+        require_once 'insightly.php';
+        require_once 'HeddokoHelperClass.php';
 
+        // Set the API key to be used.
+        if (!static::$apiKey)
+        {
+            static::$apiKey = Heddoko::isLocal() ? static::DEV_API_KEY : static::LIVE_API_KEY;
+        }
+
+        // Make the request.
+        $response = null;
         try
         {
-            $request = new InsightlyRequest('POST', static::$apiKey, '/v2.2/Leads');
-            $result = $request->body($data)->asJSON();
+            $request = new InsightlyRequest($verb, static::$apiKey, $endpoint);
 
-            $leadID = $result->LEAD_ID;
+            if (!empty($data)) {
+                $request->body($data);
+            }
+
+            $response = $request->asJSON();
         }
 
         catch (Exception $e) {
             static::$error = $e->getMessage();
         }
 
-        return $leadID;
-    }
-
-    /**
-     *
-     */
-    public static function getCustomFields()
-    {
-        $customFields = null;
-        try
-        {
-            $request = new InsightlyRequest('GET', static::$apiKey, '/v2.2/CustomFields');
-            $customFields = $request->asJSON();
-        }
-
-        catch (Exception $e) {
-            static::$error = $e->getMessage();
-        }
-
-        // Make sure we don't have an empty array.
-        if (!static::$error && empty($customFields)) {
-            static::$error = 'No custom fields found.';
-            $customFields = null;
-        }
-
-        return $customFields;
-    }
-
-    /**
-     *
-     */
-    public static function setNumUnits($leadID, $fieldID, $units)
-    {
-        try
-        {
-            $request = new InsightlyRequest('PUT', static::$apiKey, '/v2.2/Leads/'. $leadID .'/CustomFields');
-            $result = $request->body([
-                'CUSTOM_FIELD_ID' => $fieldID,
-                'FIELD_VALUE' => (int) $units,
-                'STRING_VALUE' => (int) $units
-            ])->asJSON();
-        }
-
-        catch (Exception $e) {
-            static::$error = $e->getMessage();
-        }
+        return $response;
     }
 
     /**
@@ -154,6 +185,7 @@ class Quote
      *
      * @param string $msg   Message to send back to client.
      * @param int $status   HTTP status code.
+     * @return void
      */
     public static function send($msg, $status = 200)
     {
@@ -170,6 +202,20 @@ class Quote
         }
 
         exit();
+    }
+
+    /**
+     * Sends an error message to the client and aborts the script.
+     *
+     * @param string $msg
+     * @return void
+     */
+    public static function abort($msg, $status = 500)
+    {
+        // Append error message.
+        $msg = strlen(static::$error) ? $msg .': '. static::$error : $msg;
+
+        return static::send($msg, $status);
     }
 
     /**

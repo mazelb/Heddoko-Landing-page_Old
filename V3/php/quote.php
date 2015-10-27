@@ -114,8 +114,8 @@ class Quote
             'Dear %1$s,'
             . "\r\n"
             ."\r\n"
-            .'Thank you for your request for a Heddoko development kit. A sales '
-            .'representative will get in touch with you very soon.'
+            .'Thanks for requesting a Heddoko development kit! '
+            .'We’ll be in touch with you very soon.'
             ."\r\n"
             ."\r\n"
             .'- The Heddoko Team';
@@ -124,8 +124,8 @@ class Quote
             '%1$s,'
             ."\r\n"
             ."\r\n"
-            .'Merci pour votre demande pour un kit de développement Heddoko. Un '
-            .'représentant des ventes prendra contact avec vous très bientôt.'
+            .'Merci pour votre demande pour un kit de développement Heddoko! '
+            .'Nous serons en contact avec vous très bientôt.'
             ."\r\n"
             ."\r\n"
             ."- L'équipe Heddoko";

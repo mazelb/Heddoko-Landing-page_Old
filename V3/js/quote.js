@@ -41,8 +41,9 @@ $(document).ready(function() {
         $(this).slideUp(500);
         $('.ajax').show();
 
-        // Send virtual pageview to GA.
+        // Send virtual pageview & tracking event to GA.
         ga('send', 'pageview', '/quotation-form-sending');
+        ga('send', 'event', 'RFQ', 'Submitted');
 
         // Format request data and send request.
         $.ajax({

@@ -38,6 +38,7 @@ class Heddoko
                 '</div>';
     }
 
+
      public static function pinVid(array $options)
     {
         // Retrieve Pinterest options.
@@ -66,6 +67,12 @@ class Heddoko
                         '<img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_white_20.png" />'.
                     '</a>'.
                 '</div>';
+    }
+
+
+    public static function isLocal()
+    {
+        return stripos($_SERVER['HTTP_HOST'], 'heddoko.com') === false;
     }
 
 }

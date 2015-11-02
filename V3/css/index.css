@@ -187,19 +187,117 @@ SLIDER
 }
 
 /* =====================================================================
+CONNECTION
+===================================================================== */
+#connection {
+	background: #343c44;
+	overflow: hidden;
+	padding: 50px 0;
+}
+
+#connection .container .row > .content {
+}
+
+#connection .container .row > div img {
+	width: 100%;
+}
+
+#connection .container .row > .content h2 {
+	color: #fff;
+	font-size: 26px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+#connection .container .row > .content h2 span {
+	background: #fff;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30px;
+	height: 5px;
+	margin-top: 30px;
+}
+
+#connection .container .row > .content p {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#connection .container .row > .content img, #connection .container .row > .content .has-icon-img {
+	display: block;
+	width: 60%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+#connection .container .row > .content .has-icon-img {
+    background: transparent center center no-repeat;
+    background-size: contain;
+    padding-top: 60%;
+}
+
+#connection .container .row > .content .btn {
+	background: #9c9b9d;
+	font-size: 14px;
+	padding: 10px 60px;
+	text-transform: uppercase;
+}
+
+#connection .container .row > .image img {
+	width: 100%;
+	height: auto;
+}
+
+#connection .container .row > .image img.animated-out {
+	-webkit-transform: translateY(0px) translateX(35px);
+	-moz-transform: translateY(0px) translateX(35px);
+	-o-transform: translateY(0px) translateX(35px);
+	-ms-transform: translateY(0px) translateX(35px);
+	transform: translateY(0px) translateX(35px);
+	-webkit-opacity: 0;
+	-moz-opacity: 0;
+	opacity: 0;
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media (min-width: 1px) and (max-width: 767px) {
+	#connection .container .row > .content {
+		padding-top: 0px;
+	}
+
+	#connection .container .row > .content img, #connection .container .row > .content .has-icon-img {
+		width: 40%;
+        padding-top: 40%;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	#connection .container .row > .content .col-xs-12 .col-xs-12 {
+		width: 33.33%;
+	}
+	#connection .container .row > .content img, #connection .container .row > .content .has-icon-img {
+		width: 60%;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#connection .container .row > .content {
+		padding-top: 0px;
+	}
+}
+
+/* =====================================================================
 GARMENT
 ===================================================================== */
 #garment {
 	background: #39373a;
-}
-
-#garment .container {
-}
-
-#garment .container .row {
-}
-
-#garment .container .row > div {
 }
 
 #garment .container .row > .content {

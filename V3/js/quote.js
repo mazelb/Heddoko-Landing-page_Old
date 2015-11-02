@@ -41,8 +41,9 @@ $(document).ready(function() {
         $(this).slideUp(500);
         $('.ajax').show();
 
-        // Send virtual pageview to GA.
+        // Send virtual pageview & tracking event to GA.
         ga('send', 'pageview', '/quotation-form-sending');
+        ga('send', 'event', 'RFQ', 'Submitted');
 
         // Format request data and send request.
         $.ajax({
@@ -54,6 +55,7 @@ $(document).ready(function() {
                 last_name: this.last_name.value,
                 organization: this.organization.value,
                 title: this.title.value,
+                num_units: this.num_units.value,
                 phone: this.phone.value,
                 email: this.email.value,
                 website: this.website.value,
@@ -71,6 +73,7 @@ $(document).ready(function() {
 
                 else {
                     $('.successmessage').show();
+                    console.log(response.responseText);
 
                     // Send virtual pageview to GA.
                     ga('send', 'pageview', '/quotation-form-sent');

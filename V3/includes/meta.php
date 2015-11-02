@@ -6,8 +6,9 @@ Defines directory for images, css, scripts, titles, and descriptions
 $dir = array_filter(explode("/", $_SERVER['PHP_SELF']));
 
 // General helper class.
-$helperPath = count($dir) == 2 ? '../php/HeddokoHelperClass.php' : 'php/HeddokoHelperClass.php';
-include_once $helperPath;
+// $helperPath = count($dir) == 2 ? '../php/HeddokoHelperClass.php' : 'php/HeddokoHelperClass.php';
+// include_once $helperPath;
+include_once realpath(__DIR__) .'/../php/HeddokoHelperClass.php';
 
 if (count($dir) > 1)
 {
@@ -53,7 +54,7 @@ if (count($dir) > 1)
 	}
 	$dir = '../';
 } else {
-	$title = '| Track your movement/motion in 3D';
+	$title = '| Track your movement in 3D';
     // $description =  'Heddoko empowers perfection in human movement. The only fitness wearable '.
     //                 'technology to provide real-time 3D corrective feedback.';
     $description =  'Heddoko is the world\'s first smart compression suit that tracks full-body '.

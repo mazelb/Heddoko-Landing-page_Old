@@ -198,35 +198,31 @@ CONNECTION
 #connection .container .row > .content {
 }
 
+
 #connection .container .row > div img {
 	width: 100%;
 }
 
-#connection .container .row > .content h2 {
-	color: #fff;
-	font-size: 26px;
+#connection .container .row > .content h1 {
+	color: #d6d8da;
+	font-size: 45px;
 	font-weight: bold;
 	display: block;
 	text-align: center;
 	text-transform: uppercase;
-	margin-bottom: 40px;
-}
+	position: relative;
+	padding-top: 12%;
 
-#connection .container .row > .content h2 span {
-	background: #fff;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 30px;
-	height: 5px;
-	margin-top: 30px;
 }
 
 #connection .container .row > .content p {
-	color: #fff;
+	color: #d6d8da;
+	font-size: 20px;
+	display: block;
 	text-align: center;
-	margin-bottom: 30px;
+	 
 }
+
 
 #connection .container .row > .content img, #connection .container .row > .content .has-icon-img {
 	display: block;
@@ -235,7 +231,9 @@ CONNECTION
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
+
 }
+
 #connection .container .row > .content .has-icon-img {
     background: transparent center center no-repeat;
     background-size: contain;
@@ -250,9 +248,12 @@ CONNECTION
 }
 
 #connection .container .row > .image img {
+
 	width: 100%;
 	height: auto;
 }
+
+
 
 #connection .container .row > .image img.animated-out {
 	-webkit-transform: translateY(0px) translateX(35px);
@@ -270,11 +271,19 @@ CONNECTION
 	#connection .container .row > .content {
 		padding-top: 0px;
 	}
+	#connection .container .row > div h1 {
+		font-size: 48px;
+	}
 
+	#connection .container .row > div p {
+		font-size: 16px;
+		margin-bottom: 50px;
+	}
 	#connection .container .row > .content img, #connection .container .row > .content .has-icon-img {
 		width: 40%;
         padding-top: 40%;
 	}
+	
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -284,6 +293,8 @@ CONNECTION
 	#connection .container .row > .content img, #connection .container .row > .content .has-icon-img {
 		width: 60%;
 	}
+	
+
 }
 
 
@@ -292,6 +303,9 @@ CONNECTION
 		padding-top: 0px;
 	}
 }
+
+
+
 
 /* =====================================================================
 GARMENT

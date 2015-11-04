@@ -46,7 +46,7 @@
 			<div class="col-xs-12 col-md-6 image">
                 <?= Heddoko::pin([
                     'media' => 'http://www.heddoko.com/images/index/garment.png',
-                    'description' => 'Heddoko smart garment'
+                    'description' => 'Heddoko smart garment!'
                 ]) ?>
 				<img itemprop="image" src="images/index/garment.png" data-animated="4" alt="Garment">
 			</div>

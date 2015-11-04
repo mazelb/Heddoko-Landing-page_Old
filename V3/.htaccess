@@ -30,6 +30,11 @@ ErrorDocument 404	/404/index.php
 # Slightly modified to match a domain with a sub-domain (or not).
 ##########
 
+# First, block by IP
+Order Deny,Allow
+Deny from 118.193.188.225
+
+# Then, use the RewriteEngine to match domains we don't want.
 RewriteEngine on
 
 RewriteCond %{HTTP_REFERER} !^https?://(.*\.)?heddoko\.com/.*$ [NC]
@@ -42,7 +47,6 @@ RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?680\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?roadwarriorvoices\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?int\.search\.myway\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?m2mzona\.hu [NC,OR]
-RewriteCond %{HTTP_REFERER} ^https?://118\.193\.188\.225 [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://172\.27\.72\.27 [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?youdao\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?i4u\.com [NC,OR]

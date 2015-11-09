@@ -114,7 +114,7 @@ if (count($dir) > 1)
 <link href="<?php echo $dir; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Bootstrap core CSS -->
-<link href="<?php echo $dir; ?>css/bootstrap.css" rel="stylesheet">
+<link href="<?php echo $dir; ?>css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo $dir; ?>css/style.css" rel="stylesheet">
 <link href="<?php echo $dir; ?>js/owl-carousel/owl.carousel.css" rel="stylesheet">
 <link href="<?php echo $dir; ?>js/owl-carousel/owl.theme.css" rel="stylesheet">

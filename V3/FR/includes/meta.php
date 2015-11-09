@@ -106,7 +106,7 @@ if (count($dir) > 2)
 <link href="<?php echo $dir; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Bootstrap core CSS -->
-<link href="<?php echo $dir; ?>css/bootstrap.css" rel="stylesheet">
+<link href="<?php echo $dir; ?>css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo $dir; ?>css/style.css" rel="stylesheet">
 <link href="<?php echo $dir; ?>js/owl-carousel/owl.carousel.css" rel="stylesheet">
 <link href="<?php echo $dir; ?>js/owl-carousel/owl.theme.css" rel="stylesheet">
@@ -120,15 +120,6 @@ if (count($dir) > 2)
   	<script src="<?php echo $dir; ?>/js/libs/html5shiv.js"></script>
       <script src="<?php echo $dir; ?>./js/libs/respond.js"></script>
 <![endif]-->
-
-<script type="text/javascript" src="<?php echo $dir; ?>js/modernizr.custom.js"></script>
-<script src="<?php echo $dir; ?>js/jquery.js"></script>
-<script src="<?php echo $dir; ?>js/bootstrap.js"></script>
-<script src="<?php echo $dir; ?>js/jquery.easing.min.js"></script>
-
-<script type="text/javascript" src="<?php echo $dir; ?>js/source/jquery.fancybox.js?v=2.1.5"></script>
-<link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>js/source/jquery.fancybox.css?v=2.1.5" media="screen" />
-<script type="text/javascript" src="<?php echo $dir; ?>js/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
 <!-- Style Switch -->
 <link rel="stylesheet" href="<?php echo $dir; ?>css/colors/heddoko.css" />

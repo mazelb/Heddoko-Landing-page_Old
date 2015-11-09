@@ -27,6 +27,7 @@ switch($fileName) {
 	break;
 	case 'signup':
 		$links[6] = 'active';
+    break;
 	case 'quote':
 		$links[7] = 'active';
 	break;

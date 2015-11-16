@@ -14,6 +14,14 @@ header {
 	background: none;
 }
 
+
+.signupform {
+	position:fixed;
+	bottom:-50px;
+	left:3%;
+	right:0;
+	height:0px;
+}
 /* =====================================================================
 SLIDER
 ===================================================================== */
@@ -124,6 +132,69 @@ SLIDER
 		font-size:20px;
 	}
 }
+
+
+/* =====================================================================
+#signup
+===================================================================== */
+
+#signup {
+	display: none;
+	position: fixed;
+	left: 3%;
+	bottom: 0;
+	height: auto;
+	width: 300px;
+	background: #333;
+	padding: 20px;
+}
+
+#signup .btn.close {
+	border: none;
+	position: absolute;
+	background: none;
+	padding: 0;
+	color: #000000;
+	font-size: 40px;
+	opacity: 1;
+	z-index: 10001;
+	padding-bottom: 20px;
+}
+
+#signup .btn.close:hover {
+	border: none;
+	background: none;
+	opacity: 0.8;
+}
+
+#signup > div {
+	padding-top: 40px;
+	text-align: center;
+}
+
+#signup  > div form .btn {
+	padding-top: 12px;
+	padding-bottom: 11px;
+}
+
+#signup form .btn[disabled] {
+	background-color: transparent;
+}
+
+#signup .ajax,
+#signup #thankyoudiv {
+	display: none;
+}
+
+#signup > div #thankyoudiv {
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
 
 /* =====================================================================
 #modal

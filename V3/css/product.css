@@ -1054,3 +1054,88 @@ brochure
 		display: block;
 	}
 }
+
+/* =====================================================================
+devkit
+===================================================================== */
+#devkit {
+	background: #28bd9b;
+	padding: 40px 0;
+	font-size: 18px;
+}
+
+#devkit h2 a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 36px;
+	margin: 0;
+	text-align: center;
+}
+
+#devkit h2 a:hover{
+	color: #000;
+}
+
+#devkit h2 {
+	color: #efefef;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 36px;
+	margin: 0;
+	text-align: center;
+}
+
+#devkit input::-webkit-input-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#devkit input:-moz-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#devkit input::-moz-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#devkit input:-ms-input-placeholder {
+	color: #ffffff;
+	font-style: italic;
+}
+
+#devkit .container > div .btn {
+	padding-top: 12px;
+	padding-bottom: 11px;
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media (min-width: 1px) and (max-width: 991px) {
+
+
+	#devkit .form-control {
+		margin-bottom: 10px;
+	}
+
+	#devkit .input-group {
+		display: block;
+	}
+
+	#devkit .input-group input {
+		width: 100%;
+	}
+}
+
+@media (min-width: 992px) {
+	#devkit h2 span {
+		display: block;
+	}
+}
+
+
+
+

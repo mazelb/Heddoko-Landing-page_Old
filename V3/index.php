@@ -41,6 +41,8 @@
 
 <?php include('includes/footer.php'); ?>
 
+<?php include('includes/index/signup.php'); ?>
+
 <!-- page specific -->
 <script src="js/index.js?20151013"></script>
 

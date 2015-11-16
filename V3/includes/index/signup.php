@@ -1,43 +1,13 @@
-<section class="slider-home">
-<div class="container">
-	<div class="videobg">
-		<!-- video loaded by js -->
-	</div>
-	<div class="col-xs-12 col-md-12 col-mg-8 content fitbox">
-		<a
-            href="https://youtu.be/sx5TcrVN9dY"
-            class="hidden-lg play fancybox-media"
-            itemscope itemtype="http://schema.org/VideoObject">
-
-            <meta itemprop="name" content="Heddoko Teaser" />
-            <meta itemprop="description" content="Heddoko Teaser" />
-            <meta itemprop="thumbnailUrl" content="http://heddoko.com/images/apple-icon-precomposed.png" />
-            <meta itemprop="uploadDate" content="2015-02-25" />
-
-            <div style="display: block; height: 100px; width: 100px; background: transparent center center no-repeat url(images/icons/icon-play.svg); background-size: contain;"></div>
-        </a>
-
-		<h1>The First Smart Compression Suit <br/><span> That Tracks Full-Body Movement In 3D</span></h1>
-
-		<div class="row">
-		    <div class="col-xs-12 col-md-8 col-md-offset-2" style="margin-bottom: 20px;">
-                <a href="/quote" class="btn btn-default" >Get Your Development Kit Now</a>
-		    </div>
-		    <div class="col-xs-12 col-md-4">
-		    </div>
-		</div>
-	</div>
+<section class = "signupform">
+    <a href="#" class="btn btn-default btn-xs" id="index_pg_signup_btn">Sign Up To Our Newsletter</a>
 
 </div>
-</section>
-<!--
-<div id="modal">
-	<div class="container">
-		<button class="btn btn-default close">&times;</button>
-		<div class="row">
-			<div class="col-xs-12 col-md-6 col-md-offset-3">
 
-			<!-- Begin MailChimp Signup Form 
+
+<div id="signup">
+		<button class="btn btn-default close">&times;</button>
+
+			<!-- Begin MailChimp Signup Form -->
 			<div id="mc_embed_signup">
 
 				<form class="form" action="http://heddoko.us8.list-manage.com/subscribe/post-json?u=4752cc710a498b9b75d697500&amp;id=b22a426cab&amp;c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate="">
@@ -67,7 +37,7 @@
 					<div id="mce-responses" class="clear">
 					<div class="response" id="mce-error-response" style="display:none"></div>
 					<div class="response" id="mce-success-response" style="display:none"></div>
-					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-
+					</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 					<div style="position: absolute; left: -5000px;"><input type="text" name="b_4752cc710a498b9b75d697500_b22a426cab" tabindex="-1" value=""></div>
 					<div class="clear form-group"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-default btn-block"></div>
 					<div id="thankyoudiv"><h3>Thank You!</h3></div>
@@ -76,11 +46,8 @@
 				</form>
 			</div>
 
-			<!--End mc_embed_signup
+			<!--End mc_embed_signup-->
 			</div>
 		</div>
 	</div>
 </div>
-
-
--->

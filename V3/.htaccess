@@ -6,6 +6,103 @@ ErrorDocument 404	/404/index.php
 
 
 ##########
+# Asset compression.
+#
+# Ref: http://stackoverflow.com/questions/12367858/how-can-i-get-apache-gzip-compression-to-work
+# Ref: https://gtmetrix.com/enable-gzip-compression.html
+##########
+<IfModule mod_deflate.c>
+
+    # Force deflate for mangled headers
+    <IfModule mod_setenvif.c>
+        <IfModule mod_headers.c>
+            SetEnvIfNoCase ^(Accept-EncodXng|X-cept-Encoding|X{15}|~{15}|-{15})$ ^((gzip|deflate)\s*,?\s*)+|[X~-]{4,13}$ HAVE_Accept-Encoding
+            RequestHeader append Accept-Encoding "gzip,deflate" env=HAVE_Accept-Encoding
+        </IfModule>
+    </IfModule>
+
+    # Compress all output labeled with one of the following MIME-types
+    <IfModule mod_filter.c>
+        AddOutputFilterByType DEFLATE application/atom+xml \
+                                      application/javascript \
+                                      application/json \
+                                      application/rss+xml \
+                                      application/vnd.ms-fontobject \
+                                      application/x-font \
+                                      application/x-font-opentype \
+                                      application/x-font-otf \
+                                      application/x-font-truetype \
+                                      application/x-font-ttf \
+                                      application/x-javascript \
+                                      application/xhtml+xml \
+                                      application/xml \
+                                      font/opentype \
+                                      font/otf \
+                                      font/ttf \
+                                      image/svg+xml \
+                                      image/x-icon \
+                                      text/css \
+                                      text/html \
+                                      text/javascript \
+                                      text/plain \
+                                      text/x-component \
+                                      text/xml
+        BrowserMatch ^Mozilla/4 gzip-only-text/html
+        BrowserMatch ^Mozilla/4\.0[678] no-gzip
+        BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+        BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+        SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
+        Header append Vary User-Agent env=!dont-vary
+    </IfModule>
+
+</IfModule>
+
+
+##########
+# Asset caching.
+#
+# Ref: http://stackoverflow.com/questions/12367858/how-can-i-get-apache-gzip-compression-to-work
+##########
+
+# Expires Headers - 2678400s = 31 days
+<ifmodule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 seconds"
+    ExpiresByType text/html "access plus 7200 seconds"
+    ExpiresByType image/gif "access plus 2678400 seconds"
+    ExpiresByType image/jpeg "access plus 2678400 seconds"
+    ExpiresByType image/png "access plus 2678400 seconds"
+    ExpiresByType text/css "access plus 518400 seconds"
+    ExpiresByType text/javascript "access plus 2678400 seconds"
+    ExpiresByType application/x-javascript "access plus 2678400 seconds"
+</ifmodule>
+
+# Cache Headers
+<ifmodule mod_headers.c>
+
+    # Cache specified files for 31 days
+    <filesmatch "\.(ico|flv|jpg|jpeg|png|gif|css|swf|svg|woff)$">
+        Header set Cache-Control "max-age=2678400, public"
+    </filesmatch>
+    
+    # Cache HTML files for a couple hours
+    #<filesmatch "\.(html|htm)$">
+    #    Header set Cache-Control "max-age=7200, private, must-revalidate"
+    #</filesmatch>
+    
+    # Cache PDFs for a day
+    <filesmatch "\.(pdf)$">
+        Header set Cache-Control "max-age=86400, public"
+    </filesmatch>
+    
+    # Cache Javascripts for 31 days
+    <filesmatch "\.(js)$">
+        Header set Cache-Control "max-age=2678400, private"
+    </filesmatch>
+</ifmodule>
+
+
+##########
 # Password-protecting this directory.
 # Update "TO-BE-PROTECTED" with the folder you want to protect.
 #
@@ -30,6 +127,11 @@ ErrorDocument 404	/404/index.php
 # Slightly modified to match a domain with a sub-domain (or not).
 ##########
 
+# First, block by IP
+Order Deny,Allow
+Deny from 118.193.188.225
+
+# Then, use the RewriteEngine to match domains we don't want.
 RewriteEngine on
 
 RewriteCond %{HTTP_REFERER} !^https?://(.*\.)?heddoko\.com/.*$ [NC]
@@ -42,7 +144,6 @@ RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?680\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?roadwarriorvoices\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?int\.search\.myway\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?m2mzona\.hu [NC,OR]
-RewriteCond %{HTTP_REFERER} ^https?://118\.193\.188\.225 [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://172\.27\.72\.27 [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?youdao\.com [NC,OR]
 RewriteCond %{HTTP_REFERER} ^https?://([^\/]*\.)?i4u\.com [NC,OR]

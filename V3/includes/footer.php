@@ -90,6 +90,11 @@
         // ga('send', 'pageview');
 </script>
 
+<script type="text/javascript" src="<?php echo $dir; ?>js/modernizr.custom.js"></script>
+<script src="<?php echo $dir; ?>js/jquery.js"></script>
+
+<link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>js/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
 <!-- <script src="js/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
 <script src="js/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> -->
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
@@ -98,7 +103,7 @@
 <script type="text/javascript" src="<?= $dir; ?>js/modernizr.custom.js"></script>
 <script type="text/javascript" src="<?= $dir; ?>js/jquery.js"></script>
 <script type="text/javascript" src="<?= $dir; ?>js/bootstrap.js"></script>
-<script type="text/javascript" src="<?= $dir; ?>js/source/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="<?= $dir; ?>js/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script type="text/javascript" src="<?= $dir; ?>js/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 <script type="text/javascript" src="<?= $dir; ?>js/jquery.easing.min.js"></script>
 <script type="text/javascript" src="<?= $dir; ?>js/jquery.appear.js"></script>
@@ -111,7 +116,7 @@
 <script src="<?= $dir; ?>js/portfolio.js"></script>
 <script src="<?= $dir; ?>js/contact.js"></script>
 <script src="<?= $dir; ?>js/jCProgress-1.0.3.js"></script>
-<script src="<?= $dir; ?>js/grid.js"></script>
+<script src="<?= $dir; ?>js/grid.min.js"></script>
 <script src="<?= $dir; ?>js/owl-carousel/owl.carousel.min.js"></script>
 
 <script src="<?= $dir; ?>js/main.js"></script>

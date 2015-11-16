@@ -106,7 +106,7 @@ if (count($dir) > 2)
 <link href="<?php echo $dir; ?>font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- Bootstrap core CSS -->
-<link href="<?php echo $dir; ?>css/bootstrap.css" rel="stylesheet">
+<link href="<?php echo $dir; ?>css/bootstrap.min.css" rel="stylesheet">
 <link href="<?php echo $dir; ?>css/style.css" rel="stylesheet">
 <link href="<?php echo $dir; ?>js/owl-carousel/owl.carousel.css" rel="stylesheet">
 <link href="<?php echo $dir; ?>js/owl-carousel/owl.theme.css" rel="stylesheet">
@@ -121,21 +121,9 @@ if (count($dir) > 2)
       <script src="<?php echo $dir; ?>./js/libs/respond.js"></script>
 <![endif]-->
 
-<script type="text/javascript" src="<?php echo $dir; ?>js/modernizr.custom.js"></script>
-<script src="<?php echo $dir; ?>js/jquery.js"></script>
-<script src="<?php echo $dir; ?>js/bootstrap.js"></script>
-<script src="<?php echo $dir; ?>js/jquery.easing.min.js"></script>
-
-<script type="text/javascript" src="<?php echo $dir; ?>js/source/jquery.fancybox.js?v=2.1.5"></script>
-<link rel="stylesheet" type="text/css" href="<?php echo $dir; ?>js/source/jquery.fancybox.css?v=2.1.5" media="screen" />
-<script type="text/javascript" src="<?php echo $dir; ?>js/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-
 <!-- Style Switch -->
 <link rel="stylesheet" href="<?php echo $dir; ?>css/colors/heddoko.css" />
 <link rel="stylesheet" href="<?php echo $dir; ?>css/defaults.css" />
-
-<!-- WEBFONTS -->
-<!-- insert script here -->
 
 <!-- MIX PANEL -->
 <!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");

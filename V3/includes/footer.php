@@ -116,7 +116,8 @@
 <script src="<?= $dir; ?>js/portfolio.js"></script>
 <script src="<?= $dir; ?>js/contact.js"></script>
 <script src="<?= $dir; ?>js/jCProgress-1.0.3.js"></script>
-<script src="<?= $dir; ?>js/grid.min.js"></script>
+<!-- <script src="<?= $dir; ?>js/grid.min.js"></script> -->
+<script src="<?= $dir; ?>js/grid.js"></script>
 <script src="<?= $dir; ?>js/owl-carousel/owl.carousel.min.js"></script>
 
 <script src="<?= $dir; ?>js/main.js"></script>

@@ -112,7 +112,8 @@
 <script src="<?php echo $dir; ?>js/jCProgress-1.0.3.js"></script>
 <script src="<?php echo $dir; ?>js/jquery.parallax-1.1.3.js"></script>
 <script src="<?php echo $dir; ?>js/jquery.mixitup.min.js"></script>
-<script src="<?php echo $dir; ?>js/grid.min.js"></script>
+<!-- <script src="<?php echo $dir; ?>js/grid.min.js"></script> -->
+<script src="<?php echo $dir; ?>js/grid.js"></script>
 <script src="<?php echo $dir; ?>js/owl-carousel/owl.carousel.min.js"></script>
 
 <script src="<?php echo $dir; ?>js/jquery.gmap.js"></script>

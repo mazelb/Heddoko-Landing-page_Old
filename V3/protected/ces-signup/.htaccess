@@ -1,0 +1,13 @@
+
+##########
+# Password-protecting this directory.
+# Update "TO-BE-PROTECTED" with the folder you want to protect.
+#
+# Example at: http://davidwalsh.name/password-protect-directory-using-htaccess
+# htpasswd generator: http://www.htaccesstools.com/htpasswd-generator/
+##########
+
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/hoopslou/public_html/protected/ces-signup/.htpasswd
+require valid-user

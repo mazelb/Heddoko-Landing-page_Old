@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache.php">
+<head>
+	<?php include('../../includes/meta.php'); ?>
+	<link rel="stylesheet" href="../../css/signup.css?20150922">
+</head>
+
+<body id="page-top" class="template-signup" itemscope itemtype="http://schema.org/WebPage">
+    <?php include('../../includes/header.php'); ?>
+    <?php include('../../includes/signup/slider.php'); ?>
+    <?php include('../../includes/footer.php'); ?>
+    <script src="../../js/signup.js?20151013"></script>
+</body>
+</html>

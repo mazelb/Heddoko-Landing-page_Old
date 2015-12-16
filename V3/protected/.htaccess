@@ -1,0 +1,6 @@
+
+# This directory is not directly accessible.
+Options +FollowSymLinks
+RewriteEngine on
+#RewriteRule .* http://www.heddoko.com/ [L]
+RewriteRule .* - [L,R=404]

@@ -84,17 +84,17 @@ ErrorDocument 404	/404/index.php
     <filesmatch "\.(ico|flv|jpg|jpeg|png|gif|css|swf|svg|woff)$">
         Header set Cache-Control "max-age=2678400, public"
     </filesmatch>
-    
+
     # Cache HTML files for a couple hours
     #<filesmatch "\.(html|htm)$">
     #    Header set Cache-Control "max-age=7200, private, must-revalidate"
     #</filesmatch>
-    
+
     # Cache PDFs for a day
     <filesmatch "\.(pdf)$">
         Header set Cache-Control "max-age=86400, public"
     </filesmatch>
-    
+
     # Cache Javascripts for 31 days
     <filesmatch "\.(js)$">
         Header set Cache-Control "max-age=2678400, private"

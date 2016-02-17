@@ -1,0 +1,12 @@
+
+##########
+# Private directory for Philips
+#
+# Username: philips
+# Password: sequoia
+##########
+
+AuthType Basic
+AuthName "restricted area"
+AuthUserFile /home/hoopslou/public_html/private/6nud82/.htpasswd
+require valid-user

@@ -52,14 +52,14 @@ if (count($dir) > 1)
             $title = '';
             $description = 'The First Smart Compression Suit That Tracks Full-Body Movement In 3D';
 	}
-	$dir = '../';
+	$dir = '/../';
 } else {
 	$title = '| Track your movement in 3D';
     // $description =  'Heddoko empowers perfection in human movement. The only fitness wearable '.
     //                 'technology to provide real-time 3D corrective feedback.';
     $description =  'Heddoko is the world\'s first smart compression suit that tracks full-body '.
                     'movement in 3D and gives you live coaching feedback.';
-	$dir = '';
+	$dir = '/';
 } ?>
 <!-- Meta -->
 <meta charset="utf-8">

@@ -3,3 +3,6 @@
 Options +FollowSymLinks
 RewriteEngine on
 RewriteRule ^/?$ - [L,R=404]
+
+# 404
+ErrorDocument 404	/404/index.php

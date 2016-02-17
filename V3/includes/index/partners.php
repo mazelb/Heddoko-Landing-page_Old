@@ -34,7 +34,7 @@
             </div>
 
             <div class="col-xs-12 col-md-2">
-                <a href="https://nod.com/" target="_blank" id="index_pg_partners_QC_btn">
+                <a href="http://gouv.qc.ca/EN/Pages/Accueil.aspx" target="_blank" id="index_pg_partners_QC_btn">
                     <div class="has-icon-img" style="background-image: url(images/index/logo_quebec.svg)" data-animated="0"></div>
                 </a>
             </div>

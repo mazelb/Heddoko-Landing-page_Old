@@ -24,7 +24,7 @@
 
             <div class="col-xs-12 col-md-2">
                 <a href="https://www.economie.gouv.qc.ca/accueil/" target="_blank" id="index_pg_partners_QC_btn">
-                    <div class="has-icon-img" style="background-image: url(../images/index/logo_quebec.svg)" data-animated="0"></div>
+                    <div class="has-icon-img" style="background-image: url(../images/index/logo_quebec_2.svg)" data-animated="0"></div>
                 </a>
             </div>
         </div>

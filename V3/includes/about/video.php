@@ -9,7 +9,7 @@
                 <img src="../images/about/play.svg">
             </a>
 
-			<h1 itemprop="name">Behind the curtain</h1>
+			<h1 itemprop="name">Behind the scenes</h1>
 		</div>
 	</div>
 </section>
